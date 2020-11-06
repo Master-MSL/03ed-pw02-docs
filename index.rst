@@ -11,8 +11,8 @@ Nel Capitolo 1 vengono presentati ...
 
 Nel Capitolo 2 vengono presentati ...
 
-.. _a link: https://www.fascicolosanitario.gov.it/
 
+`Link text <https://www.fascicolosanitario.gov.it>`_
 
 
 **Indice**
