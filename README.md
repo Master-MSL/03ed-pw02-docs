@@ -14,7 +14,7 @@ Il **Fascicolo Sanitario Elettronico (FSE)** è l'insieme dei dati e documenti d
 
 In pratica il FSE è lo strumento introdotto per consentire al cittadino di tracciare e consultare tutta la storia della propria vita sanitaria, condividendola con i professionisti sanitari.
 
-Il **Taccuino Personale** dell’assistito è una sezione riservata del FSE all'interno della quale è permesso all'assistito di inserire autonomamente dati e documenti personali relativi ai propri percorsi di cura, anche effettuati presso strutture al di fuori del Servizio Sanitario Nazionale. Si tratta  di informazioni non certificate, la cui titolarità è totalmente in capo al singolo che sempre più spesso sono acquisite da device di vario tipo  (apparati medicali certificati, dispositivi indossabili per il monitoraggio degli stili di vita -  i cd. wearable - o semplicemente il proprio smartphone).
+Il **Taccuino Personale** dell’assistito è una sezione riservata del FSE all'interno della quale è permesso all'assistito inserire autonomamente dati e documenti personali relativi ai propri percorsi di cura, anche effettuati presso strutture al di fuori del Servizio Sanitario Nazionale. Si tratta  di informazioni non certificate, la cui titolarità è totalmente in capo al singolo che sempre più spesso sono acquisite da device di vario tipo  (apparati medicali certificati, dispositivi indossabili per il monitoraggio degli stili di vita -  i cd. wearable - o semplicemente il proprio smartphone).
 
 Obiettivo
 =========
