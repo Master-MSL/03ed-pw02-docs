@@ -1,7 +1,8 @@
 .. documento principale
-####################
-Titolo del documento 1 e 2
-####################
+
+############################
+  Titolo del documento 1 e 2
+############################
 
 **Sommario**
 
