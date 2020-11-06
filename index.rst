@@ -15,6 +15,16 @@ Nel Capitolo 2 vengono presentati ...
 `Link text <https://www.fascicolosanitario.gov.it>`_
 
 
+.. _punto1:
+
+Section to cross-reference
+--------------------------
+
+This is the text of the section.
+
+It refers to the section itself, see :ref:`punto1`.
+
+
 **Indice**
 
 .. toctree::
