@@ -26,10 +26,10 @@ Nel Capitolo 2 vengono presentati ...
 .. figure:: immagini/msl-logo.jpg
    :scale: 25 %
    :alt: Logo Master Management Software Libero
+
+   esempio di titolo della figura
    
-esempio di titolo della figura
-   
- .. _punto1:
+.. _punto1:
  
 paragrafo di esempio
 --------------------------
