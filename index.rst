@@ -11,6 +11,9 @@ Nel Capitolo 1 vengono presentati ...
 
 Nel Capitolo 2 vengono presentati ...
 
+.. _a link: https://www.fascicolosanitario.gov.it/
+
+
 
 **Indice**
 
@@ -25,4 +28,4 @@ Nel Capitolo 2 vengono presentati ...
    :alt: Logo Master Management Software Libero
 
 
-.. _a link: https://www.fascicolosanitario.gov.it/
+
