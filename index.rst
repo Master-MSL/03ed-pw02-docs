@@ -1,3 +1,4 @@
+.. documento principale
 ####################
 Titolo del documento
 ####################
