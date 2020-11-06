@@ -21,8 +21,8 @@ Obiettivo
 Il project work si pone come obiettivo principale la realizzazione di uno studio di fattibilità volto ad analizzare e valutare le caratteristiche di un progetto per lo sviluppo di un sistema software, attraverso una Community Open Source, in grado di agevolare l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie di device.
 
 
-Link
-----
+'''Link
+'''----
 
-Link alla [documentazione compilata su Docs Italia]().
-Link guida all'utilizzo del markup [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
+'''Link alla [documentazione compilata su Docs Italia]().
+'''Link guida all'utilizzo del markup [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
