@@ -23,3 +23,6 @@ Nel Capitolo 2 vengono presentati ...
 .. figure:: immagini/msl-logo.jpg
    :scale: 25 %
    :alt: Logo Master Management Software Libero
+
+
+.. _a link: https://www.fascicolosanitario.gov.it/
