@@ -29,5 +29,5 @@ Link a [Read-tha-Docs per consultazione](http://il-taccuino-personale-del-fascic
 
 Link guida all'utilizzo del markup [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
 
-Link alla [documentazione compilata su Docs Italia]().
+<!-- Link alla [documentazione compilata su Docs Italia]().-->
 
