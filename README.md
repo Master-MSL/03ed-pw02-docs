@@ -22,7 +22,5 @@ Il project work si pone come obiettivo principale la realizzazione di uno studio
 
 
 '''Link
-'''----
-
-'''Link alla [documentazione compilata su Docs Italia]().
-'''Link guida all'utilizzo del markup [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)
+Link alla [documentazione compilata su Docs Italia]().
+Link guida all'utilizzo del markup [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html)'''
