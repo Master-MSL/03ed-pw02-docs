@@ -1,6 +1,6 @@
 .. documento principale
 ####################
-Titolo del documento 1
+Titolo del documento 1 e 2
 ####################
 
 **Sommario**
