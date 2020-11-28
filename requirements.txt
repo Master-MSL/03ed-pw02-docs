@@ -1,1 +1,0 @@
-/home/docs/checkouts/readthedocs.org/user_builds/taccuino-community-os/envs/latest/bin/python -m pip install --upgrade --no-cache-dir six>1.0
