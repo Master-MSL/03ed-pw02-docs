@@ -8,9 +8,9 @@
 
 Il Fascicolo Sanitario Elettronico (FSE) è l'insieme dei dati e documenti digitali di tipo sanitario e sociosanitario generati da eventi clinici presenti e trascorsi, riguardanti l'assistito, istituito nel rispetto della normativa vigente in materia di protezione dei dati personali con le seguenti finalità:
 
-- a) prevenzione, diagnosi, cura e riabilitazione;
-- b) studio e ricerca scientifica in campo medico, biomedico ed epidemiologico;
-- c) programmazione sanitaria, verifica delle qualità delle cure e valutazione dell'assistenza sanitaria.
+- prevenzione, diagnosi, cura e riabilitazione;
+- studio e ricerca scientifica in campo medico, biomedico ed epidemiologico;
+- programmazione sanitaria, verifica delle qualità delle cure e valutazione dell'assistenza sanitaria.
 
 In pratica il FSE è lo strumento introdotto per consentire al cittadino di tracciare e consultare tutta la storia della propria vita sanitaria, condividendola con i professionisti sanitari.
 
@@ -26,6 +26,7 @@ Il project work si pone come obiettivo principale la realizzazione di uno studio
 
 .. toctree::
 
+   executive-summary.rst
    titolo-capitolo-1.rst
    titolo-capitolo-2.rst
 
