@@ -1,0 +1,59 @@
+Appendice B - Specifiche e linee guida nazionali
+============================
+
+-  Linee guida per la presentazione dei piani di progetto regionali per
+   la realizzazione del fascicolo sanitario elettronico
+
+-  `Circolare AgID n. 4/2017 del 1° agosto 2017 “Documento di progetto
+   dell’Infrastruttura Nazionale per l’Interoperabilità dei Fascicoli
+   Sanitari Elettronici (art. 12 comma 15-ter – D.L.
+   179/2012)” <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/04%20-%20AGID%20CIRC%20n.%2004%20-%2001%20ago%202017_0.pdf>`__
+
+-  `Specifiche tecniche per l’interoperabilità tra i sistemi regionali
+   di FSE Affinity Domain Italia - Versione
+   2.1 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/Specifiche%20tecniche%20per%20l%E2%80%99interoperabilit%C3%A0_AffinityDomainItalia_Versione%202.1.pdf>`__
+
+-  `Specifiche tecniche per l’interoperabilità tra i sistemi regionali
+   di FSE Framework e dataset dei servizi base -Versione
+   2.1 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/Specifiche%20tecniche%20per%20l%E2%80%99interoperabilit%C3%A0_FrameworkDataset_Versione%202.1.pdf>`__
+
+-  `Circolare n.3/2019 del 2 settembre 2019 - Accesso unico al Fascicolo
+   Sanitario Elettronico e gestione temporanea dell’indice dei metadati
+   dei documenti
+   sanitari <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/03%20-%20AGID%20CIRC%20n.%2003%20-%2002%20sett%202019.pdf>`__
+
+-  `Procedura per l'accesso al Fascicolo Sanitario Elettronico (come da
+   Circolare AgID
+   n.3/2019) <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/procedura_per_laccesso_al_fascicolo_sanitario_elettronico.pdf>`__
+
+-  `Specifiche tecniche per l'accesso al FSE mediante portale
+   nazionale <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/INI%20-%20Federazione%20ver1-2.zip>`__
+
+-  `Specifiche HL7 CDA R2 del Referto di Medicina di Laboratorio
+   v.1.1 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/Specifiche%20HL7%20CDA%20R2_RefertoMedicinaLab-v1.1-S.pdf>`__
+
+-  `Specifiche HL7 CDA R2 del Profilo Sanitario Sintetico
+   v.1.2 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/Specifiche%20HL7%20CDA%20R2_%20Profilo%20Sanitario%20Sintetico-v1.2-S.pdf>`__
+   ( previsto dal DPCM 178/2015), per le nuove implementazioni si
+   consiglia l’utilizzo delle specifiche HL7 CDA R2 del Profilo
+   Sanitario Sintetico v.1.3, consultabili nella sezione “\ `Standard
+   Documentali
+   UE <https://www.fascicolosanitario.gov.it/standard-documentali-ue>`__\ ”,
+   per garantire la futura compatibilità sia alla direttiva europea sia
+   ai prossimi adeguamenti normativi nazionali.
+
+-  `Specifiche HL7 CDA R2 della Lettera di Dimissione Ospedaliera
+   v.1.1.1 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/HL7IT-IG_CDA2_LDO-v1.1.1-S.pdf>`__
+
+-  `Specifiche HL7 CDA R2 del Verbale di Pronto Soccorso (VPS) v.
+   1.0 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/HL7IT-IG_CDA2_VPS-v1.0-S%20%281%29.pdf>`__
+
+-  `Specifiche HL7 CDA R2 del Referto di Radiologia
+   v.1.0 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/Specifiche%20HL7%20CDA%20R2%20del%20Referto%20di%20Radiologia%20v.1.0.pdf>`__
+
+-  `Specifiche HL7 CDA R2 del Documento di Esenzione (DE)
+   v1.0 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/HL7IT-IG_CDA2_DE-v1.0-S.pdf>`__
+
+-  `Specifiche HL7 CDA R2 del Referto di Specialistica Ambulatoriale
+   (RSA) v
+   1.0 <https://www.fascicolosanitario.gov.it/sites/default/files/public/media/HL7IT-IG_CDA2_RSA-v1.0_S.pdf>`__

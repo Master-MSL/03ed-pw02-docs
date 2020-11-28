@@ -18,7 +18,7 @@ evoluzione che garantirà contenuti standard ed interoperabili a livello
 nazionale, è opinione diffusa che il Taccuino sarà realmente utilizzato
 solo quando verranno superate le attuali limitazioni legate alle
 modalità di accesso e alimentazione, ad esempio mediante l’integrazione
-con *device wearable*\ e medicali. In tal modo sarà possibile
+con *device wearable* e medicali. In tal modo sarà possibile
 capitalizzare una grande mole di dati utili, già potenzialmente
 disponibili, ma ancora non facilmente fruibili da parte dei
 professionisti sanitari nei percorsi di cura e per il mantenimento in
@@ -64,13 +64,13 @@ integrazione, oltre a costituire un potenziale serbatoio di dati in
 grado di intercettare una quota significativa di potenziali utenti.
 
 Per questo motivo, la soluzione tecnica proposta prevede la
-**realizzazione di due app native Regionali**\ rispettivamente per **iOS
+**realizzazione di due app native Regionali** rispettivamente per **iOS
 e Android** integrate via API (Application Programming Interface) o SDK
 (Software Development Kit) con le più diffuse App presenti su smartphone
 per ricevere i dati sanitari dai device medicali e wearable: *App Salute
 di Apple su iOS (attraverso SDK Apple HealthKit), Google Fit su Android
 (attraverso Google Rest API) e Samsung Health su Android (attraverso
-Samsung SDK).*\ Per memorizzare i dati sanitari, le app native Regionali
+Samsung SDK).* Per memorizzare i dati sanitari, le app native Regionali
 si interfacciano con il sistema di Taccuino della Regione Piemonte
 attraverso un’integrazione a servizi (in tecnologia API rest). Tali
 servizi devono essere realizzati considerando le funzionalità previste
@@ -81,7 +81,7 @@ In attesa di una valutazione comparativa ex art. 68 CAD, prevista nella
 fase attuativa, gli approfondimenti condotti preliminarmente fanno
 ritenere che la scelta sarà di tipo “MAKE”. In tale prospettiva sono
 stati presi in considerazione e confrontati 3 possibili modelli di
-*business*\ per lo sviluppo software, individuando come più promettente,
+*business* per lo sviluppo software, individuando come più promettente,
 in relazione alle peculiarità progettuali, **il modello di sviluppo e
 gestione del software basato su Community OS.**
 
@@ -91,7 +91,7 @@ della Regione Piemonte, pubblicato con licenza OS su REPOSITORY DI CODE
 HOSTING (GitHub)*. Il modello prevede due soggetti principali:
 
 -  **Steering committee**, il vertice strategico composto principalmente
-   dal *maintainer*\ (Regione), *software maintainer*\ (CSI-Piemonte) e
+   dal *maintainer* (Regione), *software maintainer* (CSI-Piemonte) e
    ulteriori stakeholder coinvolti dal committente del progetto
    (esponenti dell’ambito clinico-sanitario, accademico ed eventualmente
    PA centrali e di altre RegionI/Province Autonome). Ha la
@@ -107,7 +107,7 @@ HOSTING (GitHub)*. Il modello prevede due soggetti principali:
    device medicali e wearable (e relative app) integrati.
 
 Nel modello sono stati analizzati profili giuridici delle due tipologie
-di **contributi**\ al software: i contributi\ **minimali**\ (ad esempio:
+di **contributi** al software: i contributi **minimali** (ad esempio:
 correzioni e/o miglioramenti al codice) la cui proprietà intellettuale
 resta in capo alla Regione Piemonte ma i contributor sono citati come
 autori su repository di code hosting e i contributi **sostanziali e/o
@@ -118,7 +118,7 @@ software oppure il mantenimento della proprietà intellettuale del
 software in capo al contributor e rilascio del software con licenza
 compatibile con quella del software già rilasciato. Per entrambe le
 tipologie, il SW Maintainer effettua la *verifica formale di tutti i
-contributi*\ e definisce le regole e le modalità di contribuzione al
+contributi* e definisce le regole e le modalità di contribuzione al
 software su GitHub.
 
 Il **sistema organizzativo della Community** è una struttura per
@@ -129,7 +129,7 @@ governance si interfaccia allo Steering Committee per recepire gli
 obiettivi di fondo e le strategie e definire e monitorare di conseguenza
 i piani operativi per perseguire i risultati attesi.
 
-Gli\ **strumenti**\ *\ a supporto dei processi di sviluppo e gestione
+Gli **strumenti** * a supporto dei processi di sviluppo e gestione
 del software* sono quelli tipicamente offerti dai repository pubblici di
 code hosting (issue e pull request, Wiki) e a questi si possono
 affiancare quelli di collaboration (come ad esempio: newsletter, forum,
@@ -139,7 +139,7 @@ si intendono realizzare, si è analizzata la possibilità di gestire
 rilevati inerenti la sicurezza del software rilevate dagli utenti e dai
 contributor della Community ad un apposito indirizzo di posta del
 software maintainer secondo le modalità indicate in *Responsible
-Disclosure Policy*\ presenti sul sito della community. Tale sito, che si
+Disclosure Policy* presenti sul sito della community. Tale sito, che si
 affianca la repository di code hosting avrà inoltre l’obiettivo di
 descrivere il progetto (vetrina del progetto) e di promuovere e far
 crescere una community intorno al progetto stesso.
@@ -154,7 +154,7 @@ iniziato nel 2010 ed attualmente non essendo pubblicato in open source,
 si è descritto il **processo di valutazione per la pubblicazione del
 software su repository pubblico**. Tale processo sarà utilizzato anche
 per la pubblicazione delle App Regionali del Taccuino. A supporto del
-processo sono state riportate le\ **checklist per le verifiche tecniche
+processo sono state riportate le **checklist per le verifiche tecniche
 e legali** attualmente in uso presso il CSI Piemonte.
 
 In linea con le indicazioni AgID si è prefigurata la pubblicazione delle
@@ -173,9 +173,9 @@ responsabilità, ed infine risultati e tempi non certi. Nella fase
 attuativa del progetto sarà inoltre necessario bilanciare opportunità e
 minacce con particolare riferimento a:
 
--  mantenimento di un adeguato *commitment*\ da parte dei decisori;
+-  mantenimento di un adeguato *commitment* da parte dei decisori;
 
--  aggregazione di possibili *stakeholder*\ a fronte di azioni di
+-  aggregazione di possibili *stakeholder* a fronte di azioni di
    gestione del cambiamento (considerato che le logiche OS sono ancora
    poco diffuse);
 
@@ -185,6 +185,6 @@ minacce con particolare riferimento a:
 
 La programmazione di massima della fase attuativa, che dovrebbe essere
 avviata nel corso del 2021, prevede un’articolazione in 7 macro-fasi
-(work-package), nelle quali sono state individuati le *milestone*\ ed i
-*deliverable*\ principali, per una durata totale stimata per il progetto
+(work-package), nelle quali sono state individuati le *milestone* ed i
+*deliverable* principali, per una durata totale stimata per il progetto
 di 30 mesi, di cui 12 di realizzazione e 18 di gestione.

@@ -19,16 +19,27 @@ Il Taccuino Personale dell’assistito è una sezione riservata del FSE all'inte
 Il project work si pone come obiettivo principale la realizzazione di uno studio di fattibilità volto ad analizzare e valutare le caratteristiche di un progetto per lo sviluppo di un sistema software, attraverso una Community Open Source, in grado di agevolare l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie di device.
 
 
-
-
-
 **Indice**
 
 .. toctree::
 
-   executive-summary.rst
-   titolo-capitolo-1.rst
-   titolo-capitolo-2.rst
+   00.executive-summary.rst
+   01.inquadramento.rst
+   02.obiettivi.rst
+   03.modello-dati.rst
+   04.processo-business.rst
+   05.proposta-evoluzione.rst
+   06.analisi-tecnica.rst
+   07.modello-di-business.rst
+   08.analisi-organizzativa.rst
+   09.modello-di-sviluppo.rst
+   10.analisi-licenze.rst
+   11.programmazione.rst
+   12.appendice-normativa.rst
+   13.appendice-specifiche-nazionali.rst
+   14.appendice-contributi.rst
+   15.appendice-dataset.rst
+
 
 
 

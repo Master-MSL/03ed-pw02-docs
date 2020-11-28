@@ -1,0 +1,44 @@
+Appendice C - Matrice dei contributi alla redazione del PW
+==============================================
+
+Nell’ambito della collaborazione trasversale tra i componenti del team,
+le diverse competenze e professionalità hanno consentito di approfondire
+e rappresentare in modo complementare le tematiche trattate all’interno
+del project work.
+
+In tal senso, i componenti del team hanno contribuito in diversa misura
+ai contenuti dei capitoli, ed in particolare:
+
++-----------------------------------+-----------------------------------+
+| **Capitolo/Paragrafo**            | **Contributo prevalente**         |
++-----------------------------------+-----------------------------------+
+| Inquadramento                     | Congiunto                         |
++-----------------------------------+-----------------------------------+
+| Obiettivi e strategie             | Herbert Sarri                     |
++-----------------------------------+-----------------------------------+
+| Modello logico dei dati gestiti   | Herbert Sarri                     |
+| nel Taccuino                      |                                   |
++-----------------------------------+-----------------------------------+
+| Proposta di evoluzione del        | Yvonne Carpegna                   |
+| Taccuino Personale                |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi tecnica della proposta    | Yvonne Carpegna                   |
++-----------------------------------+-----------------------------------+
+| Ampiezza del bacino di utenza     | Herbert Sarri                     |
++-----------------------------------+-----------------------------------+
+| Analisi comparativa HealthApp     | Herbert Sarri                     |
++-----------------------------------+-----------------------------------+
+| Modelli di business di sviluppo   | Congiunto                         |
+| software                          |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi organizzativa della       | Yvonne Carpegna                   |
+| community OS                      |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi del modello di sviluppo e | Yvonne Carpegna                   |
+| degli strumenti per la Community  |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi delle licenze software    | Congiunto                         |
++-----------------------------------+-----------------------------------+
+| Programmazione della fase         | Congiunto                         |
+| attuativa                         |                                   |
++-----------------------------------+-----------------------------------+
