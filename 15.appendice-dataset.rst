@@ -1,4 +1,4 @@
 Appendice D - Dataset minimo - Parametri osservabili
 =========================================================
 
-
+Documento scaricabile in PDF :download:`Dataset minimo <documenti/AppendiceD.pdf>`
