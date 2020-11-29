@@ -458,3 +458,15 @@ attuativa.
 +-------------+--------------+--------------+-------+--+
 | **ESTERNO** | **O**        |              | **T** |  |
 +-------------+--------------+--------------+-------+--+
+
+.. [22]
+    A tale proposito, si evidenzia per coerenza che ad oggi la
+   registrazione di tali informazioni è spesso seguita dalla loro
+   archiviazione su piattaforme on line, generalmente gestite dai vendor
+   dei dispositivi, che spesso comprendono funzionalità di condivisione
+
+
+.. [23]
+   http://www.sistemapiemonte.it/cms/privati/salute/servizi/796-fascicolo-sanitario-elettronico
+
+   https://www.garanteprivacy.it/faq/fascicolo-sanitario
