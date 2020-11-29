@@ -1,7 +1,47 @@
-## ESEMPIO / TEMPLATE: DA MODIFICARE
+## Autori
 
 Questo progetto è stato realizzato nell'ambito del Master in Management del Software Libero, III ed, a.a. 2019/2020, attivato presso il Dipartimento di Studi per l’Economia e l’Impresa dell’Università degli Studi del Piemonte Orientale, grazie al finanziamento della Regione Piemonte.
 
 Segue la lista degli autori dei contributi, il sistema di controllo di versione traccia nel dettaglio l'attribuzione dei singoli contenuti.
 
-Antonio Servetti <antonio.servetti@polito.it>
+Yvonne Carpegna <yvonne.carpegna@csi.it>
+Herbert Sarri <herbert.sarri@regione.piemonte.it>
+
+Nell’ambito della collaborazione trasversale tra i componenti del team, le diverse competenze e professionalità hanno consentito di approfondire
+e rappresentare in modo complementare le tematiche trattate all’interno del project work.
+
+In tal senso, i componenti del team hanno contribuito in diversa misura ai contenuti dei capitoli, ed in particolare:
+
++-----------------------------------+-----------------------------------+
+| Capitolo/Paragrafo                |   Contributo prevalente           |
++-----------------------------------+-----------------------------------+
+| Inquadramento                     | Congiunto                         |
++-----------------------------------+-----------------------------------+
+| Obiettivi e strategie             | Herbert Sarri                     |
++-----------------------------------+-----------------------------------+
+| Modello logico dei dati gestiti   | Herbert Sarri                     |
+| nel Taccuino                      |                                   |
++-----------------------------------+-----------------------------------+
+| Proposta di evoluzione del        | Yvonne Carpegna                   |
+| Taccuino Personale                |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi tecnica della proposta    | Yvonne Carpegna                   |
++-----------------------------------+-----------------------------------+
+| Ampiezza del bacino di utenza     | Herbert Sarri                     |
++-----------------------------------+-----------------------------------+
+| Analisi comparativa HealthApp     | Herbert Sarri                     |
++-----------------------------------+-----------------------------------+
+| Modelli di business di sviluppo   | Congiunto                         |
+| software                          |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi organizzativa della       | Yvonne Carpegna                   |
+| community OS                      |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi del modello di sviluppo e | Yvonne Carpegna                   |
+| degli strumenti per la Community  |                                   |
++-----------------------------------+-----------------------------------+
+| Analisi delle licenze software    | Congiunto                         |
++-----------------------------------+-----------------------------------+
+| Programmazione della fase         | Congiunto                         |
+| attuativa                         |                                   |
++-----------------------------------+-----------------------------------+

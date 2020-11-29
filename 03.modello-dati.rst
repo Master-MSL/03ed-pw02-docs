@@ -146,6 +146,15 @@ diffuse, tramite il collegamento con device wearable e dispositivi
 medici, è riportata nel § “\ `Analisi comparativa delle principali
 HealthApp in relazione al contenuto informativo <#_cw55x23wd81b>`__\ ”.
 
+.. [24]
+    D. Lgs. 24/2/1997, n. 46 emendato con D. Lgs. 25/1/2010, n.37 -
+   Recepimento Direttiva 2007/47/CE “Attuazione della Direttiva
+   93/42/CEE concernente i dispositivi medici”
+
+   Il 17/4/2020 il Parlamento europeo, causa emergenza COVID-19, ha
+   disposto il rinvio al 21/5/2021 dell’applicazione del nuovo
+   Regolamento UE 2017/745.
+
 .. |image5| image:: ./Pictures/1000020100000556000002D524211B16DEC8C893.png
    :width: 7.8598in
    :height: 4.1732in
