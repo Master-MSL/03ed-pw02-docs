@@ -1,0 +1,151 @@
+Modello logico dei dati gestiti nel Taccuino
+
+Il taccuino è una sezione riservata del FSE all'interno della quale è
+permesso all'assistito di inserire autonomamente dati e documenti
+personali relativi ai propri percorsi di cura, anche effettuati presso
+strutture al di fuori del Servizio Sanitario Nazionale.
+
+Si tratta di informazioni non certificate, la cui titolarità è
+totalmente in capo al singolo e possono essere sostanzialmente di due
+tipi:
+
+-  **un insieme standard di dati**\ (nel seguito “dataset standard” -
+   per maggiore dettaglio consultare l’\ `Appendice
+   D <#_t43wx2m8ttuk>`__ al presente documento) condivisi e gestiti
+   all’interno del proprio taccuino da tutte le Regioni,
+
+-  **un insieme di documenti caricati in auto-contribuzione**
+   direttamente dal cittadino (ad esempio attraverso upload di documenti
+   scansionati).
+
+Nella prima tipologia di dati sono compresi in sintesi:
+
+-  osservazioni personali
+
+   -  annotazioni libere
+
+   -  eventi significativi
+
+   -  parametri osservabili (peso, pressione, circonferenza, frequenza
+      cardiaca, frequenza respiratoria, colesterolo, ossimetria,
+      glicemia, segni e sintomi, etc)
+
+-  contatti con strutture
+
+-  assunzione di farmaci relativi a: formulazioni magistrali, formule
+   officinali e medicinali esteri non autorizzati al commercio in Italia
+   ai sensi del D.M. 11/2/1997.
+
+Nell’immagine seguente è rappresentato il modello logico dei dati che
+evidenzia le entità logiche e le relative relazione che intercorrono tra
+di esse. Come si può notare, i **parametri osservabili** (in rosso)
+possono essere acquisiti da device di vario tipo:
+
+-  **dispositivi medici**, ovvero “\ *[...] strumenti, apparecchi,
+   impianti, software, sostanze o altro prodotti, utilizzati da soli o
+   in combinazione, compresi gli accessori tra cui il software destinato
+   dal fabbricante ad essere impiegato specificamente con finalità
+   diagnostiche o terapeutiche e necessario al corretto funzionamento
+   del dispositivo stesso [...]*\ ” **certificati** secondo le
+   disposizioni in materia e soggetti a marcatura CE;\ :sup:` [24]_`
+
+-  **dispositivi wearable o semplicemente il proprio smartphone** per il
+   monitoraggio degli stili di vita.
+
+|image5|
+
+I dati oggetto di rilevazione compresi nel dataset standard (definito
+nel 2020 dal Gruppo di lavoro costituito ad hoc da Ministero della
+Salute e AgID per la stesura delle specifiche tecniche nazionali) di
+prossima approvazione, sono:
+
+-  temperatura corporea
+
+-  peso
+
+-  circonferenza vita
+
+-  ossimetria
+
+-  pressione (diastolica e sistolica)
+
+-  frequenza Cardiaca a Riposo
+
+-  frequenza Respiratoria
+
+-  colesterolo (HDL, LDL e totale)
+
+-  emoglobina Glicata
+
+-  trigliceridi
+
+-  glicemia a digiuno.
+
+E’ importante notare che una buona parte di tali grandezze possono
+essere rilevate - e lo saranno sempre più in prospettiva - da apparecchi
+in grado di dialogare per mezzo di protocolli standard con altri
+dispositivi (es. Bluetooth).
+
+I dati e le informazioni di cui sopra (maggiori dettagli sono riportati
+nell’\ `Appendice D <#_t43wx2m8ttuk>`__ in cui si riporta un estratto
+del documento in fase di approvazione da parte del Ministero della
+Salute) saranno fruibili a livello nazionale, grazie alla piattaforma
+INI che costituisce il nodo nazionale deputato a garantire
+l’interoperabilità dei Fascicoli Sanitari Elettronici regionali e dei
+dati e documenti in essi contenuti.
+
+Le singole piattaforme regionali potranno eventualmente integrare altre
+tipologie di informazioni gestite nel Taccuino: queste non saranno per
+il momento fruibili al di fuori della Regione di assistenza. tuttavia
+non sono escluse evoluzioni del progetto in tal senso, successivamente
+ad un primo periodo di utilizzo su base nazionale.
+
+A tale proposito, nell’ambito delle attività di coordinamento del GdL
+Taccuino, la Regione Piemonte con il supporto di medici di base e
+ospedalieri aveva individuato alcune informazioni integrative, quali:
+
+1. 
+
+   a. viaggi,
+
+   b. fumo e alcol,
+
+   c. alimentazione,
+
+   d. sonno,
+
+   e. attività fisica ed altri aspetti legati agli stili di vita.
+
+Talune di queste (in particolare il punto e, ma non solo) si prestano ad
+essere acquisite prevalentemente da dispositivi elettronici, in modalità
+massiva, tramite processi parametrizzabili, facilmente automatizzabili
+in modo da richiedere poche operazioni svolte dall’utente.:
+
+Ad oggi device e App dedicate, di larga diffusione, possono supportare
+gli assistiti nella rilevazione di informazioni utili nei processi di
+cura di patologie di varia natura, quali a titolo di esempio:
+
+-  attività fisica standard passi (es. passi, ore in piedi, piani
+   saliti) e sportiva con valutazione del corrispondente dispendio
+   calorico,
+
+-  quantità di acqua bevuta,
+
+-  durata e qualità del sonno,
+
+-  apporto calorico legato alla dieta con particolare attenzione alle
+   sostanze assunte (grassi, carboidrati, proteine, vitamine, sali, etc)
+
+-  monitoraggio ciclo: flusso mestruale (data, durata, intensità),
+   sintomi
+
+-  mindfulness in minuti.
+
+Una panoramica delle informazioni già gestite dalle App maggiormente
+diffuse, tramite il collegamento con device wearable e dispositivi
+medici, è riportata nel § “\ `Analisi comparativa delle principali
+HealthApp in relazione al contenuto informativo <#_cw55x23wd81b>`__\ ”.
+
+.. |image5| image:: ./Pictures/1000020100000556000002D524211B16DEC8C893.png
+   :width: 7.8598in
+   :height: 4.1732in

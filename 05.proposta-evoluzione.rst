@@ -1,0 +1,13 @@
+Proposta di evoluzione del Taccuino Personale
+=============================================
+
+La proposta di evoluzione del Taccuino viene articolata considerando gli
+aspetti riportati nella mappa mentale inserita di seguito:
+
+|image8|
+
+Tali aspetti saranno approfonditi pertanto nei capitoli a seguire.
+
+.. |image8| image:: ./Pictures/1000020100000382000002DDE4ACB920CB38FAA0.png
+   :width: 7.5465in
+   :height: 6.1665in
