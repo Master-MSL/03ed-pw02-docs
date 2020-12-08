@@ -1,4 +1,5 @@
 Modello logico dei dati gestiti nel Taccuino
+================================================
 
 Il taccuino è una sezione riservata del FSE all'interno della quale è
 permesso all'assistito di inserire autonomamente dati e documenti
@@ -10,9 +11,8 @@ totalmente in capo al singolo e possono essere sostanzialmente di due
 tipi:
 
 -  **un insieme standard di dati**\ (nel seguito “dataset standard” -
-   per maggiore dettaglio consultare l’\ `Appendice
-   D <#_t43wx2m8ttuk>`__ al presente documento) condivisi e gestiti
-   all’interno del proprio taccuino da tutte le Regioni,
+   per maggiore dettaglio consultare l’Appendice D al presente documento) 
+   condivisi e gestiti all’interno del proprio taccuino da tutte le Regioni,
 
 -  **un insieme di documenti caricati in auto-contribuzione**
    direttamente dal cittadino (ad esempio attraverso upload di documenti
@@ -47,12 +47,17 @@ possono essere acquisiti da device di vario tipo:
    dal fabbricante ad essere impiegato specificamente con finalità
    diagnostiche o terapeutiche e necessario al corretto funzionamento
    del dispositivo stesso [...]*\ ” **certificati** secondo le
-   disposizioni in materia e soggetti a marcatura CE;\ :sup:` [24]_`
+   disposizioni in materia e soggetti a marcatura CE;[24]_
 
 -  **dispositivi wearable o semplicemente il proprio smartphone** per il
    monitoraggio degli stili di vita.
 
-|image5|
+.. |image| figure:: /immagini/1000020100000556000002D524211B16DEC8C893.png
+   :scale: 50 % 
+   :alt: SWOT del Project Work
+
+   SWOT del Project Work
+
 
 I dati oggetto di rilevazione compresi nel dataset standard (definito
 nel 2020 dal Gruppo di lavoro costituito ad hoc da Ministero della
@@ -87,7 +92,7 @@ in grado di dialogare per mezzo di protocolli standard con altri
 dispositivi (es. Bluetooth).
 
 I dati e le informazioni di cui sopra (maggiori dettagli sono riportati
-nell’\ `Appendice D <#_t43wx2m8ttuk>`__ in cui si riporta un estratto
+nell’Appendice D in cui si riporta un estratto
 del documento in fase di approvazione da parte del Ministero della
 Salute) saranno fruibili a livello nazionale, grazie alla piattaforma
 INI che costituisce il nodo nazionale deputato a garantire
@@ -103,8 +108,6 @@ ad un primo periodo di utilizzo su base nazionale.
 A tale proposito, nell’ambito delle attività di coordinamento del GdL
 Taccuino, la Regione Piemonte con il supporto di medici di base e
 ospedalieri aveva individuato alcune informazioni integrative, quali:
-
-1. 
 
    a. viaggi,
 
@@ -146,15 +149,5 @@ diffuse, tramite il collegamento con device wearable e dispositivi
 medici, è riportata nel § “\ `Analisi comparativa delle principali
 HealthApp in relazione al contenuto informativo <#_cw55x23wd81b>`__\ ”.
 
-.. [24]
-    D. Lgs. 24/2/1997, n. 46 emendato con D. Lgs. 25/1/2010, n.37 -
-   Recepimento Direttiva 2007/47/CE “Attuazione della Direttiva
-   93/42/CEE concernente i dispositivi medici”
+.. [24] D. Lgs. 24/2/1997, n. 46 emendato con D. Lgs. 25/1/2010, n.37 - Recepimento Direttiva 2007/47/CE “Attuazione della Direttiva 93/42/CEE concernente i dispositivi medici”. Il 17/4/2020 il Parlamento europeo, causa emergenza COVID-19, ha disposto il rinvio al 21/5/2021 dell’applicazione del nuovo Regolamento UE 2017/745.
 
-   Il 17/4/2020 il Parlamento europeo, causa emergenza COVID-19, ha
-   disposto il rinvio al 21/5/2021 dell’applicazione del nuovo
-   Regolamento UE 2017/745.
-
-.. |image5| image:: ./Pictures/1000020100000556000002D524211B16DEC8C893.png
-   :width: 7.8598in
-   :height: 4.1732in

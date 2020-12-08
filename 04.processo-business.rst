@@ -1,7 +1,7 @@
 Analisi dei processi di business del Taccuino personale
+===========================================================
 
-Modellazione dei processi AS-IS
-=================================
+**Modellazione dei processi AS-IS**
 
 Il Taccuino Personale è un sistema web su cui attualmente operano tre
 processi:
@@ -18,9 +18,16 @@ processi:
    sistema regionale di Taccuino da parte della Regione Piemonte
 
 Tali processi sono rappresentati attraverso la notazione BPMN 2.0 con lo
-strumento Open Source Camunda nel diagramma 1.1. che segue.
+strumento Open Source Camunda nel diagramma che segue.
 
-Modellazione dei processi TO-BE
+.. |imageAI| figure:: /immagini/100002010000036000000335CA60E38CCE636556.png
+   :scale: 50 % 
+   :alt: Processi AS-IS del Taccuino
+
+   Processi AS-IS del Taccuino
+
+
+**Modellazione dei processi TO-BE**
 
 E’ interessante evidenziare come nel primo processo del diagramma 1.1
 sia possibile per il cittadino alimentare il taccuino sia con documenti
@@ -33,23 +40,15 @@ taccuino cercando di automatizzare il più possibile l’inserimento dei
 valori attraverso un’integrazione più stretta con i device medicali o
 specifici del wellness.
 
-Nel diagramma 1.2 viene pertanto mostrata la modifica al primo processo
-del diagramma 1.1 in cui viene unita l’attività prima disgiunta di
+Nel diagramma TO-BE viene pertanto mostrata la modifica al primo processo
+del diagramma AS-IS in cui viene unita l’attività prima disgiunta di
 “misurazione con strumenti” e “inserimento” e messa in parallelo quella
 di “gestione delle misurazioni” rispetto a quelle in precedenza inserite
 nel Taccuino.
 
-|image6|
+.. |imageTB| figure:: /immagini/10000201000002F0000002D54AC36DA3BDF123D5.png
+   :scale: 50 % 
+   :alt: Processi TO-BE del Taccuino
 
-**diagramma 1.1. Processi AS-IS del Taccuino**
+   Processi TO-BE del Taccuino
 
-|image7|
-
-**diagramma 1.2. Processi TO-BE del Taccuino**
-
-.. |image6| image:: ./Pictures/100002010000036000000335CA60E38CCE636556.png
-   :width: 6.5in
-   :height: 6.1807in
-.. |image7| image:: ./Pictures/10000201000002F0000002D54AC36DA3BDF123D5.png
-   :width: 6.5in
-   :height: 6.278in
