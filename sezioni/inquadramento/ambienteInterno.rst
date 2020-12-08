@@ -133,7 +133,7 @@ esterne attraverso appalti CONSIP.
 
 
 .. |image3| figure:: /immagini/1000020100000522000002753350707227B5AF13.png
-   :scale: 100 %
+   :scale: 50 %
    :alt: Organigramma pubblicato nella sezione “Amministrazione trasparente” del sito istituzionale
 
    Organigramma pubblicato nella sezione “Amministrazione trasparente” del sito istituzionale
@@ -217,7 +217,7 @@ La combinazione dei processi caratteristici è rappresentata nello schema
 sottostante.
 
 .. |image4| figure:: /immagini/1000000000000634000009C4ACE80C7F8151BA46.png
-   :scale: 100 %
+   :scale: 50 %
    :alt: Gestione di un progetto di sviluppo prodotto-servizio informatico
 
    Gestione di un progetto di sviluppo prodotto-servizio informatico

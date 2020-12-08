@@ -149,7 +149,7 @@ permette la comunicazione tra più domini regionali come schematicamente
 di seguito rappresentato.
 
 .. |image2| figure:: /immagini/10000201000002D30000017423289E90ECF0A19F.png
-   :scale: 50 %
+   :scale: 80 % 
    :alt: Stakeholder del Taccuino Personale del FSE
 
    fonte: Specifiche tecniche per l’interoperabilità tra i sistemi regionali di FSE Framework e dataset dei servizi base_Versione 2.1 pubblicate su  https://www.fascicolosanitario.gov.it/
