@@ -40,11 +40,9 @@ Il project work si pone come obiettivo principale la realizzazione di uno studio
    14.appendice-contributi.rst
    15.appendice-dataset.rst
 
-.. rubric:: Footnotes
+.. rubric:: Note
 
 .. [1] `www.fascicolosanitario.gov.it <http://www.fascicolosanitario.gov.it>`__
-
 .. [2] D.L. 18 ottobre 2012, n. 179 convertito con L. 17 dicembre 2012, n.221
-
 .. [3] DPCM del 29 settembre 2015, n.178 “\ \ *Regolamento in materia di fascicolo sanitario elettronico*\ \ ”, Art. 4
 
