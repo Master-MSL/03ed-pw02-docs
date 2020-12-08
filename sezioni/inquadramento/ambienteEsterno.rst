@@ -148,7 +148,11 @@ documenti e delle notifiche previste, è veicolato tramite l’INI, che
 permette la comunicazione tra più domini regionali come schematicamente
 di seguito rappresentato.
 
-|image2|
+.. |image2| figure:: /immagini/10000201000002D30000017423289E90ECF0A19F.png
+   :scale: 50 %
+   :alt: Stakeholder del Taccuino Personale del FSE
+
+   fonte: Specifiche tecniche per l’interoperabilità tra i sistemi regionali di FSE Framework e dataset dei servizi base_Versione 2.1 pubblicate su  https://www.fascicolosanitario.gov.it/
 
 
 
@@ -464,8 +468,3 @@ paziente e per il medico e quelli inquinanti nell’ambito urbano.
 .. [15]
     Approvato con D.D. 544 del 28/11/2018
 
-.. |image2| image:: /immagini/10000201000002D30000017423289E90ECF0A19F.png
-   :scale: 100 %
-   :alt: Stakeholder del Taccuino Personale del FSE
-
-   fonte: Specifiche tecniche per l’interoperabilità tra i sistemi regionali di FSE Framework e dataset dei servizi base_Versione 2.1 pubblicate su  https://www.fascicolosanitario.gov.it/

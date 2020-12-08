@@ -6,7 +6,7 @@ Se si analizza il contesto generale in cui si vuole realizzare il
 progetto, si possono evidenziare più categorie di stakeholder
 direttamente o indirettamente coinvolti nei processi in atto nelle
 diverse fasi di realizzazione e fruizione, rappresentati di seguito
-sotto forma di mappa mentale.
+sotto forma di mappa mentale (rif. |image1|) .
 
 Entrando più nel dettaglio, i ruoli dei principali soggetti coinvolti
 sono i seguenti:
@@ -56,10 +56,10 @@ sono i seguenti:
    ed efficaci i dati provenienti dai dispositivi così come di utenti
    (diretti o indiretti) delle soluzioni realizzate.
 
-|image1|
+
 
 .. |image1| figure:: /immagini/10000000000005AD0000044B34BC66ACAED64FB6.jpg
-   :scale: 100 %
+   :scale: 50 %
    :alt: Stakeholder del Taccuino Personale del FSE
 
    Stakeholder del Taccuino Personale del FSE
