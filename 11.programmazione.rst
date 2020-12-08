@@ -1,0 +1,136 @@
+Programmazione della fase attuativa
+=====================================================
+
+Il capitolo ha l’obiettivo di definire una pianificazione della\ *fase
+attuativa (FA)* del progetto per lo sviluppo di un sistema software,
+attraverso una Community Open Source, in grado di agevolare
+l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie
+di device medicali e specifici del wellness.
+
+Si ritiene infatti che il piano attuativo del progetto sia un elemento
+fondamentale nell’ambito dello studio di fattibilità del project work.
+
+Si possono ipotizzare come componenti della WBS\ :sub:`FA` della fase
+attuativo i seguenti workpackage (I° livello) e le relative attività di
+II° livello con deliverable di III° livello (identificate anche come
+milestone di progetto):
+
+-  WP-00: Attività preliminari
+
+   -  Individuazione esigenze
+
+   -  Analisi comparativa
+
+   -  Definizione indirizzi per sviluppo sw
+
+   -  M00.01 Documento di indirizzo
+
+   -  Costituzione Steering Commitee
+
+      -  M00.02 Atto di nomina
+
+-  WP-01: Definizione del progetto
+
+   -  Prima definizione roadmap
+
+   -  Analisi e definizione strumenti Community
+
+   -  Definizione governance Community
+
+   -  Definizione indicatori di monitoraggio
+
+      -  M01.01 Documento di indirizzo
+
+-  WP-02: Realizzazione POC (autenticazione e autorizzazione)
+
+   -  Attività propedeutiche avvio POC
+
+   -  Analisi e sviluppo
+
+      -  M02.01 Esito della POC
+
+   -  Redazione PTE
+
+      -  M02.02 PTE
+
+   -  Iter amministrativo
+
+      -  M02.03 Atto di approvazione/affidamento
+
+-  WP-03: Sviluppo del primo nucleo
+
+   -  Evoluzione Sistema Fse Regionale
+
+      -  M03.01 Rilascio in esercizio
+
+   -  Realizzazione App IOS
+
+      -  M03.02 Rilascio in esercizio
+
+   -  Realizzazione App Android
+
+      -  M03.03 Rilascio in esercizio
+
+   -  Verifiche di sicurezza sul SW
+
+   -  Verifiche tecniche
+
+   -  Verifiche Legali
+
+      -  M03.04 Esito positivo verifiche
+
+   -  Pubblicazione del software su GitHub
+
+      -  M03.05 Visibilità su Github
+
+-  WP-04:Predisposizione degli strumenti della Community
+
+   -  Installazione e configurazione
+
+      -  MM04.01 Rilascio in esercizio
+
+-  WP-05: Promozione del progetto e della community
+
+   -  Definizione piano della comunicazione
+
+   -  Studio Grafico
+
+      -  MM05.01 Piano e Grafica
+
+   -  Predisposizione sito del progetto
+
+      -  M05.03 Sito
+
+-  WP-06: Gestione del progetto
+
+   -  Gestione SW (bug fixing)
+
+   -  Gestione Community: Issue, pull request, collaboration
+
+   -  Milestone per SAL periodici mensili
+
+Rispetto alla OBS\ :sub:`FA` riportata di seguito, è interessante come
+venga riportata ogni funzione della Community descritta al capitolo
+`Struttura e caratteri organizzativi <#_cv9lpcmu23pv>`__ i cui soggetti
+partecipanti concorrono a vario titolo nella realizzazione dei
+deliverable dell’iniziativa.
+
+.. |image75| figure:: /immagini/100002010000050B000001B810BAF95E325503D6.png
+   :scale: 50 % 
+   :alt: OBS della Fase Attuativa
+
+   OBS della Fase Attuativa
+
+Il piano attuativo (comprensivo di diagramma di gantt) consente di
+mettere in relazione la WBS\ :sub:`FA` con l’OBS\ :sub:`FA` e schedulare
+le attività nel tempo per comprendere i tempi necessari per la
+realizzazione dei vari deliverable di progetto.
+
+.. |image75| figure:: /immagini/10000201000007620000054127E78F186B3E3325.png
+   :scale: 50 % 
+   :alt: Gantt della Fase Attuativa
+
+   Gantt della Fase Attuativa
+
+Per una migliore consultazione si deve fare riferimento all’Allegato
+A - Piano della Fase Attuativa.
