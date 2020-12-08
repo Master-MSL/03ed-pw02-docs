@@ -58,7 +58,7 @@ sono i seguenti:
 
 |image1|
 
-.. |image1| image:: /immagini/10000000000005AD0000044B34BC66ACAED64FB6.jpg
+.. |image1| figure:: immagini/10000000000005AD0000044B34BC66ACAED64FB6.jpg
    :scale: 100 %
    :alt: Stakeholder del Taccuino Personale del FSE
 
