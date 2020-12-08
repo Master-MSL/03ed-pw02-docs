@@ -8,7 +8,7 @@ con il modello che sarà adottato.
 
 L’analisi di mercato e la ricerca sul catalogo del software open source
 a disposizione della Pubblica Amministrazione svolte preliminarmente
-mostrano che al momento\ :sup:` [28]_` non vi sono:
+mostrano che al momento [28]_ non vi sono:
 
 -  soluzioni riusabili per la PA
 
@@ -18,13 +18,17 @@ mostrano che al momento\ :sup:` [28]_` non vi sono:
 
 disponibili. 
 
-\ |image32|
+.. |image| figure:: /immagini/1000020100000168000001E0F6430C27E8D16A0F.png
+   :scale: 60 % 
+   :alt: Step per analisi comparativa ex art. 68 CAD
+
+   Step per analisi comparativa ex art. 68 CAD
 
 
 Ritenendo plausibile il permanere di tale situazione alla
 data di svolgimento dell’analisi comparativa ex art. 68 CAD propedeutica
 all’avvio del progetto (i cui step sono raffigurati nella figura a
-lato\ :sup:` [29]_`) svolta per individuare la soluzioni di partenza, si
+lato [29]_ svolta per individuare la soluzioni di partenza, si
 ipotizza di procedere con uno sviluppo *ex novo*, tramite realizzazione
 di nuovo software secondo il disposto dell’art. 69 CAD, della soluzione
 desiderata.
@@ -35,210 +39,18 @@ nonché il mantenimento (NB) - delle soluzioni software per
 l’integrazione tra i device in uso e il Taccuino personale
 dell’assistito.
 
-**Modello 1 - Community con contributi alle App regionali**
+.. toctree::
+  :maxdepth: 3
+  :caption: Indice dei contenuti
 
-Questo approccio prevede di impostare uno sviluppo di App regionali per
-l’integrazione di device con il sistema del Taccuino del FSE della
-Regione Piemonte a iniziativa e titolarità regionali, ma gestite fin
-dall’inizio con modalità aperte, pubblicando tale codice in open source
-su Code repository GitHub. Con questo modello il progetto punta a creare
-una Community per favorire la contribuzione da parte di terzi in termini
-di software, idee e conoscenze volte ad arricchire il sistema verso
-l'utente finale e diffonderne l’uso.
+  sezioni/modelli/modello1.rst
+  sezioni/modelli/modello2.rst
+  sezioni/modelli/modello3.rst
+  sezioni/modelli/modelloScelto.rst
 
-Concretamente, si prevede la realizzazione di App
-regionali\ :sup:` [30]_` per iOS e Android con il compito di fungere da
-gateway tra il device e la piattaforma regionale del Fascicolo Sanitario
-Elettronico (FSE), provvedendo all’autenticazione dell’utente e
-all’acquisizione e al caricamento dei dati provenienti dai device nel
-Taccuino.
 
-I compiti delle App regionali sono descritti nel capitolo `Modalità di
-integrazione dei device <#_8dnz78msojq0>`__ dove si analizzano le
-possibili modalità di acquisizione dei dati utili per il Taccuino
-provenienti da device medicali e wearable. Si prevede di sfruttare le
-logiche di interfacciamento software (API e SDK) ed i formati in uso da
-parte di applicazioni di larga diffusione, preinstallate o scaricabili
-gratuitamente su tutti gli smartphone, progettate per acquisire,
-archiviare e condividere informazioni sullo stato di salute e sugli
-stili di vita.
+.. [28] verifica su https://developers.italia.it/it/software/ del 01/07/2020
 
-Il progetto attuativo prevede, a seguito della formalizzazione della
-*roadmap*\ di progetto da parte dello steering committee:
+.. [29] tratta delle linee guida Agid sull’acquisizione e riuso di software per le PA
 
--  una prima fase di sviluppo - da parte di CSI, software maintainer -
-   dedicata al “core” delle APP regionali e all’integrazione di un
-   sottoinsieme significativo di device presenti sul mercato, che si
-   chiude con il rilascio di funzionalità di base immediatamente
-   fruibili;
 
--  una seconda fase, immediatamente successiva, di apertura ai
-   contributi della Community, mirata all’incremento delle funzionalità
-   offerte e soprattutto allo sviluppo del software necessario per
-   estendere in misura sensibile l’integrazione con il Taccuino di
-   ulteriori tipologie di dati, di device e di App orientate alla
-   gestione di dati inerenti la Salute ed il Fitness/Wellness.
-
-Il software sviluppato viene ospitato su repository di code hosting di
-titolarità regionale `(rif. § Repository pubblico) <#_wk9a0i7p4nu0>`__.
-I contributi possono essere inseriti attraverso le funzionalità messe a
-disposizione dalle piattaforma di code hosting per favorire la
-collaborazione degli utenti e per la gestione di pull request e delle
-issue `(rif. § Strumenti di interazione per gli utenti della
-Community) <#_hu9bddmya7ms>`__.
-
-In questo modello, le soluzioni inizialmente pubblicate possono
-“evolvere” anche con il contributi di terzi, mediante gli strumenti
-messi a disposizione dal repository stesso, prevalentemente mediante due
-modalità:
-
-A. contributi minimali alle app già pubblicate, in termini di correzioni
-   e/o miglioramenti *interni*\ al codice
-
-B. contributi sostanziali e/o significativi (quali ad esempio ulteriori
-   App, interi moduli, componenti o funzionalità complesse di nuova
-   realizzazione)
-
-In considerazione del fatto che qualsivoglia contributo è potenzialmente
-creativo, ed in quanto tale comporta l’attribuzione al contributore dei
-relativi diritti patrimoniali e morali, la proprietà intellettuale nel
-caso A) resta in capo alla Regione Piemonte, e si prevede semplicemente
-la citazione degli autori dei contributi nell’apposito file
-(*Authors.txt*) su repository di code hosting.
-
-Nel caso B) sopra descritto, invece, si possono attuare due differenti
-modalità di gestione:
-
--  trasferimento alla Regione Piemonte dei diritti patrimoniali sul
-   software (in coerenza con la licenza prescelta);
-
--  mantenimento della proprietà del software in capo al contributor, e
-   rilascio del medesimo con licenza (compatibile con quella del
-   software già rilasciato) che ne permette l’utilizzo, l’integrazione e
-   la distribuzione per gli obiettivi del progetto regionale.
-
-In entrambi i casi il mantenimento del software sarebbe in carico al
-software maintainer (CSI Piemonte).
-
-In generale le regole di contribuzione e le modalità operative con cui i
-contributor possono relazionarsi con il software maintainer sono
-descritte in un file apposito all’interno del repository di code hosting
-(*Contributing.txt*).
-
-Da un punto di vista delle responsabilità, tutti i contributi software
-devono essere sottoposti a verifica formale da parte del software
-maintainer per garantire
-
--  la corretta gestione dei dati personali e sanitari da un punto di
-   vista della privacy
-
--  l’interpretazione corretta dei dati sanitari provenienti dai device
-
--  l’aderenza alle funzionalità previste a livello strategico e
-   operativo.
-
-In questo modello si prevede uno steering committee, come descritto nel
-capitolo `Strategie <#_f6f2ogjfbtc>`__ della “Fase attuativa” del
-progetto, con alto potere decisionale (composto da Regione e
-CSI-Piemonte) che si concentra sulla definizione della roadmap di
-progetto demandando la governance della community al CSI-Piemonte in
-qualità di software maintainer.
-
-Si tratta pertanto di un modello con potenzialità enormi che, in
-relazione ai principali punti di forza e debolezza attesi (inquadrati a
-livello macroscopico nella SWOT analysis riportata di seguito),
-richiede:
-
--  un investimento iniziale da parte di una PA che definisce un
-   obiettivo di sviluppo;
-
--  un’accurata pianificazione organizzativa e un'adeguata preparazione
-   per la gestione della Community, che assume un ruolo centrale di
-   tutto il progetto.
-
-+-------------+--------------+--------------+-------+--+
-|             | **POSITIVO** | **NEGATIVO** |       |  |
-+-------------+--------------+--------------+-------+--+
-| **INTERNO** | **S**        |              | **W** |  |
-+-------------+--------------+--------------+-------+--+
-| **ESTERNO** | **O**        |              | **T** |  |
-+-------------+--------------+--------------+-------+--+
-
-**Modello 2 - Ecosistemi di applicazioni**
-
-Questo approccio prevede di consentire lo sviluppo di App e web
-application da parte di terzi sfruttando le api rest esposte dal sistema
-regionale di Taccuino che possono pubblicate in open source su
-repository pubblico (previa verifica di pubblicabilità come descritto al
-capitolo `Considerazioni sulla pubblicazione del software del sistema
-regionale del FSE <#_ukhxqe9vnl6o>`__) o solamente esposte come “\ *api
-as a service*\ ” su portale https://developers.italia.it/it/api/\ ”.
-
-Le applicazioni potrebbero essere licenziate in OS (ma non sarebbero
-comunque ospitate su repository di code hosting regionale), o essere
-proprietarie.
-
-Tali applicazioni sarebbero sviluppate e gestite autonomamente da terzi
-(senza finanziamenti pubblici) che ne conserverebbero in toto la
-titolarità.
-
-L’utilizzo di tali applicazioni avverrebbe nei termini “accettati” dal
-cittadino contestualmente all’installazione e all’utilizzo.
-
-Il perimetro di responsabilità di Regione Piemonte e del suo ente
-strumentale in qualità di software maintainer si limiterebbe
-eventualmente all'esposizione della API di interfacciamento al taccuino
-e al relativo corretto funzionamento.
-
-Un potenziale elemento di debolezza di questo approccio è la completa
-libertà demandata a terzi di entrare in possesso di dati sanitari
-acquisiti per l'integrazione con il Taccuino regionale che, in caso di
-comportamenti disattenti o non corretti (ma comunque inappropriati)
-potrebbero essere diffusi e/o riutilizzati per altri fini e scopi.
-
-E’ un approccio che non favorisce il fiorire di una community dedicata
-al taccuino, con una reale possibilità di governo regionale ma
-esclusivamente, se di interesse a terzi, utile a generare una
-concorrenza fra aziende software e/o sviluppatori dilettanti.
-
-**Modello 3 - Accordi per lo sviluppo in cooperazione con altre PA o imprese**
-
-In questo modello si prevede uno scenario in cui una PA o un’impresa fa
-un accordo di **co-sviluppo** con la Regione Piemonte per realizzare,
-nel caso della proposta di evoluzione del Taccuino, un particolare
-modulo software (ad esempio gestione dell’autenticazione con spid) o ad
-esempio un'App specifica di un sistema operativo.
-
-La PA o l’impresa finanzierebbero il software che prendono in carico
-come sviluppo e il codice sorgente potrebbe essere ospitato su
-repository di code hosting della Regione Piemonte. Nel caso d’uso di
-GitHub, in particolare, l’organizzazione potrebbe essere Regione
-Piemonte e il modulo software potrebbe essere ospitato in un repository
-di tale organizzazione. La titolarità di tale software sarebbe in capo
-alla PA/impresa.
-
-E’ necessaria una **fase negoziale** in cui si devono definire gli
-accordi di gestione del co-sviluppo che vanno a chiarire ad esempio:
-
--  le responsabilità
-
--  il perimetro dell’intervento
-
--  la titolarità del software e la licenza con cui viene rilasciato il
-   software oggetto di co-sviluppo (che deve essere compatibile con il
-   resto del software del taccuino di tutte le Amministrazioni coinvolte
-   nel progetto)
-
--  le modalità di gestione del software su repository di code hosting
-
--  i tempi di presa in carico delle pull request e degli issue.
-
-Questo modello potrebbe essere affiancato al modello 1 per ampliare ed
-estendere il progetto fondato sul concetto di Community.
-
-Modello scelto per analisi successive
-
-Secondo gli obiettivi definiti per il project work, si sceglie nel
-prosieguo del documento di approfondire il Modello 1 in termini di
-analisi organizzativa, analisi delle licenze e programmazione della fase
-attuativa.
