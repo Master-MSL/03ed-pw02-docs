@@ -54,7 +54,7 @@ particolarmente per quanto attiene alla gestione del personale, al
 livello di accentramento scelto da ciascun dirigente nonché
 all’attribuzione delle specifiche mansioni, che non sono completamente
 standard né a livello di Ente, né all’interno della Direzione Sanità e
-Welfare, principale attore\ :sup:` [16]_` con riferimento all’oggetto
+Welfare, principale attore [16]_ con riferimento all’oggetto
 del PW.
 
 I punti di forza sono il livello di competenze tematiche presenti, un
@@ -151,12 +151,12 @@ che presenta alcune peculiarità in relazione alla specifica tipologia e
 ad altri aspetti quali, ad esempio, la fonte di finanziamento impiegata.
 
 Qualora, secondo le modalità definite Convenzione quadro per affidamenti
-diretti al CSI\ :sup:` [17]_`, ne sussistano i presupposti, si procede
+diretti al CSI [17]_, ne sussistano i presupposti, si procede
 ad un affidamento diretto a CSI Piemonte - soggetto inhouse cui sono
 demandati gli interventi nel settore dei sistemi
-informativi\ :sup:` [18]_` -; in alternativa vengono attivate le
+informativi [18]_; in alternativa vengono attivate le
 procedure di scelta del contraente previste dalla normativa in materia
-di appalti pubblici.\ :sup:` [19]_`
+di appalti pubblici [19]_.
 
 A tale proposito, si segnala che i servizi standard offerti da CSI a
 Regione fanno riferimento ad un listino di costi unitari, coerente con
@@ -170,7 +170,7 @@ economica.
 
 Tale passaggio risulta fondamentale in considerazione del fatto che la
 Regione si è dotata di un “Programma pluriennale in ambito
-ICT”\ :sup:` [20]_`, contenente un modello di governance interno che
+ICT” [20]_ , contenente un modello di governance interno che
 prevede la partecipazione delle direzioni regionali, le principali linee
 di azione e risultati attesi, le tempistiche circa la realizzazione
 delle iniziative e degli interventi, le risorse finanziarie necessarie,
@@ -179,7 +179,7 @@ monitoraggio e gli indicatori necessari.
 
 Inoltre le iniziative inerenti la sanità digitale fanno riferimento a
 specifiche linee di indirizzo della sanità digitale
-piemontese\ :sup:` [21]_` nelle quali sono state definite le priorità di
+piemontese [21]_ nelle quali sono state definite le priorità di
 sviluppo dei sistemi informatici e informativi in ambito sanitario per i
 progetti regionali 2018-2020.
 
@@ -222,28 +222,15 @@ sottostante.
 
    Gestione di un progetto di sviluppo prodotto-servizio informatico
 
-.. [16]
-    È interessata dal progetto anche la Direzione “Competitività del
-   sistema regionale”, sia per quanto riguarda la gestione dei progetti
-   co-finanziati con risorse comunitarie, sia per gli aspetti inerenti
-   il sistema informativo regionale.
+.. [16] È interessata dal progetto anche la Direzione “Competitività del sistema regionale”, sia per quanto riguarda la gestione dei progetti co-finanziati con risorse comunitarie, sia per gli aspetti inerenti il sistema informativo regionale.
 
-.. [17]
-    Rep. n. 65 del 5 febbraio 2019, approvata con DGR 5-8240 del
+.. [17] Rep. n. 65 del 5 febbraio 2019, approvata con DGR 5-8240 del 27/12/2018
+
+.. [18] L.R. 15/3/1978 n. 13 “Definizione dei rapporti tra Regione e Consorzio per il trattamento automatico dell'informazione”, art. 4, c. 1
+
+.. [19] D. Lgs. 18 aprile 2016 n° 50, G.U. 19/04/2016
+
+.. [20] Linee di indirizzo per l'evoluzione del Sistema Informativo Regionale triennio 2019-2021, approvate con D.G.R. n. 4-8239 del
    27/12/2018
 
-.. [18]
-    L.R. 15/3/1978 n. 13 “Definizione dei rapporti tra Regione e
-   Consorzio per il trattamento automatico dell'informazione”, art. 4,
-   c. 1
-
-.. [19]
-    D. Lgs. 18 aprile 2016 n° 50, G.U. 19/04/2016
-
-.. [20]
-    Linee di indirizzo per l'evoluzione del Sistema Informativo
-   Regionale triennio 2019-2021, approvate con D.G.R. n. 4-8239 del
-   27/12/2018
-
-.. [21]
-    Approvate con D.G.R. n. 27-6517 del 23/2/2018
+.. [21] Approvate con D.G.R. n. 27-6517 del 23/2/2018
