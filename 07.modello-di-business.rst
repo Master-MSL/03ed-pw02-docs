@@ -43,10 +43,10 @@ dell’assistito.
   :maxdepth: 3
   :caption: Indice dei contenuti
 
-  sezioni/modelli/modello1.rst
-  sezioni/modelli/modello2.rst
-  sezioni/modelli/modello3.rst
-  sezioni/modelli/modelloScelto.rst
+  sezioni/modelliBusiness/modello1.rst
+  sezioni/modelliBusiness/modello2.rst
+  sezioni/modelliBusiness/modello3.rst
+  sezioni/modelliBusiness/modelloScelto.rst
 
 
 .. [28] verifica su https://developers.italia.it/it/software/ del 01/07/2020

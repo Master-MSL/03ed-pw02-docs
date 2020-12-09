@@ -105,13 +105,13 @@ applicazioni:
    visivamente la compatibilità di un app con l'app Salute di Apple su iPhone. 
    
 .. |image13| figure:: /immagini/1000020100000117000000EE36CCBEBAB94F98D9.png
-   :scale: 100 % 
+   :scale: 500 % 
    :alt: HealthKit di Apple
 
    HealthKit di Apple
 
 .. |image14| figure:: /immagini/10000201000001200000005C30CA5C1606DAFF18.png
-    :scale: 100 % 
+    :scale: 50 % 
     :alt: Badge “Works with Apple Health”
 
     Badge “Works with Apple Health”
@@ -124,7 +124,7 @@ applicazioni:
    fruibili da qualsiasi piattaforma per smartphone, tablet o PC.
 
 .. |image15| figure:: /immagini/100002010000044E0000026DA1319B3F0D2871EA.png
-    :scale: 100 % 
+    :scale: 50 % 
     :alt: Rest API di Google
 
     Rest API di Google https://developers.google.com/fit/rest
@@ -141,15 +141,15 @@ applicazioni:
    interfaccia all’app Salute di Apple per riceverne i dati se
    autorizzata dall’utente.
 
-.. |image16| figure:: /immagini/10000201000001200000005C30CA5C1606DAFF18.png
-    :scale: 100 % 
+.. |image16| figure:: /immagini/10000201000003220000026C312CA3ECA94FFCAA.png
+    :scale: 50 % 
     :alt: Samsung Health SDK for Android
 
     Samsung Health SDK for Android https://developer.samsung.com/health/android/overview.htmlt
 
 
-.. |image17| figure:: /immagini/10000201000001200000005C30CA5C1606DAFF18.png
-    :scale: 100 % 
+.. |image17| figure:: /immagini/100002010000026F000001EFE611DFAB2ADFCFB0.png
+    :scale: 50 % 
     :alt: Samsung Health SDK for Device
 
     Samsung Health SDK for Device https://developer.samsung.com/health/device/overview.html
@@ -158,11 +158,11 @@ applicazioni:
 Di seguito viene riportata un’analisi comparativa delle modalità di
 integrazione individuate.
 
-.. |imagetab| figure:: /immagini/tabella1.png
+.. |imagetab| figure:: /immagini/tabella1.jpg
    :scale: 60 % 
-   :alt: Modalità di integrazione
+   :alt: Analisi comparativa delle modalità di integrazione
 
-   Modalità di integrazione
+   Analisi comparativa delle modalità di integrazione
 
 In considerazione della disamina riportata nella tabella precedente,
 emerge come lo scenario B sia quello più perseguibile.
