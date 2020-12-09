@@ -21,10 +21,11 @@ realizzazione di un sistema regionale di Taccuino in grado di adattarsi
 alle esigenze che emergono e ai dispositivi rilasciati da un mercato
 molto variegato e ricco di elementi innovativi.
 
-|image34|
-
-**Tratto da corso di Organizzazione Aziendale di R. Candiotto,
-riadattato per il presente Project Work**
+.. |image34| figure:: /immagini/10000201000004030000028E081A892056160164.png
+   :scale: 50 % 
+   :alt: Approccio per processi - Tratto dal corso di Organizzazione Aziendale di R. Candiotto, riadattato per il presente Project Work
+   
+   Approccio per processi - Tratto dal corso di Organizzazione Aziendale di R. Candiotto, riadattato per il presente Project Work
 
 Un processo parte intrinsecamente dal presupposto di soddisfare le
 aspettative del cliente sia esterno sia interno in quanto il cliente è

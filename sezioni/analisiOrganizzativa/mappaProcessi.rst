@@ -18,7 +18,14 @@ I **processi di management**  riguardano la pianificazione, il
 monitoraggio, l’elaborazione e il controllo delle risorse e delle
 strategie della Community.
 
-|image35|
+
+
+.. |image35| figure:: /immagini/100002010000033200000241BF93088A5D4DD213.png
+   :scale: 50 % 
+   :alt: Mappa dei processi del Community OS
+
+   Mappa dei processi del Community OS
+
 
 Si descrivono sinteticamente di seguito i principali processi
 individuati per ogni tipologia:

@@ -1,6 +1,18 @@
 Analisi del modello di sviluppo e degli strumenti per la Community
 =======================================================================
 
+
+.. toctree::
+  :maxdepth: 3
+  :caption: Indice dei contenuti
+
+  sezioni/analisiOrganizzativa/obiettiviCommunity.rst
+  sezioni/analisiOrganizzativa/strutturaCommunity.rst
+  sezioni/analisiOrganizzativa/approccioProcessi.rst
+  sezioni/analisiOrganizzativa/mappaProcessi.rst
+
+
+
 Modello di sviluppo e toolchain di gestione del Software
 
 Considerando l’obiettivo di sviluppare app per IOS e Android per il
