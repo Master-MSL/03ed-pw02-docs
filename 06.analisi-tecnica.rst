@@ -1,0 +1,19 @@
+Analisi tecnica della proposta
+====================================
+
+Il **FSE**\ è lo strumento informatico introdotto per consentire al
+cittadino di tracciare e consultare tutta la storia della propria vita
+sanitaria, condividendola con i professionisti sanitari.
+
+Il **Taccuino personale**\ è parte del FSE e consente agli assistiti di
+inserire dati legati ai parametri vitali, allo stato di salute e allo
+stile di vita condotto.
+
+Nei prossimi capitoli viene riportata l'analisi tecnica rispetto alla
+proposta di evoluzione considerando il contesto tecnologico in cui si
+colloca.
+
+
+
+
+

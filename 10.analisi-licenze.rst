@@ -1,0 +1,1263 @@
+Analisi delle licenze software
+=======================================
+
+Si riporta di seguito una disamina del sistema regionale di Fascicolo
+Sanitario in cui si innesta come si è visto, anche il software che
+implementa il Taccuino personale del paziente.
+
+In particolare, vengono analizzati gli aspetti inerenti le licenze
+riguardanti lo stack applicativo e il software del sistema regionale del
+FSE.
+
+Essendo un software il cui sviluppo è iniziato nel 2010 ed attualmente
+non essendo pubblicato in open source, si descrivono di seguito le
+eventuali attività previste nel processo di valutazione per la
+pubblicabilità su repository pubblico del software del FSE.
+
+Si propone infine una disamina dell’ambiente software in cui si colloca
+l’evoluzione del Taccuino, oggetto della presente proposta, che prevede
+la realizzazione di app regionali iOS e Android che si interfacciano al
+sistema di backend al sistema del Taccuino Regionale. In particolare,
+viene effettuata un'analisi delle possibile licenze software con cui
+possono essere rilasciate le app in open source.
+
+Premessa: elementi giuridici sul software e su FOSS (Free and Open
+Source Software)
+
+Il software è un bene immateriale che costituisce un valore che deve
+essere protetto. Gli strumenti a tutela del software sono:
+
+-  il **diritto d'autore**: strumento che protegge il software per come
+   è scritto in qualità di opera creativa. Vengono tutelati dal diritto
+   d'autore il codice sorgente e binario; si possono includere i lavori
+   preparatori ma non gli algoritmi (l’algoritmo è l’idea utilizzata per
+   descrivere la logica utile all’automazione di un processo e non la
+   forma in cui viene realizzato)\ :sup:` [37]_`.
+
+-  l’istituto del **brevetto**: strumento che tutela il programma come
+   metodo e quindi da un punto di vista della sequenza delle fasi che
+   vengono eseguite, espresse sia in forma logica sia in forma di
+   algoritmo.
+
+Il brevetto si applica ad una soluzione (ad un problema tecnico) che ha
+carattere di *novità, originalità, liceità e
+industrialità.*\ :sup:` [38]_`
+
+A questi strumenti di tutela si possono affiancare:
+
+-  **marchio**, ovvero “tutti i segni che siano atti a distinguere i
+   prodotti o i servizi di una impresa da quelli di altre imprese e che
+   possano essere rappresentati nel registro in modo da consentire la
+   determinazione chiara e precisa dell’oggetto della protezione
+   conferita al titolare” (art. 7 del Codice della Proprietà
+   Industriale, di seguito “CPI”). Inoltre, la normativa richiede che i
+   marchi, per poter essere registrati, siano dotati dei requisiti di
+   novità (art. 12), capacità distintiva (art. 13), e liceità (art. 14);
+
+-  **modelli e disegni industriali** (art. 31 e segg. e segg. CPI);
+
+-  **segreto commerciale**, inteso come “valore esclusivo” e/o
+   *know-how* (art. 39 TRIPS\ :sup:` [39]_`, Direttiva UE UE 2016/943,
+   art. 98 CPI) e concorrenza sleale (art. 99 CPI, artt. 2595-2601
+   c.c.); in aggiunta sono strettamente correlati i concetti di:
+
+-  
+
+   -  obbligo di fedeltà (art. 2105 c.c.);
+
+   -  patto di non concorrenza (art. 2125 c.c.);
+
+   -  rivelazione di segreto professionale (art. 622 c.p.)e rivelazione
+      di segreto scientifico e commerciale (art. 623 c.p.).
+
+Copyleft, licenze e loro compatibilità
+
+La licenza d’uso è un negozio giuridico (contratto) tramite cui vengono
+concesse alcune facoltà/diritti a determinate condizioni. Esistono:
+
+-  Licenze proprietarie, che concedono al licenziatario generalmente il
+   solo diritto d’uso non esclusivo di un programma con accesso al SOLO
+   codice binario. Il proprietario si riserva il diritto di modifica e
+   distribuzione;
+
+-  Licenze libere, che si basano anch’esse sul diritto d’autore
+   declinandolo però in termini di libertà (anziché di restrizioni a
+   favore della condivisione del codice sorgente). L’autore, licenziando
+   il proprio software con licenze libere, concede a terzi i diritti di
+   esecuzione, studio, ridistribuzione e modifica sotto determinate
+   condizioni. In base a come vengono declinate le condizioni di
+   modifica e ridistribuzione esistono diverse categorie di licenze
+   libere\ :sup:` [40]_`:
+
+   -  permissive (o no copyleft)
+
+   -  copyleft debole
+
+   -  copyleft forte
+
+   -  network copyleft
+
+di seguito schematizzate efficacemente in forma grafica.
+
+|image56|
+
+Si sono formate nel corso del tempo due correnti pensiero che hanno
+portato alla costituzione di organizzazioni specifiche le cui
+caratteristiche sono sintetizzate nella tabella sottostante.
+
++-----------------------------------+-----------------------------------+
+| **Free Software**                 | **Open source**                   |
++-----------------------------------+-----------------------------------+
+| Richard Stallman nel 1985         | Eric Raymond e Bruce Perens nel   |
+|                                   | 1998                              |
++-----------------------------------+-----------------------------------+
+| Copyleft (vs copyright) =         | Copyleft                          |
+| permesso (left) di copia          |                                   |
++-----------------------------------+-----------------------------------+
+| Free Software Foundation (FSF)    | Open Source Iniziative (OSI)      |
++-----------------------------------+-----------------------------------+
+| Il software libero si basa su 4   | La definizione di open source si  |
+| libertà                           | basa su 10 principi               |
+|                                   |                                   |
+| 1 e 3: prerequisito dell'accesso  |                                   |
+| al codice sorgente                |                                   |
++-----------------------------------+-----------------------------------+
+
+Il **copyleft**\ (o permesso d’autore) è una condizione per la quale il
+licenziatario che intende ridistribuire il software originario - o
+(anche) un software basato sul software originario - non può aggiungere
+alla licenza restrizioni ulteriori rispetto alle condizioni previste
+nella licenza originaria (ovvero, tendenzialmente, con la medesima
+licenza di origine).\ |image57|
+
+La clausola di copyleft, nelle intenzioni dei promotori, difende il
+principio di “apertura” del codice originario.
+
+Le **licenze permissive** non sono vincolate alla clausola copyleft e
+quindi consentono anche l’utilizzo di codice aperto in combinazione con
+combinazione con software disciplinato da licenze diverse, eventualmente
+anche non Open Source; inoltre non limitano in alcun modo la
+distribuzione dei prodotti derivati. Il licenziatario generalmente
+richiede la citazione dell’autore e/o una frase che identifica la fonte
+del documento e, ove fattibile, un collegamento alle pertinenti
+informazioni sulla licenza, non ponendo particolari limitazioni
+all’utilizzo o alla modifica dell’opera di ingegno.
+
+La **licenza copyleft** ha la clausola copyleft al fine di assicurare
+che il codice resti libero o aperto, prevedendo condizioni alla
+ridistribuzione dei prodotti derivati (es. GPL\ :sup:` [41]_`).
+
+La caratteristica “copyleft” delle licenze viene poi qualificata “forte”
+o “debole” a seconda dell’ampiezza del vincolo stesso applicato alla
+nozione di “modifica” e di “redistribuzione”.
+
+Una licenza copyleft è considerata più o meno forte a seconda del modo
+in cui si propaga nelle **opere derivate**. Per opera derivata si
+intende, secondo l’art. 4 della L. 633/1941 sul diritto d’autore,
+un’opera realizzata attraverso “elaborazioni di carattere creativo
+dell'opera stessa, quali le traduzioni in altra lingua, le
+trasformazioni da una in altra forma letteraria od artistica, le
+modificazioni ed aggiunte che costituiscono un rifacimento sostanziale
+dell'opera originaria, gli adattamenti, le riduzioni, i compendi, le
+variazioni non costituenti opera originale”.
+
+Con "**copyleft debole**" ci si riferisce alle licenze per le quali non
+è richiesto che tutte le opere derivate ereditino la stessa licenza
+copyleft. Solo le modifiche al software rilasciato con queste licenze
+dovranno essere ridistribuite con la stessa licenza copyleft, ma tale
+obbligo non si estende ad opere più ampie come ad esempio quelle che
+utilizzano librerie rilasciate sotto licenza copyleft debole.
+
+Questa licenza mantiene intatta la viralità per quanto riguarda
+modifiche al codice originario, ma ne permette l’integrazione esterna da
+parte di un software distribuito sotto qualunque licenza.\ :sup:` [42]_`
+
+Con "**copyleft forte**" si intendono quelle licenze per cui tutte le
+opere derivate, nella più ampia concezione del termine, ereditano la
+stessa licenza copyleft (libertà 3 più vincolante a favore della
+condivisione). In questo caso il copyleft forte può voler condizionare
+tutti o quasi i codici che in qualche modo interagiscono con il software
+originario per produrre l'eventuale programma eseguibile binario. La
+licenza copyleft forte diventa anche “viralizzante” se il codice
+protetto da copyleft viene combinato con codice non protetto da
+copyleft.\ :sup:` [43]_` .
+
+Si intende con “\ **Network copyleft**\ ”, quel tipo di licenze per cui
+è necessario rendere disponibile il codice sorgente del programma
+tramite un servizio `on
+demand <https://it.wikipedia.org/wiki/On_demand_(informatica)>`__
+online, collegandosi al server presso il quale il software è eseguito
+come servizio (`Software as a service o
+“SaaS” <https://it.wikipedia.org/wiki/Software_as_a_service>`__).
+Risulta quindi ancora più restrittivo e quindi più viralizzante del
+copyleft forte.\ :sup:` [44]_`
+
+In base alle tipologie di licenze sopra descritte, alle caratteristiche
+di ognuna e in particolare alla clausola di copyleft, è evidente come la
+combinazione di software licenziati in modo differente possa portare
+problemi di **compatibilità di licenze** sul software risultante.
+
+Due licenze di software libero o open sono compatibili quando,
+rispettando le condizioni poste da entrambe, è possibile combinare il
+codice sorgente dei programmi licenziati per realizzare un’opera
+derivata da essi, come sinteticamente descritto nella tabella seguente.
+
++------------------+-------------+
+| **Licenza**      | **Esempio** |
++------------------+-------------+
+| permissiva       |             |
++------------------+-------------+
+| copyleft debole  |             |
++------------------+-------------+
+| copyleft forte   |             |
++------------------+-------------+
+| network copyleft |             |
++------------------+-------------+
+
+Bisogna inoltre porre attenzione al fatto che la compatibilità non
+sempre è bi-laterale e di fatto non è detto a priori che per software
+diversi, il semplice fatto di essere liberi possano essere
+“liberamente”combinati tra di loro.
+
+In base a queste considerazioni, diventa fondamentale progettare e
+realizzare un nuovo software ponendo particolare attenzione a due
+aspetti:
+
+-  valutare in itinere e non a sviluppo terminato le licenze di software
+   terzi eventualmente coinvolte (sia sw linkato sia sw incorporato);
+
+-  effettuare scelte coerenti con la licenza con cui si vuole rilasciare
+   il software finale (**strategia di licensing iniziale**).
+
+In generale è interessante quanto riportato in modo sintetico nelle
+linee guida Agid sull’acquisizione e il riuso del software per la
+PA\ :sup:` [45]_` (Allegato C, cap. “Compatibilità tra le licenze”) che
+per comodità si riporta di seguito:
+
+“\ *La compatibilità delle licenze dipende dalla cessione dei diritti
+intellettuali da parte dell’autore. Le licenze che in questo senso
+cedono meno diritti, al fine di preservare maggiormente nel tempo la
+libertà e riutilizzabilità del software creato, sono le licenze
+copyleft.*
+
+*Quando si parla di compatibilità occorre distinguere due casi:*
+
+-  *La creazione di una nuova opera a partire da componenti già
+   esistenti, con licenza unica*
+
+-  *L’assemblaggio e la distribuzione di più componenti interagenti,
+   ognuna con licenza differente.*
+
+*Per quanto riguarda il caso di creazione di una nuova opera sotto una
+licenza unica, la matrice di compatibilità è la seguente:*
+
+-  *Opere rilasciate sotto dominio pubblico sono rilasciabili con
+   qualunque altra licenza*
+
+-  *Opere rilasciate sotto licenze non-copyleft sono rilasciabili con
+   licenze copyleft*
+
+-  *Opere rilasciate sotto licenze copyleft possono essere solo
+   rilasciate con licenze copyleft, a condizione che le due licenze
+   siano compatibili*
+
+*Nel secondo caso invece:*
+
+-  *Opere rilasciate sotto licenza di pubblico dominio, non-copyleft o
+   copyleft debole possono interagire come componenti a sé stanti con
+   qualunque altro applicativo, pur rispettando le eventuali clausole
+   riguardo riferimenti al codice originali e la distribuzione di
+   eventuali modifiche.*
+
+-  *Opere rilasciate sotto licenza copyleft possono interagire come
+   componenti a sé stanti solo con altri componenti rilasciati con
+   licenza copyleft compatibile.*\ ”
+
+Stack Applicativo
+
+Si riporta di seguito lo Stack\ :sup:` [46]_` Applicativo relativo
+all’attuale infrastruttura software del sistema regionale di FSE e del
+Taccuino
+
++-------------+-------------+-------------+-------------+-------------+
+| **Component | **Tipo**    | **Versione* | **Licenza** | **Note**    |
+| e**         |             | *           |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| Apache      | Web Server  |             | `Apache     |             |
+|             |             |             | License,    |             |
+|             |             |             | Version     |             |
+|             |             |             | 2 <https:// |             |
+|             |             |             | www.apache. |             |
+|             |             |             | org/license |             |
+|             |             |             | s/LICENSE-2 |             |
+|             |             |             | .0>`__      |             |
+|             |             |             |             |             |
+|             |             |             | **Permissiv |             |
+|             |             |             | a**         |             |
++-------------+-------------+-------------+-------------+-------------+
+| Jboss       | Application |             | `LGPL <http | In uso la   |
+|             | Server      |             | s://www.gnu | versione    |
+|             |             |             | .org/licens | commerciale |
+|             |             |             | es/licenses | per avere   |
+|             |             |             | .en.html>`_ | supporto    |
+|             |             |             | _           | garantito   |
+|             |             |             |             | in caso di  |
+|             |             |             | **Weak      | anomalie    |
+|             |             |             | copyleft**  | con SLA     |
++-------------+-------------+-------------+-------------+-------------+
+| WSO2        | Enterprise  |             | `Apache     | In uso la   |
+|             | Service Bus |             | License,    | versione    |
+|             |             |             | Version     | commerciale |
+|             |             |             | 2 <https:// | per avere   |
+|             |             |             | www.apache. | supporto    |
+|             |             |             | org/license | garantito   |
+|             |             |             | s/LICENSE-2 | in caso di  |
+|             |             |             | .0>`__      | anomalie    |
+|             |             |             |             | con SLA     |
+|             |             |             | **Permissiv |             |
+|             |             |             | a**         |             |
++-------------+-------------+-------------+-------------+-------------+
+| PostgreSQL  | DataBase    |             | `PostgreSQL |             |
+|             | Management  |             | License <ht |             |
+|             | System      |             | tps://opens |             |
+|             |             |             | ource.org/l |             |
+|             |             |             | icenses/pos |             |
+|             |             |             | tgresql>`__ |             |
+|             |             |             | ,           |             |
+|             |             |             | a liberal   |             |
+|             |             |             | OS license, |             |
+|             |             |             | similar to  |             |
+|             |             |             | the BSD or  |             |
+|             |             |             | MIT         |             |
+|             |             |             | licenses    |             |
++-------------+-------------+-------------+-------------+-------------+
+| CentOS      | Sistema     |             | `GPLv2 <htt | In uso la   |
+|             | Operativo   |             | ps://www.gn | versione    |
+|             | Linux       |             | u.org/licen | commerciale |
+|             |             |             | ses/license | per avere   |
+|             |             |             | s.en.html>` | supporto    |
+|             |             |             | __          | garantito   |
+|             |             |             |             | in caso di  |
+|             |             |             | **Strong    | anomalie    |
+|             |             |             | copyleft**  | con SLA     |
++-------------+-------------+-------------+-------------+-------------+
+| VMWARE      | Virtualizat |             | **Licenza   |             |
+|             | ion         |             | proprietari |             |
+|             | System      |             | a**         |             |
++-------------+-------------+-------------+-------------+-------------+
+
+In caso di migrazione allo Stack Applicativo relativo al sistema cloud
+Nivola sarebbero modificati esclusivamente gli strati del s.o. e il
+sistema di virtualizzazione, come segue:
+
++-------------+-------------+-------------+-------------+-------------+
+| **Component | **Tipo**    | **Versione* | **Licenza** | **Note**    |
+| e**         |             | *           |             |             |
++-------------+-------------+-------------+-------------+-------------+
+| CentOS      | Sistema     |             | `GPLv2 <htt | In uso la   |
+|             | Operativo   |             | ps://www.gn | versione    |
+|             | Linux       |             | u.org/licen | community   |
+|             |             |             | ses/license |             |
+|             |             |             | s.en.html>` |             |
+|             |             |             | __          |             |
+|             |             |             |             |             |
+|             |             |             | **Strong    |             |
+|             |             |             | copyleft**  |             |
++-------------+-------------+-------------+-------------+-------------+
+| KVM         | Virtualizat |             | `Apache     |             |
+| OpenStack   | ion         |             | License,    |             |
+|             | System      |             | Version     |             |
+|             |             |             | 2 <https:// |             |
+|             |             |             | www.apache. |             |
+|             |             |             | org/license |             |
+|             |             |             | s/LICENSE-2 |             |
+|             |             |             | .0>`__      |             |
++-------------+-------------+-------------+-------------+-------------+
+
+Dall’analisi sopra evidenziata, emerge quindi la presenza di software
+sotto “copyleft debole” accanto a soluzioni a “copyleft forte”. Tuttavia
+deve anche aggiungersi che gli elementi a copyleft forte riguardano le
+componenti di sistema (sistema operativo), in sé non necessariamente
+“viralizzanti” i sistemi applicativi verticali in essi operanti ed
+eseguiti, in ragione delle relative condizioni e limiti, come meglio di
+seguito esposto.
+
+In considerazione della clausola 2 del capitolo “Terms and conditions
+for copying, distribution and modification” della licenza GPLv2
+associata a CentOS\ :sup:` [47]_` un software applicativo verticale
+costituito da componenti web (web application, web service, etc.) che
+viene eseguito in un ambiente di runtime costituito da un application
+server (LGPL), che a sua volta viene eseguito su un sistema operativo
+(GPLv2), non viene viralizzato da quest’ultimo non essendo in alcun modo
+un’opera derivata.
+
+Software del Sistema Regionale
+
+Principali tecnologie e librerie
+
+Le principali tecnologie utilizzate per la realizzazione del sistema
+regionale sono:
+
+-  linguaggio **JAVA**:|image58|
+
+Un linguaggio di programmazione ad alto livello, orientato agli oggetti
+e a tipizzazione statica, che si appoggia sull'omonima piattaforma
+software di esecuzione, specificamente progettato per essere il più
+possibile indipendente dalla piattaforma hardware di esecuzione (tramite
+compilazione in bytecode prima e interpretazione poi da parte di una
+JVM).
+
+Attualmente esistono per lo sviluppo due tipologie di jdk (java
+development kit):
+
+-  Oracle OpenJDK 11: rilasciato con permissive `GPLv2 license agreement
+   and related
+   licenses <http://openjdk.java.net/legal/gplv2+ce.html>`__.
+
+-  Oracle JDK 11: JDK binario rilasciato con `Oracle Technology Network
+   (OTN) License
+   Agreement <https://www.oracle.com/technetwork/java/javase/terms/license/javase-license.html>`__
+   per Oracle Java SE. The OTN License permette il download senza
+   pagamento di fee per uso in contesti diversi dalla produzione (es:
+   dimostrazioni e prototipi, etc).
+
+Questa suddivisione parte dalla jdk 11 e dalle sottoversioni della jdk 8
+updates 211.
+
+-  framework **Apache Struts**\ |image59|
+
+un framework open source java della Apache Foundation rilasciato con
+licenza **Apache 2.0**\ per lo sviluppo di applicazioni web su
+piattaforma Java EE conformi al design pattern MVC (Model View
+Controller)
+
+-  framework: **Spring**\ |image60|
+
+un framework open source java rilasciato con licenza **Apache 2.0**
+utilizzato per lo sviluppo di componenti di backend con accesso al DBMS.
+|image61|
+
+-  framework java per l’esposizione di servizi XML su protocollo SOAP
+   realizzati dalla Apache Foundation e rilasciati con licenza **Apache
+   2.0** : **Apache CXF e Apache AXIS.**
+
+-  framework Jboss **restEasy**\ per l’esposizione di RESTful Web
+   Services. E’ un’implementazione rilasciata con licenza **Apache 2.0**
+   di Jakarta RESTful Web Services, una specifica della Eclipse
+   Foundation per Java API di tipo RESTful Web Services over the HTTP
+   protocol.\ |image62|
+
+-  linguaggio SQL per l’accesso al DB per effettuare diverse tipologie
+   di operazioni:
+
+   -  DDL (Data Definition Language): consente di creare e modificare
+      schemi di database;\ |image63|
+
+   -  DML (Data Manipulation Language): consente di inserire, modificare
+      e gestire i dati memorizzati;
+
+   -  DQL (Data Query Language): consente di interrogare i dati
+      memorizzati
+
+-  linguaggio PL/pgSQL specifico per realizzare store procedure
+
+-  linguaggi per la generazione delle interfacce utente delle web
+   application fruibili da web browser
+
+l'HyperText Markup Language è un linguaggio di markup utilizzato
+principalmente per il disaccoppiamento della struttura logica di una
+pagina web (definita appunto dal markup) e la sua rappresentazione,
+gestita tramite gli stili CSS.\ |image64|
+
+L'HTML è un **linguaggio di pubblico dominio**, la cui sintassi è
+stabilita dal World Wide Web Consortium (W3C). La versione attuale è la
+5 rilasciata nell'ottobre 2014, nata per fornire direttamente le
+funzionalità che in precedenza erano fruibili tramite estensioni
+proprietarie all'esterno dei browser (come Adobe Flash e simili) e per
+garantire una maggiore compatibilità tra i diversi browser,
+indipendentemente dalla piattaforma software utilizzata, e
+principalmente mirata all'espansione dei dispositivi mobili.
+
+Considerazioni sulla pubblicazione del software del sistema regionale
+del FSE
+
+Il sistema regionale del FSE è basato su software sviluppato fin dal
+2010.
+
+Per arrivare alla pubblicazione del codice sorgente in open source, in
+conformità all’art. 69 del CAD, va svolta un’analisi accurata al fine di
+poterne valutare la fattibilità (pubblicabilità del software) e per
+poter scegliere la licenza più adatta in relazione alla tipologia delle
+componenti software presenti (es: frontend, backend, web service, etc).
+
+Pur scegliendo come strategia iniziale quella di seguire le indicazioni
+in termini di licenze secondo le linee guida AgID, in base ai risultati
+ottenuti, in termini di compatibilità di licenze, dalla verifiche
+tecniche e legali effettuabili sul software, diventa poi necessario
+individuare la migliore licenza per rendere comunque il prodotto
+software disponibile con una licenza comunque “aperta” secondo l’OSI
+Definition https://opensource.org/osd, con modalità compatibili con i
+profili tecnici e giuridici individuati nell’analisi del software. In
+caso di incompatibilità di licenze, potranno essere considerate, a
+titolo di esempio, alternative quali:
+
+-  rilascio separato di singoli moduli dell’applicativo identificabili
+   come opere dotate di autonomia;
+
+-  sostituzione (con i relativi costi) dell’elemento interno
+   eventualmente causa di incompatibilità (ad esempio, mediante la
+   sostituzione di una libreria);
+
+-  in extremis scelta di altra licenza, ove possibile, compatibile con
+   quelle causanti incompatibilità con la licenza iniziale prevista.
+
+Di seguito vengono riportati le attività previste nel processo per la
+pubblicabilità del software in open source del CSI-Piemonte, in qualità
+di software maintainer del prodotto FSE :
+
+-  **produzione del BOM (Bill Of Materials),**\ documento in cui sono
+   elencati tutti i software di terze parti (per lo più librerie e
+   framework) utilizzati internamente al software oggetto di
+   pubblicazione e relative licenze associate, proprietarie o open
+   source. Tale elenco può essere prodotto utilizzando strumenti
+   software denominati\ **source code scan tool** (ad esempio OWASP
+   dependency check, sonatype).
+
+-  **verifiche tecniche**\ della scrittura del codice sorgente e
+   propedeutiche alla pubblicazione su repository pubblico e **verifiche
+   legali**\ volte alla verifica della **compatibilità delle licenze
+   delle librerie di terze parti** utilizzate dal software, dando
+   eventualmente l'indicazione di sostituzione di librerie in quanto non
+   compatibili con le altre licenze open source scelte. Maggiori
+   dettagli sul tipo di verifiche da effettuare vengono riportate nei
+   paragrafi successivi.
+
+**NOTA:**\ Qualora l’esito della verifica di pubblicabilità risulti
+negativo a seguito delle verifiche tecnico-legali e sia necessaria una
+modifica al codice del prodotto, si prevede la formulazione di una
+**valutazione tecnica ed economica della revisione software e
+documentale** per risolvere i problemi che non permettono la
+pubblicabilità del software as-is e la **ricerca delle relativa fonte di
+finanziamento**. A seguito di tali attività viene determinato se
+sospendere, temporaneamente o definitivamente, la pubblicazione del
+prodotto software o se proseguire con gli interventi di modifica del
+codice e/o della documentazione.
+
+-  **indicazione della Licenza Open Source** al superamento delle
+   verifiche tecnico-legali,con cui verrà pubblicato il software e la
+   documentazione.
+
+-  **Individuazione del raggruppamento dei repository e del/i repository
+   di pubblicazione del prodotto sw**. In generale, i criteri utilizzati
+   per determinare il repository in cui salvare il codice sono:
+
+   -  l'organizzazione detentrice della proprietà intellettuale del
+      prodotto;
+
+   -  la scomposizione del prodotto in repository diversi;
+
+-  **Creazione team e assegnazione abilitazioni**. Una volta creato il
+   repository si crea il **team admin** del prodotto al quale viene
+   associato il solo Gestore del Repository e gli eventuali **team di
+   sviluppo** del prodotto (ad esempio il team collaboratori interni al
+   progetto con permessi di write). Ad ogni team vengono assegnate le
+   abilitazioni/permessi in funzione del ruolo.
+
+-  **Pubblicazione del codice sorgente**. Il Gestore del Repository a
+   questo punto procede con la pubblicazione su repository del codice
+   sorgente e di tutta la documentazione prodotta. Per la pubblicazione
+   anche su Developers Italia è necessaria la presenza del file
+   *publiccode.yml*\ e dei relativi file accessori.
+
+Verifiche legali
+
+Le verifiche legali vengono effettuate da un esperto legale in ambito
+open source e software sulla base del BOM prodotto dal responsabile
+tecnico del progetto software.
+
+Il BOM è, in questa verifica, lo strumento di base per:
+
+-  la valutazione della pubblicabilità del software con licenza open
+   source
+
+-  individuare la licenza open source più adatta con cui licenziare
+   l’intera opera.
+
+Le verifiche legali vertono sull’analisi di due aspetti:
+
+-  compatibilità con il rilascio in open source delle licenze delle
+   librerie SW utilizzate internamente come link statici\ :sup:` [48]_`
+   del codice
+
+-  compatibilità con il rilascio in open source rispetto all'uso di link
+   dinamici\ :sup:` [49]_` (es. Google web API)
+
+-  compatibilità con il rilascio in open source rispetto
+   all’incorporamento di software di terzi\ :sup:` [50]_`
+
+Verifiche tecniche della scrittura del codice sorgente
+
+Si propone di seguito una possibile **checklist di verifiche in uso
+presso il CSI-Piemonte**
+
++-----------------+-----------------+-----------------+-----------------+
+| **Elementi da   | **Effettuata**  | **Esito**       | **Note in       |
+| verificare**    |                 |                 | merito          |
+|                 |                 |                 | all'esito**     |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica della  |                 |                 |                 |
+| presenza di     |                 |                 |                 |
+| tutti i file    |                 |                 |                 |
+| utili ad        |                 |                 |                 |
+| effettuare il   |                 |                 |                 |
+| build del       |                 |                 |                 |
+| prodotto        |                 |                 |                 |
+| software        |                 |                 |                 |
+| (laddove        |                 |                 |                 |
+| previsto).      |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica        |                 |                 |                 |
+| presenza di     |                 |                 |                 |
+| riferimenti a   |                 |                 |                 |
+| server e/o      |                 |                 |                 |
+| informazioni    |                 |                 |                 |
+| dell'infrastrut |                 |                 |                 |
+| tura            |                 |                 |                 |
+| CSI             |                 |                 |                 |
+| internamente al |                 |                 |                 |
+| codice o in     |                 |                 |                 |
+| file di         |                 |                 |                 |
+| properties      |                 |                 |                 |
+| specifici, con  |                 |                 |                 |
+| particolare     |                 |                 |                 |
+| attenzione agli |                 |                 |                 |
+| aspetti di      |                 |                 |                 |
+| sicurezza       |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica che    |                 |                 |                 |
+| non siano       |                 |                 |                 |
+| presenti        |                 |                 |                 |
+| informazioni    |                 |                 |                 |
+| relative a      |                 |                 |                 |
+| credenziali     |                 |                 |                 |
+| applicative o   |                 |                 |                 |
+| infrastruttural |                 |                 |                 |
+| i               |                 |                 |                 |
+| utili al        |                 |                 |                 |
+| funzionamento   |                 |                 |                 |
+| del prodotto in |                 |                 |                 |
+| ambiente CSI    |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica che i  |                 |                 |                 |
+| servizi web     |                 |                 |                 |
+| (SOAP o REST)   |                 |                 |                 |
+| acceduti a      |                 |                 |                 |
+| runtime dal     |                 |                 |                 |
+| software non    |                 |                 |                 |
+| abbiano         |                 |                 |                 |
+| esplicitato     |                 |                 |                 |
+| l'end-point ma  |                 |                 |                 |
+| siano presenti  |                 |                 |                 |
+| dei placeholder |                 |                 |                 |
+| che ne          |                 |                 |                 |
+| indichino la    |                 |                 |                 |
+| necessità di    |                 |                 |                 |
+| sostituzione in |                 |                 |                 |
+| fase di         |                 |                 |                 |
+| runtime.        |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica che    |                 |                 |                 |
+| eventuali       |                 |                 |                 |
+| riferimenti a   |                 |                 |                 |
+| chiamate RPC    |                 |                 |                 |
+| (non Web        |                 |                 |                 |
+| Service) a      |                 |                 |                 |
+| servizi         |                 |                 |                 |
+| esterni, nel    |                 |                 |                 |
+| codice o nei    |                 |                 |                 |
+| file di         |                 |                 |                 |
+| properties,     |                 |                 |                 |
+| siano generici  |                 |                 |                 |
+| (nessun         |                 |                 |                 |
+| riferimento a   |                 |                 |                 |
+| server reali)   |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica che    |                 |                 |                 |
+| nel caso di     |                 |                 |                 |
+| dipendenze da   |                 |                 |                 |
+| servizi non     |                 |                 |                 |
+| pubblicabili su |                 |                 |                 |
+| repertorio      |                 |                 |                 |
+| pubblico        |                 |                 |                 |
+| vengano         |                 |                 |                 |
+| descritte e     |                 |                 |                 |
+| documentate le  |                 |                 |                 |
+| interfacce di   |                 |                 |                 |
+| colloquio con   |                 |                 |                 |
+| servizio fruito |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica che le |                 |                 |                 |
+| firme dei       |                 |                 |                 |
+| servizi web     |                 |                 |                 |
+| esposti dal     |                 |                 |                 |
+| software (sia   |                 |                 |                 |
+| per uso interno |                 |                 |                 |
+| che per uso     |                 |                 |                 |
+| esterno) siano  |                 |                 |                 |
+| dichiarate e    |                 |                 |                 |
+| documentate.    |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica della  |                 |                 |                 |
+| qualità del     |                 |                 |                 |
+| software        |                 |                 |                 |
+| tramite         |                 |                 |                 |
+| strumenti       |                 |                 |                 |
+| automatici (es. |                 |                 |                 |
+| **SonarQube**)  |                 |                 |                 |
+| e conseguenti   |                 |                 |                 |
+| interventi di   |                 |                 |                 |
+| revisione​      |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Revisione       |                 |                 |                 |
+| totale dei      |                 |                 |                 |
+| commenti        |                 |                 |                 |
+| interni al      |                 |                 |                 |
+| codice sorgente |                 |                 |                 |
+| sia nel         |                 |                 |                 |
+| rispetto        |                 |                 |                 |
+| del\ **Code Of  |                 |                 |                 |
+| Conduct**\ sele |                 |                 |                 |
+| zionato         |                 |                 |                 |
+| durante la fase |                 |                 |                 |
+| iniziale sia    |                 |                 |                 |
+| per la          |                 |                 |                 |
+| leggibilità da  |                 |                 |                 |
+| parte dei       |                 |                 |                 |
+| soggetti        |                 |                 |                 |
+| interessati.​   |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Ricompilazione  |                 |                 |                 |
+| del software,   |                 |                 |                 |
+| test e deploy   |                 |                 |                 |
+| per poter       |                 |                 |                 |
+| effettuare la   |                 |                 |                 |
+| verifica        |                 |                 |                 |
+| funzionale di   |                 |                 |                 |
+| coerenza tra il |                 |                 |                 |
+| software già    |                 |                 |                 |
+| rilasciato a    |                 |                 |                 |
+| servizio e      |                 |                 |                 |
+| quello          |                 |                 |                 |
+| "revisionato"   |                 |                 |                 |
+| (nel caso di    |                 |                 |                 |
+| intervento di   |                 |                 |                 |
+| modifica).      |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Sono state      |                 |                 |                 |
+| effettuate le   |                 |                 |                 |
+| verifiche di    |                 |                 |                 |
+| vulnerabilità   |                 |                 |                 |
+| del software    |                 |                 |                 |
+| tramite gli     |                 |                 |                 |
+| strumenti messi |                 |                 |                 |
+| a disposizione  |                 |                 |                 |
+| dall’azienda    |                 |                 |                 |
+| (es. **IBM      |                 |                 |                 |
+| Appscan**\ per  |                 |                 |                 |
+| verifiche       |                 |                 |                 |
+| statiche e      |                 |                 |                 |
+| dinamiche) e    |                 |                 |                 |
+| sono state      |                 |                 |                 |
+| valutate le     |                 |                 |                 |
+| conseguenze ed  |                 |                 |                 |
+| i rischi a      |                 |                 |                 |
+| seguito della   |                 |                 |                 |
+| pubblicazione.  |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Sono stati      |                 |                 |                 |
+| eseguiti i test |                 |                 |                 |
+| di carico e gli |                 |                 |                 |
+| stress test e   |                 |                 |                 |
+| si è provveduto |                 |                 |                 |
+| alla            |                 |                 |                 |
+| predisposizione |                 |                 |                 |
+| della           |                 |                 |                 |
+| documentazione  |                 |                 |                 |
+| per la          |                 |                 |                 |
+| pubblicazione   |                 |                 |                 |
+| dei risultati.  |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica della  |                 |                 |                 |
+| assenza di dati |                 |                 |                 |
+| sensibili       |                 |                 |                 |
+| inseriti nei    |                 |                 |                 |
+| file del        |                 |                 |                 |
+| sorgente,       |                 |                 |                 |
+| inseriti anche  |                 |                 |                 |
+| solo al fine di |                 |                 |                 |
+| effettuare test |                 |                 |                 |
+| automatici​     |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Nel caso siano  |                 |                 |                 |
+| gestiti con     |                 |                 |                 |
+| software dei    |                 |                 |                 |
+| dati sensibili  |                 |                 |                 |
+| si è            |                 |                 |                 |
+| documentata la  |                 |                 |                 |
+| modalità di     |                 |                 |                 |
+| gestione del    |                 |                 |                 |
+| dato (cifratura |                 |                 |                 |
+| lato DB o       |                 |                 |                 |
+| software,       |                 |                 |                 |
+| etc…). In caso  |                 |                 |                 |
+| di presenza di  |                 |                 |                 |
+| gestione di     |                 |                 |                 |
+| dati sensibili, |                 |                 |                 |
+| è obbligatorio  |                 |                 |                 |
+| pubblicare      |                 |                 |                 |
+| documenti       |                 |                 |                 |
+| relativi alla   |                 |                 |                 |
+| gestione del    |                 |                 |                 |
+| dato stesso.    |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| *Valutazione    |                 |                 |                 |
+| :*\ traduzione  |                 |                 |                 |
+| del testo della |                 |                 |                 |
+| documentazione  |                 |                 |                 |
+| in lingua       |                 |                 |                 |
+| inglese​        |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Sono presenti o |                 |                 |                 |
+| sono stati      |                 |                 |                 |
+| realizzati gli  |                 |                 |                 |
+| script di       |                 |                 |                 |
+| installazione e |                 |                 |                 |
+| configurazione  |                 |                 |                 |
+| o sono stati    |                 |                 |                 |
+| messi a         |                 |                 |                 |
+| disposizione    |                 |                 |                 |
+| dei container   |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Sono presenti o |                 |                 |                 |
+| sono stati      |                 |                 |                 |
+| realizzati      |                 |                 |                 |
+| degli script    |                 |                 |                 |
+| per             |                 |                 |                 |
+| l'esecuzione di |                 |                 |                 |
+| test automatici |                 |                 |                 |
+| a seguito della |                 |                 |                 |
+| installazione   |                 |                 |                 |
+| del software su |                 |                 |                 |
+| nuovi ambienti. |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Pubblicazione   |                 |                 |                 |
+| su GitLab       |                 |                 |                 |
+| interno (se già |                 |                 |                 |
+| adottato) e     |                 |                 |                 |
+| collegamento    |                 |                 |                 |
+| con GitHub per  |                 |                 |                 |
+| la              |                 |                 |                 |
+| riconciliazione |                 |                 |                 |
+| periodica delle |                 |                 |                 |
+| release​.       |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Eliminazione    |                 |                 |                 |
+| dei file        |                 |                 |                 |
+| sorgenti non    |                 |                 |                 |
+| utilizzati​     |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Eliminazione    |                 |                 |                 |
+| delle librerie  |                 |                 |                 |
+| di terze parti  |                 |                 |                 |
+| non utilizzate  |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica        |                 |                 |                 |
+| presenza del    |                 |                 |                 |
+| documento di    |                 |                 |                 |
+| manuale utente  |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Verifica        |                 |                 |                 |
+| presenza        |                 |                 |                 |
+| laddove utile   |                 |                 |                 |
+| (o necessario)  |                 |                 |                 |
+| della           |                 |                 |                 |
+| descrizione     |                 |                 |                 |
+| dell’hardware   |                 |                 |                 |
+| minimo          |                 |                 |                 |
+| occorrente per  |                 |                 |                 |
+| il corretto     |                 |                 |                 |
+| funzionamento   |                 |                 |                 |
+| delle           |                 |                 |                 |
+| componenti      |                 |                 |                 |
+| software.       |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+
+Verifiche tecniche propedeutiche alla pubblicazione su repository
+pubblico
+
+Si propone di seguito una possibile **checklist di verifiche in uso
+presso il CSI-Piemonte**:
+
++-----------------+-----------------+-----------------+-----------------+
+| **Elementi da   | **Effettuata**  | **Esito**       | **Note/Osservaz |
+| verificare**    |                 |                 | ioni            |
+|                 |                 |                 | in merito       |
+|                 |                 |                 | all'esito**     |
++-----------------+-----------------+-----------------+-----------------+
+| E' presente     |                 |                 |                 |
+| l'organization  |                 |                 |                 |
+| GitHub (o altra |                 |                 |                 |
+| piattaforma     |                 |                 |                 |
+| code hosting)   |                 |                 |                 |
+| sotto cui       |                 |                 |                 |
+| effettuare la   |                 |                 |                 |
+| pubblicazione   |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Sono presenti   |                 |                 |                 |
+| sotto           |                 |                 |                 |
+| l'organization  |                 |                 |                 |
+| GitHub (o altra |                 |                 |                 |
+| piattaforma     |                 |                 |                 |
+| code hosting) i |                 |                 |                 |
+| repository      |                 |                 |                 |
+| sotto cui       |                 |                 |                 |
+| effettuare la   |                 |                 |                 |
+| pubblicazione   |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Le utenze       |                 |                 |                 |
+| GitHub (create  |                 |                 |                 |
+| secondo quanto  |                 |                 |                 |
+| previsto dalle  |                 |                 |                 |
+| specifiche      |                 |                 |                 |
+| )sono state     |                 |                 |                 |
+| abilitate alla  |                 |                 |                 |
+| pubblicazione   |                 |                 |                 |
+| sui repository  |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| È presente il   |                 |                 |                 |
+| file README.md  |                 |                 |                 |
+| sotto il        |                 |                 |                 |
+| repository del  |                 |                 |                 |
+| prodotto        |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| È descritta nel |                 |                 |                 |
+| file README.md  |                 |                 |                 |
+| l'architettura  |                 |                 |                 |
+| del software    |                 |                 |                 |
+| utile a         |                 |                 |                 |
+| comprenderne    |                 |                 |                 |
+| l'articolazione |                 |                 |                 |
+| in componenti e |                 |                 |                 |
+| le dipendenze   |                 |                 |                 |
+| con system      |                 |                 |                 |
+| software di     |                 |                 |                 |
+| terze parti.    |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| È presente il   |                 |                 |                 |
+| file            |                 |                 |                 |
+| LICENSE.txt     |                 |                 |                 |
+| sotto il        |                 |                 |                 |
+| repository del  |                 |                 |                 |
+| prodotto        |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| Nel file        |                 |                 |                 |
+| LICENSE.txt     |                 |                 |                 |
+| sono riportati  |                 |                 |                 |
+| tutti i testi   |                 |                 |                 |
+| delle licenze   |                 |                 |                 |
+| indicate nelle  |                 |                 |                 |
+| componenti di   |                 |                 |                 |
+| terze parti     |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| È presente il   |                 |                 |                 |
+| file            |                 |                 |                 |
+| CHANGELOG.md o  |                 |                 |                 |
+| RELEASENOTES.md |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| È presente il   |                 |                 |                 |
+| file            |                 |                 |                 |
+| COPYRIGHT.txt o |                 |                 |                 |
+| è indicato il   |                 |                 |                 |
+| Copyright nel   |                 |                 |                 |
+| README.md       |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| È presente il   |                 |                 |                 |
+| file BOM.csv    |                 |                 |                 |
+| e/o il          |                 |                 |                 |
+| MANIFEST.txt in |                 |                 |                 |
+| ogni repository |                 |                 |                 |
+| del prodotto    |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| È presente il   |                 |                 |                 |
+| file            |                 |                 |                 |
+| publiccode.yml  |                 |                 |                 |
+| (e ne è stata   |                 |                 |                 |
+| verificata la   |                 |                 |                 |
+| validità) nel   |                 |                 |                 |
+| repository      |                 |                 |                 |
+| principale del  |                 |                 |                 |
+| prodotto        |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+| E' stato        |                 |                 |                 |
+| inserito        |                 |                 |                 |
+| l’Header con    |                 |                 |                 |
+| indicazione     |                 |                 |                 |
+| della licenza   |                 |                 |                 |
+| scelta e del    |                 |                 |                 |
+| copyright       |                 |                 |                 |
+| corretto in     |                 |                 |                 |
+| tutti i file    |                 |                 |                 |
+| sorgente​       |                 |                 |                 |
++-----------------+-----------------+-----------------+-----------------+
+
+App di interfacciamento ai device integrate con il sistema Taccuino del
+FSE regionale
+
+Come definito in precedenza, per l’evoluzione del Taccuino al fine di
+facilitare l’acquisizione di dati provenienti da device medicali e
+wearable, si è considerata la necessità di sviluppare app regionali per
+i sistemi operativi più diffusi sul mercato: Android e iOS.
+
+Sistemi operativi mobile e linguaggi
+
+**Android** è un sistema operativo per dispositivi mobili sviluppato da
+Google e basato sul kernel Linux, progettato principalmente per sistemi
+embedded come smartphone e tablet, televisori (Android TV), automobili
+(Android Auto), orologi da polso (Wear OS), occhiali (Google Glass),
+etc. |image65|
+
+E’ distribuito con **licenza Apache 2.0.**\ |image66|
+
+Le app sono le applicazioni software installabili su Android scaricabili
+sia dal catalogo ufficiale Google Play, sia da altri cataloghi, come
+l'Amazon Appstore di Amazon.com, o **F-Droid**\ che contiene solo
+applicazioni FOSS (Free and Open Source Software). Le app possono essere
+installate direttamente a partire da un file APK.\ |image67|
+
+Le applicazioni Android sono Java-based.
+
+**iOS**\ è un sistema operativo sviluppato da Apple per iPhone, iPod
+touch e iPad. Da Settembre 2019, per i tablet iPad è stato sostituito da
+iPadOS.\ |image68|
+
+Come per macOS (sistema operativo per PC Apple), iOS è una derivazione
+di UNIX (famiglia BSD) ed è utilizzabile solo su dispositivi prodotti da
+Apple con SoC (System On a chip) della serie di processori Apple A.
+
+Dal 2008 è stato distribuito un SDK (software development kit) che
+permette agli sviluppatori di creare applicazioni (cosiddette app) per
+iPhone e iPod touch e di testarle in un simulatore. Tuttavia il
+caricamento di una applicazione nei dispositivi è possibile solamente
+dopo aver pagato una tassa di iscrizione all'iOS Developer Program di
+Apple. Le app vengono pubblicate e scaricate dagli utenti dall’App
+Store.\ |image69|
+
+L'ambiente di sviluppo per iOS SDK è Xcode, disponibile solamente per il
+sistema operativo macOS. Le app possono essere sviluppate in Objective-C
+o Swift.\ |image70|\ |image71|\ |image72|
+
+Gli sviluppatori sono liberi di definire qualsiasi prezzo per le loro
+app pubblicate su App Store, ma riceveranno il 70% del ricavo (il 30%
+viene trattenuto dalla Apple). Essi possono anche optare per pubblicare
+gratuitamente l'applicazione non pagando nessun costo di pubblicazione
+eccetto la tassa di sottoscrizione al programma developer.
+
+App Regionale del Taccuino
+
+Prendendo in considerazione esclusivamente il software che realizza le
+app regionali per la gestione del Taccuino del FSE e prendendo come
+riferimento le indicazioni delle Linee guida Agid su acquisizione e
+riuso di software per le pubbliche amministrazioni al capitolo “3.5.3
+Scelta di una licenza”, si valuta il rilascio del software con licenza
+copyleft debole `EUPL
+1.2 <https://spdx.org/licenses/EUPL-1.2.html>`__\ **(codice
+SPDX**\ :sup:` [51]_`\ **: EUPL-1.2)** a meno di utilizzo in corso di
+sviluppo di librerie irrinunciabili rilasciate con licenze AGPL, GPL 2 o
+GPL 3, che, in ragione delle caratteristiche di viralità sopra esposte,
+richiederebbero una ri-valutazione relativa al rilascio del sistema nel
+suo complesso, presumibilmente da pubblicare in coerenza con una delle
+suddette licenze “forti”.
+
+Al netto di tale ipotesi, la scelta della licenza europea, derivata
+dalle indicazioni inserite nelle linee guida Agid, è motivata anche
+dalle seguenti caratteristiche:
+
+-  **licenza multilingua:** la licenza è scritta in 23 lingue della
+   comunità europea con uguale valore legale (diversamente da altre
+   licenze OS che ha valore legale solo la versione in lingua inglese)
+
+-  **contesto giuridico:** è conforme alla normativa europea sulla
+   tutela del diritto d’autore e del software (diversamente da altre
+   licenze OS che fanno riferimento al contesto giuridico statunitense).
+
+-  **compatibilità:** l’opera rilasciata in EUPL e le sue modifiche
+   devono rimanere licenziate in EUPL, ma un “larger work” derivato da
+   combinazioni di detta opera con elementi rilasciati con una tra le
+   licenze presenti nella lista di compatibilità, potranno essere
+   rilasciati sotto quest’ultima. Si cita il seguente estratto ripreso
+   da
+   https://joinup.ec.europa.eu/collection/eupl/news/understanding-eupl-v12
+   “EUPL v1.2 has a wider coverage: it cover “the Work” (meaning
+   copyrighted work) and not exclusively “the software”. Therefore it is
+   easier to apply the EUPL v1.2 to related documentation, handbooks,
+   standard specifications etc. EUPL v1.2 has a wider compatibility: the
+   software itself (copies or modifications/improvements) will stay
+   covered by the EUPL without possibilities of re-licensing by
+   recipients, but it may also be merged in a new – other - larger work
+   with other software components covered by compatible licences. When
+   needed and for avoiding licence conflicts, this other derivative work
+   can then be distributed under the compatible licence. The list of
+   compatible licences includes both the GPLv2 and v3, the AGPL, MPL,
+   EPL, LGPL and other licences. Regarding documents, compatibility
+   includes the Creative Common licence CC BY SA. The purpose of this
+   compatibility list is not to endorse or recommend the listed
+   licences: it is finding interoperable solutions to possible licence
+   conflicts. This is the reason why the list includes SA (share alike)
+   or copyleft licences, and not the most permissive ones.”.
+
+|image73|
+
+**fonte:**\ `https://joinup.ec.europa.eu/collection/egovernment/document/eup <https://joinup.ec.europa.eu/collection/egovernment/document/eupl>`__\ `l <https://joinup.ec.europa.eu/collection/egovernment/document/eupl>`__
+
+Può risultare utile in fase di sviluppo tenere presente la
+matrice\ **“Matrix of EUPL compatible open source licences”** pubblicata
+nell’ambito del progetto europeo joinup all’indirizzo
+https://joinup.ec.europa.eu/collection/eupl/matrix-eupl-compatible-open-source-licences
+che aiuta nel valutare la compatibilità fra software EUPL e software di
+terze parti rilasciato in differenti licenze open source integrato
+secondo le modalità:
+
+-  *incorporamento* (inserimento di porzioni di codice di terze parti
+   all’interno del proprio prodotto software)
+
+-  *link statico* (si riferisce ad una libreria software che nel proprio
+   prodotto viene collegata staticamente in fase di compilazione)
+
+-  *link dinamico* (si riferisce ad una libreria software che nel
+   proprio prodotto viene caricata dinamicamente in fase di esecuzione)
+
+**Il titolare del software nonché licenziante è la Regione
+Piemonte**\ :sup:` [52]_` che verrà indicata nel file copyright.txt e in
+tutti documenti in cui deve essere esplicitato tale copyright. Tale
+titolarità, dovrà poi essere gestita nel rispetto dei diritti coinvolti
+in fase di amministrazione della community e dei relativi auspicabili
+contributi.
+
+Riprendendo l’art. 6 della legge italiana sul **diritto d’autore (L. 22
+aprile 1941, n. 633, d’ora in poi “LDA“)** il diritto d’autore (e il suo
+corrispondente anglo-americano copyright) è lo strumento giuridico per
+eccellenza posto a tutela dell’attività creativa, quale particolare
+espressione del lavoro intellettuale. Inoltre, in base alle disposizioni
+di cui all’art. 2 LdA, anche i programmi per elaboratore vengono
+tutelati alla stregua di “opere creative”, con le conseguenze di seguito
+sommamente sintetizzate.
+
+*Il diritto d’autore tutela il programma come codice ovvero nella forma
+in cui è scritto e non tutela l’idea che ne sta alla base (algoritmo).
+La tutela si estende anche ai lavori preparatori.*\ Come le opere
+creative, la LDA definisce che il software nasce con la sua creazione.
+Si costituisce in capo al “creatore” individuale che acquisisce un
+fascio di diritti.
+
+**Il diritto d’autore comprende sia i diritti morali (art. 20 e segg.)
+sia quelli patrimoniali/economici (art. 64 bis e segg.) secondo la
+LDA.**
+
+|image74|
+
+**Fonte: Avv. Vitrani “Diritto d'autore: diritti esclusivi e
+limitazioni”, Master “Management Software Libero” 2019/2020**
+
+I **diritti morali** sono i diritti del creatore a essere riconosciuto
+come autore dell’opera e a rivendicarne la paternità. Sono diritti
+inalienabili, imprescrittibili e irrinunciabili, cioè possono essere
+esercitati indipendentemente dai diritti patrimoniali derivanti dalla
+creazione dell’opera e anche nel caso in cui questi ultimi siano stati
+ceduti a terzi.
+
+I **diritti patrimoniali** sono trasferibili e individuano una serie di
+diritti relativi allo sfruttamento ed alla messa a disposizione
+dell’opera.
+
+Si specifica inoltre che la normativa vigente dà disposizioni relative
+al\ **lavoro dipendente**, e quindi secondo art. 12 bis della LDA,
+“Salvo patto contrario, il datore di lavoro è titolare del diritto
+esclusivo di utilizzazione economica del programma per elaboratore o
+della banca di dati creati dal lavoratore dipendente nell'esecuzione
+delle sue mansioni o su istruzioni impartite dallo stesso datore di
+lavoro.”
+
+**Si precisa infine che i diritti relativi alla titolarità del SW
+vengono definiti dal CSI con Regione Piemonte e con i propri fornitori
+ed attribuiti contrattualmente in forma chiara ed esauriente,
+rispettivamente sia nei documenti del ciclo attivo (PTE, CTE, etc.) che
+passivo (Contratti, Capitolati, etc.) con apposite clausole
+contrattuali.**
+
+*Gli sviluppi previsti per l’evoluzione del taccuino, nella fattispecie
+la realizzazione delle app regionali potrebbero essere sviluppate
+internamente al CSI (vedi sopra citato art. 12 bis della LDA) oppure
+affidate tramite appalto a fornitori esterni vincolati da contratto con
+clausole specifiche che consentono di attribuire la titolarità del
+software alla Regione Piemonte.*
+
+Citando le linee guida Agid su acquisizione e riuso di software per le
+pubbliche amministrazioni, “Ad esempio, espressioni come quelle che
+seguono, ove presenti nei contratti per lo sviluppo di software
+consentono di ritenere che l’amministrazione sia titolare dei diritti
+nel senso richiesto dall’articolo 69 del CAD:
+
+-  «il committente sarà titolare del software sviluppato»;
+
+-  «la proprietà della soluzione informatica oggetto del contratto farà
+   capo al committente o all’Amministrazione»;
+
+-  «al termine del contratto la proprietà intellettuale sulla soluzione
+   informatica oggetto di sviluppo competerà all’amministrazione
+   committente»;
+
+-  «tutti i diritti d’autore sul software sviluppato verranno
+   trasferiti, a seguito del completamento dell’opera,
+   all’amministrazione committente che ne diverrà titolare»;
+
+-  «tutti i diritti di sfruttamento economico sul software oggetto del
+   contratto competono all’amministrazione committente».
+
+Sempre tali linee guida danno indicazioni in tal senso prevedendo quanto
+segue:
+
+-  “Ogni amministrazione deve, in sede di negoziazione di un contratto
+   volto a commissionare lo sviluppo di un software, garantirsi,
+   all’esito dell’esecuzione del contratto, la piena ed esclusiva
+   titolarità di tutti i diritti sul software oggetto di sviluppo,
+   [...]”;
+
+-  “Un’amministrazione, ai sensi dell’articolo 69, deve egualmente
+   acquisire la totalità dei diritti di proprietà intellettuale e
+   industriale su eventuali personalizzazioni o moduli software
+   destinati a integrarsi o interfacciarsi con un software proprietario.
+   In tal caso, l’obbligo di cui all’art. 69 avrà ad oggetto
+   esclusivamente il modulo o la parte del software oggetto di sviluppo;
+   tale modulo dovrà quindi essere separato dal resto del software e
+   rilasciato secondo le modalità indicate in Sviluppo di software ex
+   novo (pagina 30), avendo cura di indicare la necessaria dipendenza
+   proprietaria nella documentazione.”;
+
+-  “La mancata acquisizione della titolarità dell’opera non può essere
+   utilizzata per ottenere condizioni economiche più vantaggiose, poiché
+   non costituisce comprovata ragione di carattere tecnico-economico ai
+   sensi dell’articolo 69 comma 2 del CAD.”.
+
+In ragione di quanto sopra, quindi, la soluzione pubblicata
+correttamente viene rilasciata come titolarità di Regione Piemonte, pur
+rimanendo i diritti morali in capo ai singoli sviluppatori che andranno
+richiamati nel file authors.txt incluso nella documentazione del
+prodotto e pubblicato sul code hosting repository (l’autore può chiedere
+l’anonimato ossia la pubblicazione senza indicazione del proprio nome o
+dietro pseudonimo).
+
+Per la documentazione tecnica del software, si intende utilizzare la
+licenza Creative Commons `CC-BY
+4.0 <https://spdx.org/licenses/CC-BY-4.0.html>`__\ **(codice SPDX:
+CC-BY-4.0)**. Questa licenza permette un riutilizzo semplice della
+documentazione e degli esempi di codice in essa contenuta.
