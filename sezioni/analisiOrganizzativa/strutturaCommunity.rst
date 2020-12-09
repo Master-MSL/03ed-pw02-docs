@@ -13,10 +13,9 @@ in piani operativi e a gestire, in modo coerente con i risultati attesi,
 le relazioni tra i vari stakeholder. Gli stakeholder da coinvolgere
 vengono definiti dallo Steering Committee.
 
-La community per il Taccuino dovrà essere un **sistema
-organizzato,**\ che si immagina strutturato\ **per funzioni:**
+La community per il Taccuino dovrà essere un **sistema organizzato**,  che si immagina strutturato  **per funzioni**:
 
--  *Team di Governance,*\ gruppo del software maintainer che definisce
+-  *Team di Governance,*  gruppo del software maintainer che definisce
    gli obiettivi operativi e ne controlla il raggiungimento;
 
 -  *team di produzione software* afferenti anche a enti differenti,
@@ -113,12 +112,8 @@ produzioni sopra descritte.
 
 Come delineato nel capitolo `Modalità di integrazione dei
 device <#_8dnz78msojq0>`__ i contributori possono essere vendor di
-device o liberi sviluppatori interessati al progetto.
-
- In generale, i contributi devono essere sottoposti a verifica formale
-da parte del software maintainer, che opera per conto del Titolare del
-software (Regione Piemonte), al fine di garantire un prodotto software
-in grado di fornire:
+device o liberi sviluppatori interessati al progetto.  In generale, i contributi devono essere sottoposti a verifica formale da parte del software maintainer, che opera per conto del Titolare del
+software (Regione Piemonte), al fine di garantire un prodotto software in grado di fornire:
 
 -  la corretta gestione dei dati personali e sanitari da un punto di
    vista della privacy
@@ -139,7 +134,7 @@ La **funzione della Sicurezza** ha il compito di fornire supporto per le
 tematiche specifiche che possono insorgere in tema di protezione dei
 dati personali e sanitari.
 
-Per le **funzioni trasversali**\ meno inerenti alla gestione del
+Per le **funzioni trasversali** meno inerenti alla gestione del
 software come ad esempio logistica, gestione delle risorse umane,
 amministrazione, la Community si avvale direttamente delle risorse dei
 singoli soggetti partecipanti alla stessa Community. Per esempio, le

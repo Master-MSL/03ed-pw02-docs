@@ -1,4 +1,5 @@
 Approccio per processi
+============================
 
 Adottare un approccio per processi su una struttura organizzativa come
 quella descritta per la community è di estrema utilità in considerazione

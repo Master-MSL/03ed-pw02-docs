@@ -14,7 +14,7 @@ I **processi di supporto** sono invece quei processi che consentono di
 rendere possibili quelli core e forniscono in generale “valore” ai
 processi delle altre categorie.
 
-I **processi di management**\ riguardano la pianificazione, il
+I **processi di management**  riguardano la pianificazione, il
 monitoraggio, l’elaborazione e il controllo delle risorse e delle
 strategie della Community.
 
@@ -67,11 +67,7 @@ individuati per ogni tipologia:
       -  gestione e valutazione dei contributi di questa tipologia
          particolare di “fornitore” della community.
 
-Tali contributi possono essere relativi a:
-
--  
-
-   -  
+      Tali contributi possono essere relativi a:
 
       -   modifiche software attraverso pull request
 
@@ -83,10 +79,9 @@ Tali contributi possono essere relativi a:
          la notifiche delle stesse secondo le modalità definite nelle
          **Responsible Disclosure Policy**
 
-Pull request e Issue vengono gestiti da strumenti che vengono resi
-disponibili nella piattaforma di code hosting GitHub. Per maggiori
-dettagli fare riferimento al capitolo `Strumenti di interazione per gli
-utenti della Community <#_hu9bddmya7ms>`__
+      Pull request e Issue vengono gestiti da strumenti che vengono resi
+      disponibili nella piattaforma di code hosting GitHub. Per maggiori
+      dettagli fare riferimento al capitolo `Strumenti di interazione per gli utenti della Community <#_hu9bddmya7ms>`__
 
 -  **processi di business network in uscita**
 
