@@ -13,6 +13,15 @@ Nei prossimi capitoli viene riportata l'analisi tecnica rispetto alla
 proposta di evoluzione considerando il contesto tecnologico in cui si
 colloca.
 
+In particolare viene considerato sia il contesto di integrazione con i device wearable e medicali sia il contesto di integrazione con il sistema regionale del Taccuino ad oggi esistente.
+
+.. toctree::
+  :maxdepth: 3
+  :caption: Indice dei contenuti
+
+  sezioni/analisiTecnica/mobile.rst
+  sezioni/analisiTecnica/architettura.rst
+
 
 
 
