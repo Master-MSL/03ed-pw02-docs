@@ -40,7 +40,7 @@ La community per il Taccuino dovrà essere un **sistema organizzato**,  che si i
    specifiche della sicurezza informatica
 
 .. |image33| figure:: /immagini/10000201000003AB0000022498A34E934FD1E638.png
-   :scale: 50 % 
+   :scale: 80 % 
    :alt: Struttura del sistema organizzativo della Community OS
    
    Struttura del sistema organizzativo della Community OS

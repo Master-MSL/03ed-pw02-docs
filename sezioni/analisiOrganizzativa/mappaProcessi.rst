@@ -21,7 +21,7 @@ strategie della Community.
 
 
 .. |image35| figure:: /immagini/100002010000033200000241BF93088A5D4DD213.png
-   :scale: 50 % 
+   :scale: 80 % 
    :alt: Mappa dei processi del Community OS
 
    Mappa dei processi del Community OS
