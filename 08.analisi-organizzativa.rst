@@ -8,7 +8,7 @@ In questa sezione viene descritto il sistema organizzativo della Community Open 
   :maxdepth: 3
   :caption: Indice dei contenuti
 
-  sezioni/analisiOganizzativa/obiettiviCommunity.rst
-  sezioni/analisiOganizzativa/strutturaCommunity.rst
-  sezioni/analisiOganizzativa/approccioProcessi.rst
-  sezioni/analisiOganizzativa/mappaProcessi.rst
+  sezioni/analisiOrganizzativa/obiettiviCommunity.rst
+  sezioni/analisiOrganizzativa/strutturaCommunity.rst
+  sezioni/analisiOrganizzativa/approccioProcessi.rst
+  sezioni/analisiOrganizzativa/mappaProcessi.rst
