@@ -28,6 +28,7 @@ Link a [Read-tha-Docs per compilazione](https://readthedocs.org/projects/taccuin
 Link a [Read-tha-Docs per consultazione](https://taccuino-community-os.readthedocs.io/)
 
 Link guida all'utilizzo del markup [reStructuredText](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
+
 Link guida all'utilizzo del markup [reST reference](https://docutils.sourceforge.io/rst.html)
 
 
