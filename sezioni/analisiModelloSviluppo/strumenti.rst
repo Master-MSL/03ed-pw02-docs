@@ -8,7 +8,7 @@ Nella mappa mentale sotto riportata, vengono indicati i vari strumenti
 che saranno analizzati più in dettaglio nei capitoli successivi.
 
 .. |image39| figure:: /immagini/1000020100000537000001B7495BA7821FA4B733.png
-   :scale: 80 % 
+   :scale: 60 % 
    :alt: Mappa dei processi del Community OS
 
    Mappa dei processi del Community OS
@@ -67,11 +67,10 @@ di accesso
       (comprensivo di esempi, modelli, etc)
 
 Il sito può contenere una sezione con documenti scritti su GitHub in
-formato .rst\ :sup:` [31]_` e visualizzati in modalità renderizzata html
+formato .rst  [31]_ e visualizzati in modalità renderizzata html
 sul sito, ad esempio attraverso l’uso di
-`Sphinx <http://sphinx-doc.org/>`__\ :sup:` [32]_` con un
-`theme <https://github.com/rtfd/sphinx_rtd_theme>`__ fornito da `Read
-the Docs <https://readthedocs.org/>`__\ :sup:` [33]_`.
+`Sphinx <http://sphinx-doc.org/>` [32]_ con un
+`theme <https://github.com/rtfd/sphinx_rtd_theme>`  fornito da `Read the Docs <https://readthedocs.org/>`  [33]_.
 
 La scrittura su GitHub consente di usufruire del *sistema di versioning*
 e degli strumenti di gestione di *pull requests* e di\ *issues* presenti
@@ -129,7 +128,7 @@ Piemonte**\ *\ (url di riferimento
 dell’organization*\ https://github.com/regione-piemonte\ *).*
 
 .. |image40| figure:: /immagini/10000201000005F6000003E7C1381834E73D0DAE.png
-   :scale: 80 % 
+   :scale: 50 % 
    :alt: GitHub - Organization Regione Piemonte
 
    GitHub - Organization Regione Piemonte
@@ -143,7 +142,7 @@ directory che segue le regole:
    installazioni e configurazioni. Viene descritta la scomposizione del
    prodotto nei vari componenti nel file *publiccode.yml*. Questo
    repository diventa il repository di cui effettuare il
-   “pin”\ :sup:` [34]_` per la reperibilità del prodotto stesso sulla
+   “pin” [34]_ per la reperibilità del prodotto stesso sulla
    pagina dell’organization.
 
 -  I **repository per ogni componente di prodotto autonoma**, che assume
@@ -166,18 +165,18 @@ componenti: app iOS e app Android**
 La documentazione indicata di seguito è individuata da CSI attraverso
 l’analisi di quanto pubblicato e disponibile sui repository pubblici di
 molti prodotti open source, da quanto indicato nelle linee guida di
-AgID\ :sup:` [35]_` e da quanto già estratto dall’analisi della
+AgID [35]_ e da quanto già estratto dall’analisi della
 documentazione di prodotti esterni:
 
--  **publiccode.yml:**\ è il descrittore del prodotto o della componente
+-  **publiccode.yml:** è il descrittore del prodotto o della componente
    di prodotto per la pubblicazione su Developers Italia. Se presente a
    livello di prodotto non necessita di essere anche definito a livello
    di singola componente.
 
--  **License.txt:**\ per ogni componente del prodotto SW indicare la
+-  **License.txt:** per ogni componente del prodotto SW indicare la
    licenza associata a tutti i file (verrà comunque indicato nell’header
    di ogni file il riferimento alla licenza adottata in formato
-   SPDX\ :sup:` [36]_`). Se necessario si deve prevedere l’indicazione
+   SPDX [36]_). Se necessario si deve prevedere l’indicazione
    di clausole aggiuntive a licenze standard (per standard si intendono
    quelle indicate nella lista spdx.org).
 
@@ -207,7 +206,7 @@ documentazione di prodotti esterni:
 -  **Manifest.txt**, che comprende l’elenco di tutte le librerie esterne
    usate con la sola indicazione del nome e della versione.
 
--  **Contributors.txt:**\ Elenco di enti pubblici o aziende che hanno
+-  **Contributors.txt:** Elenco di enti pubblici o aziende che hanno
    contribuito a vario titolo allo sviluppo del software.
 
 -  **Authors.txt:** il file Authors conterrà i nomi di persone (e
@@ -229,9 +228,9 @@ documentazione di prodotti esterni:
 -  **Maintainers.txt:** lista delle Aziende e modalità con cui viene
    mantenuto il codice (opzionale).
 
--  **Copyrights.txt:**\ indica chi è il detentore dei diritti d’autore.
+-  **Copyrights.txt:** indica chi è il detentore dei diritti d’autore.
 
--  **ThirdPartyNote.txt:**\ è l’elenco di tutti i software di terze
+-  **ThirdPartyNote.txt:** è l’elenco di tutti i software di terze
    parti utilizzati nel o dal software pubblicato. Tutta la
    documentazione aggiuntiva rispetto a quanto qui indicato può essere
    utilizzata eventualmente in caso di richiesta o necessità espressa da
@@ -247,8 +246,12 @@ meno di ognuno di questi file.
 
    GitHub - file principali
 
+
+
 Strumenti di interazione per gli utenti della Community
 -----------------------------------------------------------
+
+
 
 Gestione degli issue
 ~~~~~~~~~~~~~~~~~~~~~~~
@@ -265,21 +268,28 @@ differenti tipologie di richieste come ad esempio:
 
 Le segnalazioni inerenti vulnerabilità o bug relative alla sicurezza del
 software, in considerazione della delicatezza del tema trattato, vengono
-trattate in modo differente come descritto al capitolo `Gestione delle
-segnalazioni inerenti la sicurezza software e
-vulnerability <#_5gu151hbbsiw>`__.
+trattate in modo differente come descritto al capitolo `Gestione delle segnalazioni inerenti la sicurezza software e vulnerability <#_5gu151hbbsiw>`__.
 
 Di seguito viene riportato un esempio di repository di Developers Italia
 
-|image41|
+.. |image41| figure:: /immagini/1000020100000305000001E6A86C6F95D0BA799E.png
+   :scale: 50 % 
+   :alt: Esempio di repository di Developers Italia
+
+   Esempio di repository di Developers Italia
 
 Le issue vengono inseriti e gestite con funzionalità apposite della
 piattaforma.
 
 Di seguito viene mostrato un esempio su un repository di prova.
 
-|image42|\ Nel testo della issue si può utilizzare il linguaggio di
-`markdown <https://guides.github.com/features/mastering-markdown/>`__.
+.. |image42| figure:: /immagini/100002010000040A000003091A61995D8B0B0B22.png
+   :scale: 50 % 
+   :alt:  Repository di prova
+
+    Repository di prova
+
+Nel testo della issue si può utilizzare il linguaggio di `markdown <https://guides.github.com/features/mastering-markdown/>`__.
 
 Per personalizzare e standardizzare le informazioni inserite in una
 nuova issue è possibile inoltre configurare GitHub inserendo un file
@@ -301,48 +311,61 @@ Ad ogni issue può essere associato:
 
 -  *la relativa pull request.*
 
-Per quanto riguarda i **progetti**\ su GitHub, interessante è la sezione
+Per quanto riguarda i **progetti** su GitHub, interessante è la sezione
 della piattaforma dove è possibile definire un progetto e gestirne la
 pianificazione e il monitoraggio/controllo attraverso la scelta di
 template legati alla metodologia **Agile** riportati di seguito:
 
-|image43|
 
-|image44|
+.. |image43| figure:: /immagini/10000201000001010000017E093E3FC1DC131E33.png
+   :scale: 50 % 
+   :alt: Tipologie di Project Board
+
+   Tipologie di Project Board
+   
+.. |image44| figure:: /immagini/10000201000003790000019481AEB168D672B44D.png
+   :scale: 50 % 
+   :alt: Esempio di Project Board
+
+   Esempio di Project Board
 
 Per **ricerca gli issue** è disponibile un form di ricerca testuale con
 vari filtri relativi ai metadati correlati al issue (stato,
 assegnatario, autore, label, milestone, progetto, …)
 
-|image45|
+
+.. |image45| figure:: /immagini/10000201000003CA000001BBC0F603CB35257D44.png
+   :scale: 50 % 
+   :alt: Esempio di ricerca di issue
+
+   Esempio di ricerca di issue
 
 Le **modalità di auto-contribuzione** vengono espresse nei seguenti
 file:
 
--  *Contributing.txt:*\ linee guida sul modo con cui contribuire (un
-   esempio interesante è
-   https://github.com/italia/developers.italia.it/blob/master/CONTRIBUTING.md)
+-  *Contributing.txt:* linee guida sul modo con cui contribuire (un esempio interesante è quello proposto da `developers.italia.it <https://github.com/italia/developers.italia.it/blob/master/CONTRIBUTING.md>`__)
 
 -  *CodeOfConduct.md: documento che*\ definisce gli standard su come
    impegnarsi in una Community. Ha l’obiettivo di promuovere un ambiente
    inclusivo che rispetta tutti i contributi. Descrive inoltre le
    procedure per affrontare i problemi che possono sorgere tra i membri
    della community stessa. Alcuni esempi si possono trovare nei seguenti
-   link `Open Source
-   Guide <https://opensource.guide/code-of-conduct/>`__\ *(https://opensource.guide/code-of-conduct/)*\ e
-   `GitHub
-   Community <https://docs.github.com/en/github/site-policy/github-community-guidelines>`__
-   *(https://docs.github.com/en/github/site-policy/github-community-guidelines).*
+   link `Open Source Guide <https://opensource.guide/code-of-conduct/>`__ e `GitHub Community <https://docs.github.com/en/github/site-policy/github-community-guidelines>`_.
+
+
 
 Gestione delle pull request
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Inserire una pull request significa contribuire alla modifica del
 software presente all’interno di un repository GitHub, che usa il
-sistema di controllo di versione
-`Git <https://datasift.github.io/gitflow/IntroducingGitFlow.html>`__.
+sistema di controllo di versione `Git <https://datasift.github.io/gitflow/IntroducingGitFlow.html>`__.
 
-|image46|
+.. |image46| figure:: /immagini/10000201000001EE000002CDED689EF19359D93D.png
+   :scale: 50 % 
+   :alt: GitFlow
+
+   GitFlow
 
 In figura è riportato un esempio di linee di codice utilizzate su un
 software in cui nel tempo vengono gestite tre release opportunamente
@@ -404,6 +427,8 @@ attraverso gli opportuni template di configurazione.
 La ricerca della pull request sul portale segue le stesse logiche della
 ricerca implementata per gli issue.
 
+
+
 Gestione delle segnalazioni inerenti la sicurezza software e vulnerability
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
@@ -444,7 +469,13 @@ Nel caso dei progetti della PA centrale “PagoPA” e “IO”, la sezione
 suddetta è stata denominata “sicurezza” ed è linkata in fondo alla
 homepage del sito dei rispettivi progetti.
 
-|image47|
+.. |image47| figure:: /immagini/100002010000063100000399379C06D5FF5CC3DB.png
+   :scale: 50 % 
+   :alt: Sezione sicurezza di App IO
+
+   Strumenti di collaboration
+
+
 
 Editing condiviso con Wiki
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -453,16 +484,23 @@ In ogni repository di GitHub è inoltre disponibile un wiki, uno
 strumento facile e veloce per redigere documenti in modalità condivisa.
 
 Nell’esempio sono state create due pagine e in particolare la
-**Home**\ ha un collegamento ipertestuale alla pagina di prova
-**Pagina1**
+**Home** ha un collegamento ipertestuale alla pagina di prova **Pagina1**
 
-|image48|
+.. |image48| figure:: /immagini/10000201000003DD000001A1268673E4320169B3.png
+   :scale: 50 % 
+   :alt: Esempio di Wiki
+
+   Esempio di Wiki
 
 Le pagine possono essere scritte in vari linguaggi come ad esempio
 mediaWiki (conosciuto per Wikipedia), markdown (.md) e reStructuredText
 (.rst).
 
-|image49|
+.. |image49| figure:: /immagini/10000201000003D2000001BF2F8D869764C6F6D9.png
+   :scale: 50 % 
+   :alt: Linguaggi delle pagine Wiki
+
+   Linguaggi delle pagine Wiki
 
 Strumenti di collaboration
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -483,38 +521,51 @@ raggiungere.
 
 Nel primo caso la comunicazione prevede un interazione fra gli utenti
 non istantanea (del tipo “scrivo e aspetto”) ed è più strutturata. Nel
-**forum**\ è richiesto un gestore dei contenuti che vengono pubblicati e
+**forum** è richiesto un gestore dei contenuti che vengono pubblicati e
 pertanto lo strumento deve essere presidiato. Un esempio di tool open
 source è *Discourse*, utilizzato peraltro da Developers
-Italia.\ |image50|
+Italia.
+
+.. |imageC| figure:: /immagini/100002010000012400000058F047157144C9A970.png
+   :scale: 50 % 
+   :alt: Discourse
+
+   Discourse
+
 
 Altri tipi di strumento di comunicazione asincrona sono:
 
--  la **mailing list**\ ovvero l’invio di email su temi specifici ad una
+-  la **mailing list**  ovvero l’invio di email su temi specifici ad una
    lista di utenti che possono interagire fra di loro. Tali email
    vengono normalmente rese accessibili pubblicamente online e
    indicizzate.
 
--  la **newsletter**\ ovvero l’invio di email per la comunicazione di
+-  la **newsletter**  ovvero l’invio di email per la comunicazione di
    news (ad esempio nuove release software) in modalità unidirezionale
    verso gli utenti iscritti.
 
 E’ da notare come le piattaforme di gestione delle email tendano ad
 includere funzionalità tipiche sia di mailing list sia di newsletter.
 Esempi di strumenti open source sono: *Dada Mail, GNU Mailman, phpList e
-OpenEMM.*\ |image51|
+OpenEMM.* 
 
 Per le comunicazioni istantanee fra gli utenti si possono predisporre
 strumenti di comunicazione sincrona. Nel caso di una Community come
 quella del Taccuino si può prevedere che i Team di progetto siano utenti
-dello strumento di **chat**\ per favorire il coinvolgimento degli utenti
-e contributori. |image52|\ |image53|\ |image54|
+dello strumento di **chat**  per favorire il coinvolgimento degli utenti
+e contributori. 
 
 Developers Italia ad esempio utilizza il servizio SaaS di chat Slack
 (soluzione proprietaria).
 
 Alternative open source a questo strumento possono essere: *Mattermost,
-Zulip Chat e Rocket.Chat*.\ |image55|
+Zulip Chat e Rocket.Chat*. 
 
 E’ da notare come sul repository GitHub sia nativamente integrato lo
 strumento di chat *Gitter*.
+
+.. |imageC| figure:: /immagini/collaboration.jpg
+   :scale: 50 % 
+   :alt: Strumenti di collaboration
+
+   Strumenti di collaboration

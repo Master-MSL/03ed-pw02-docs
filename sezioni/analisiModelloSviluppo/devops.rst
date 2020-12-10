@@ -48,7 +48,7 @@ tipo, si può:
 
 
 .. |image38| figure:: /immagini/10000201000004080000020726CEF5FC1978DA5B.png
-   :scale: 80 % 
+   :scale: 60 % 
    :alt: Toolchain CSI-Piemonte
 
    Toolchain CSI-Piemonte
