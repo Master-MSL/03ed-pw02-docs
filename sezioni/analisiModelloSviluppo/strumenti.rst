@@ -49,7 +49,7 @@ Il sito è indirizzato sia agli **utenti esterni** alla Community per
 
 -  trovare supporto all’utilizzo
 
-sia agli **utenti interni**\ alla Community per trovare un unico punto
+sia agli **utenti interni** alla Community per trovare un unico punto
 di accesso
 
 -  alla documentazione del prodotto software
@@ -66,7 +66,7 @@ di accesso
    -  il workflow pubblico che descrive come interagire con il progetto
       (comprensivo di esempi, modelli, etc)
 
-Il sito può contenere una sezione con documenti scritti su GitHub in formato .rst  [31]_ e visualizzati in modalità renderizzata html sul sito, ad esempio attraverso l’uso di `Sphinx <http://sphinx-doc.org/>` [32]_ con un `theme <https://github.com/rtfd/sphinx_rtd_theme>`  fornito da `Read the Docs <https://readthedocs.org/>`  [33]_.
+Il sito può contenere una sezione con documenti scritti su GitHub in formato .rst  [31]_ e visualizzati in modalità renderizzata html sul sito, ad esempio attraverso l’uso di `Sphinx <http://sphinx-doc.org/>`__ [32]_ con un `theme <https://github.com/rtfd/sphinx_rtd_theme>`__  fornito da `Read the Docs <https://readthedocs.org/>`__  [33]_.
 
 La scrittura su GitHub consente di usufruire del *sistema di versioning*
 e degli strumenti di gestione di *pull requests* e di\ *issues* presenti
@@ -112,16 +112,13 @@ permettono la creazione di documenti relativamente complessi senza
 l’ausilio di nessuna interfaccia grafica, ma semplicemente tramite
 emacs, gedit o vim, per i quali esistono plugin per la syntax
 highlighting di Markdown, o **Atom**, il text editor modulare presentato
-da GitHub.\ ` <https://serverimg2.polito.it:9443/s/GX6yM7xNkYWmNyt#>`__
+da GitHub.
 
 Il prodotto software, pubblicato con licenza open source su
-**github.com,** dovrà essere presente internamente all’ **organization
-di riferimento**\ ovvero quella relativa all’organizzazione/ente
+**github.com,** dovrà essere presente internamente all’ **organization di riferimento** ovvero quella relativa all’organizzazione/ente
 proprietario del software.
 
-Nel caso del FSE e del Taccuino è pertanto la **Regione
-Piemonte**\ *\ (url di riferimento
-dell’organization*\ https://github.com/regione-piemonte\ *).*
+Nel caso del FSE e del Taccuino è pertanto la **Regione Piemonte** (url di riferimento dell’organization https://github.com/regione-piemonte). 
 
 .. |image40| figure:: /immagini/10000201000005F6000003E7C1381834E73D0DAE.png
    :scale: 50 % 
@@ -574,6 +571,6 @@ strumento di chat *Gitter*.
 
 .. [34] Per “pin” si intende l’operazione, prevista su GitHub e sui principali siti per la gestione dei repository pubblici, per effettuare dei link a singoli repository da mostrare sulla homepage dell’organization in modo da evidenziare il repository per gli utenti interessati.
 
-.. [35] `“Linee Guida AgID Riuso e Software Libero”, Agenzia per l’Italia  Digitale (AgID), 2019 <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-softwareper-pa-docs/it/>`___
+.. [35] `“Linee Guida AgID Riuso e Software Libero”, Agenzia per l’Italia  Digitale (AgID), 2019 <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-softwareper-pa-docs/it/>`__
 
-.. [36] `“SPDX – Software Package Data Exchange”, Linux Foundation <https://spdx.org/>`___
+.. [36] `“SPDX – Software Package Data Exchange”, Linux Foundation <https://spdx.org/>`__
