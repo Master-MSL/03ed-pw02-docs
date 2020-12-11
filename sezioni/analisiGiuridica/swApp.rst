@@ -9,25 +9,36 @@ i sistemi operativi più diffusi sul mercato: Android e iOS.
 Sistemi operativi mobile e linguaggi
 -------------------------------------------
 
+Sistema operativo Android
+~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 **Android** è un sistema operativo per dispositivi mobili sviluppato da
 Google e basato sul kernel Linux, progettato principalmente per sistemi
 embedded come smartphone e tablet, televisori (Android TV), automobili
 (Android Auto), orologi da polso (Wear OS), occhiali (Google Glass),
 etc. 
+
 E’ distribuito con **licenza Apache 2.0.**
+
 Le app sono le applicazioni software installabili su Android scaricabili
 sia dal catalogo ufficiale Google Play, sia da altri cataloghi, come
-l'Amazon Appstore di Amazon.com, o **F-Droid**\ che contiene solo
+l'Amazon Appstore di Amazon.com, o **F-Droid** che contiene solo
 applicazioni FOSS (Free and Open Source Software). Le app possono essere
-installate direttamente a partire da un file APK.\ 
+installate direttamente a partire da un file APK.
+
 Le applicazioni Android sono Java-based.
+
+Sistema operativo iOS
+~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 **iOS** è un sistema operativo sviluppato da Apple per iPhone, iPod
 touch e iPad. Da Settembre 2019, per i tablet iPad è stato sostituito da
 iPadOS.
+
 Come per macOS (sistema operativo per PC Apple), iOS è una derivazione
 di UNIX (famiglia BSD) ed è utilizzabile solo su dispositivi prodotti da
 Apple con SoC (System On a chip) della serie di processori Apple A.
+
 Dal 2008 è stato distribuito un SDK (software development kit) che
 permette agli sviluppatori di creare applicazioni (cosiddette app) per
 iPhone e iPod touch e di testarle in un simulatore. Tuttavia il
@@ -35,9 +46,11 @@ caricamento di una applicazione nei dispositivi è possibile solamente
 dopo aver pagato una tassa di iscrizione all'iOS Developer Program di
 Apple. Le app vengono pubblicate e scaricate dagli utenti dall’App
 Store.
+
 L'ambiente di sviluppo per iOS SDK è Xcode, disponibile solamente per il
 sistema operativo macOS. Le app possono essere sviluppate in Objective-C
 o Swift. 
+
 Gli sviluppatori sono liberi di definire qualsiasi prezzo per le loro
 app pubblicate su App Store, ma riceveranno il 70% del ricavo (il 30%
 viene trattenuto dalla Apple). Essi possono anche optare per pubblicare
@@ -52,7 +65,7 @@ app regionali per la gestione del Taccuino del FSE e prendendo come
 riferimento le indicazioni delle Linee guida Agid su acquisizione e
 riuso di software per le pubbliche amministrazioni al capitolo “3.5.3
 Scelta di una licenza”, si valuta il rilascio del software con licenza
-copyleft debole ** `EUPL 1.2 <https://spdx.org/licenses/EUPL-1.2.html>`__ (codice SPDX: EUPL-1.2 [51]_ )** a meno di utilizzo in corso di
+copyleft debole **EUPL 1.2** `(codice SPDX[51]_: EUPL-1.2) <https://spdx.org/licenses/EUPL-1.2.html>`__ a meno di utilizzo in corso di
 sviluppo di librerie irrinunciabili rilasciate con licenze AGPL, GPL 2 o
 GPL 3, che, in ragione delle caratteristiche di viralità sopra esposte,
 richiederebbero una ri-valutazione relativa al rilascio del sistema nel
@@ -246,6 +259,6 @@ Per la documentazione tecnica del software, si intende utilizzare la
 licenza Creative Commons `CC-BY 4.0 <https://spdx.org/licenses/CC-BY-4.0.html>`__\ **(codice SPDX: CC-BY-4.0)**. Questa licenza permette un riutilizzo semplice della
 documentazione e degli esempi di codice in essa contenuta.
 
-.. [51] **Codice sPDX è un codice identificativo univoco delle licenze riconosciute dalla OSI**
+.. [51] Codice SPDX è un codice identificativo univoco delle licenze riconosciute dalla OSI
 
-.. [52] **Vi è trasferimento dei diritti di utilizzazione economica del software creato su commissione da CSI-Piemonte a Regione Piemonte**
+.. [52] Vi è trasferimento dei diritti di utilizzazione economica del software creato su commissione da CSI-Piemonte a Regione Piemonte

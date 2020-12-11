@@ -31,7 +31,7 @@ seguito esposto.
 
 In considerazione della clausola 2 del capitolo “Terms and conditions
 for copying, distribution and modification” della licenza GPLv2
-associata a CentOS [47]__ un software applicativo verticale costituito da componenti web (web application, web service, etc.) che viene eseguito in un ambiente di runtime costituito da un application server (LGPL), che a sua volta viene eseguito su un sistema operativo (GPLv2), non viene viralizzato da quest’ultimo non essendo in alcun modo un’opera derivata.
+associata a CentOS [47]_ un software applicativo verticale costituito da componenti web (web application, web service, etc.) che viene eseguito in un ambiente di runtime costituito da un application server (LGPL), che a sua volta viene eseguito su un sistema operativo (GPLv2), non viene viralizzato da quest’ultimo non essendo in alcun modo un’opera derivata.
 
 .. [46] La pila (o stack), in informatica, è un tipo di dato astratto che viene usato in diversi contesti per riferirsi a strutture dati, le cui modalità di accesso ai dati in essa contenuti seguono una modalità LIFO (Last In First Out), ovvero tale per cui i dati vengono estratti (letti) in ordine rigorosamente inverso rispetto a quello in cui sono stati inseriti (scritti). fonte: https://it.wikipedia.org/wiki/Pila_(informatica)
 
