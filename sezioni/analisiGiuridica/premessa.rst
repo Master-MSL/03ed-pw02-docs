@@ -9,7 +9,7 @@ essere protetto. Gli strumenti a tutela del software sono:
    d'autore il codice sorgente e binario; si possono includere i lavori
    preparatori ma non gli algoritmi (l’algoritmo è l’idea utilizzata per
    descrivere la logica utile all’automazione di un processo e non la
-   forma in cui viene realizzato)` [37]_`.
+   forma in cui viene realizzato) [37]_.
 
 -  l’istituto del **brevetto**: strumento che tutela il programma come
    metodo e quindi da un punto di vista della sequenza delle fasi che
@@ -18,7 +18,7 @@ essere protetto. Gli strumenti a tutela del software sono:
 
 Il brevetto si applica ad una soluzione (ad un problema tecnico) che ha
 carattere di *novità, originalità, liceità e
-industrialità.*` [38]_`
+industrialità.* [38]_
 
 A questi strumenti di tutela si possono affiancare:
 
@@ -34,7 +34,7 @@ A questi strumenti di tutela si possono affiancare:
 -  **modelli e disegni industriali** (art. 31 e segg. e segg. CPI);
 
 -  **segreto commerciale**, inteso come “valore esclusivo” e/o
-   *know-how* (art. 39 TRIPS` [39]_`, Direttiva UE UE 2016/943,
+   *know-how* (art. 39 TRIPS [39]_, Direttiva UE UE 2016/943,
    art. 98 CPI) e concorrenza sleale (art. 99 CPI, artt. 2595-2601
    c.c.); in aggiunta sono strettamente correlati i concetti di:
 
@@ -65,7 +65,7 @@ concesse alcune facoltà/diritti a determinate condizioni. Esistono:
    esecuzione, studio, ridistribuzione e modifica sotto determinate
    condizioni. In base a come vengono declinate le condizioni di
    modifica e ridistribuzione esistono diverse categorie di licenze
-   libere` [40]_`:
+   libere [40]_:
 
    -  permissive (o no copyleft)
 
@@ -127,7 +127,7 @@ all’utilizzo o alla modifica dell’opera di ingegno.
 
 La **licenza copyleft** ha la clausola copyleft al fine di assicurare
 che il codice resti libero o aperto, prevedendo condizioni alla
-ridistribuzione dei prodotti derivati (es. GPL` [41]_`).
+ridistribuzione dei prodotti derivati (es. GPL [41]_).
 
 La caratteristica “copyleft” delle licenze viene poi qualificata “forte”
 o “debole” a seconda dell’ampiezza del vincolo stesso applicato alla
@@ -152,7 +152,7 @@ utilizzano librerie rilasciate sotto licenza copyleft debole.
 
 Questa licenza mantiene intatta la viralità per quanto riguarda
 modifiche al codice originario, ma ne permette l’integrazione esterna da
-parte di un software distribuito sotto qualunque licenza.` [42]_`
+parte di un software distribuito sotto qualunque licenza. [42]_
 
 Con "**copyleft forte**" si intendono quelle licenze per cui tutte le
 opere derivate, nella più ampia concezione del termine, ereditano la
@@ -162,15 +162,15 @@ tutti o quasi i codici che in qualche modo interagiscono con il software
 originario per produrre l'eventuale programma eseguibile binario. La
 licenza copyleft forte diventa anche “viralizzante” se il codice
 protetto da copyleft viene combinato con codice non protetto da
-copyleft.` [43]_` .
+copyleft. [43]_ .
 
 Si intende con “\ **Network copyleft**\ ”, quel tipo di licenze per cui
 è necessario rendere disponibile il codice sorgente del programma
-tramite un servizio `on demand <https://it.wikipedia.org/wiki/On_demand_(informatica)>`__
+tramite un `servizio on demand <https://it.wikipedia.org/wiki/On_demand_(informatica)>`__
 online, collegandosi al server presso il quale il software è eseguito
 come servizio (`Software as a service o “SaaS” <https://it.wikipedia.org/wiki/Software_as_a_service>`__).
 Risulta quindi ancora più restrittivo e quindi più viralizzante del
-copyleft forte.` [44]_`
+copyleft forte. [44]_
 
 In base alle tipologie di licenze sopra descritte, alle caratteristiche
 di ognuna e in particolare alla clausola di copyleft, è evidente come la
@@ -211,7 +211,7 @@ aspetti:
 
 In generale è interessante quanto riportato in modo sintetico nelle
 linee guida Agid sull’acquisizione e il riuso del software per la
-PA` [45]_` (Allegato C, cap. “Compatibilità tra le licenze”) che
+PA [45]_ (Allegato C, cap. “Compatibilità tra le licenze”) che
 per comodità si riporta di seguito:
 
 “\ *La compatibilità delle licenze dipende dalla cessione dei diritti
@@ -253,22 +253,42 @@ licenza unica, la matrice di compatibilità è la seguente:*
    componenti a sé stanti solo con altri componenti rilasciati con
    licenza copyleft compatibile.*\ ”
 
-.. [37] Secondo l’art. 2, c. 8 della L. 633/1941 (aggiornata dalla L.37/2019), n. 37 LDA, sono tutelati «\ \ *i programmi per elaboratore, in qualsiasi forma espressi purché originali quale risultato di creazione intellettuale dell'autore. Restano esclusi dalla tutela accordata dalla presente legge le idee e i principi che stanno alla base di qualsiasi elemento di un programma, compresi quelli alla base delle sue interfacce. Il termine programma comprende anche il materiale preparatorio per la progettazione del programma stesso.*\ \ »
+.. [37] Secondo l’art. 2, c. 8 della L. 633/1941 (aggiornata dalla L.37/2019), n. 37 LDA, sono tutelati «\ \ *i programmi 
+per elaboratore, in qualsiasi forma espressi purché originali quale risultato di creazione intellettuale dell'autore. 
+Restano esclusi dalla tutela accordata dalla presente legge le idee e i principi che stanno alla base di qualsiasi 
+elemento di un programma, compresi quelli alla base delle sue interfacce. Il termine programma comprende anche il 
+materiale preparatorio per la progettazione del programma stesso.*\ \ »
 
-.. [38] *Il perimetro della brevettabilità del software è in evoluzione anche se formalmente non è brevettabile, ai sensi dell’art. 52 della Convenzione del Brevetto Europeo (Trattato internazionale che ha istituito l'Organizzazione Europea dei Brevetti al fine di offrire un brevetto unico valido in tutti gli Stati) e dell’art. 45 del Codice della Proprietà industriale (D. Lgs. 10/2/2005, n. 30). Si sta però affermando l’interpretazione secondo cui sono brevettabili soluzioni che integrino un dispositivi/apparecchiature e software ritenuto innovativo, nuovo e idoneo a produrre un “effetto tecnico” che è “ulteriore” rispetto alla mera interazione con la macchina.*
+.. [38] *Il perimetro della brevettabilità del software è in evoluzione anche se formalmente non è brevettabile, ai sensi 
+dell’art. 52 della Convenzione del Brevetto Europeo (Trattato internazionale che ha istituito l'Organizzazione Europea 
+dei Brevetti al fine di offrire un brevetto unico valido in tutti gli Stati) e dell’art. 45 del Codice della Proprietà 
+industriale (D. Lgs. 10/2/2005, n. 30). Si sta però affermando l’interpretazione secondo cui sono brevettabili soluzioni 
+che integrino un dispositivi/apparecchiature e software ritenuto innovativo, nuovo e idoneo a produrre un “effetto tecnico” 
+che è “ulteriore” rispetto alla mera interazione con la macchina.*
 
-.. [39] Agreement on Trade Related Aspects of Intellectual Property Rights, trattato internazionale promosso dall'Organizzazione mondiale del commercio, meglio conosciuta WTO, al fine di fissare lo standard per la tutela della proprietà intellettuale, ufficializzato a Marrakech nel 1994, al termine del negoziato Uruguay Round. (fonte: https://it.wikipedia.org/wiki/Accordo_TRIPs)
+.. [39] Agreement on Trade Related Aspects of Intellectual Property Rights, trattato internazionale promosso 
+dall'Organizzazione mondiale del commercio, meglio conosciuta WTO, al fine di fissare lo standard per la tutela della 
+proprietà intellettuale, ufficializzato a Marrakech nel 1994, al termine del negoziato Uruguay 
+Round. (fonte: https://it.wikipedia.org/wiki/Accordo_TRIPs)
 
 .. [40] https://it.wikipedia.org/wiki/Licenza_libera
 
-.. [41] `https://it.wikipedia.org/wiki/GNU_General_Public_License#:~:text=La%20GNU%20General%20Public%20License,per%20il%20sistema%20operativo%20GNU. <https://it.wikipedia.org/wiki/GNU_General_Public_License#:~:text=La%20GNU%20General%20Public%20License,per%20il%20sistema%20operativo%20GNU.>`__
+.. [41] `https://it.wikipedia.org/wiki/GNU_General_Public_License <https://it.wikipedia.org/wiki/GNU_General_Public_License>`__
 
-.. [42] Ad esempio la MPL 2.0 definisce “\ \ *Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work*\ \ ”
+.. [42] Ad esempio la MPL 2.0 definisce “\ \ *Permissions of this weak copyleft license are conditioned on making 
+available source code of licensed files and modifications of those files under the same license (or in certain cases, 
+one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of 
+patent rights. However, a larger work using the licensed work may be distributed under different terms and without 
+source code for files added in the larger work*\ \ ”
 
-.. [43] Ad esempio la GNU GPLv3 riporta ”\ \ *Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights*\ \ ”.
+.. [43] Ad esempio la GNU GPLv3 riporta ”\ \ *Permissions of this strong copyleft license are conditioned on making 
+available complete source code of licensed works and modifications, which include larger works using a licensed work, 
+under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of 
+patent rights*\ \ ”.
 
-.. [44] * Ad esempio la GNU AGPLv3, oltre a quanto indicato nella GPL3, riporta quanto segue: “When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available”.*
+.. [44] * Ad esempio la GNU AGPLv3, oltre a quanto indicato nella GPL3, riporta quanto segue: “When a modified version 
+is used to provide a service over a network, the complete source code of the modified version must be made available”.*
 
-.. [45] `https://www.agid.gov.it/sites/default/files/repository_files/lg-acquisizione-e-riuso-software-per-pa-docs_pubblicata.pdf <https://www.agid.gov.it/sites/default/files/repository_files/lg-acquisizione-e-riuso-software-per-pa-docs_pubblicata.pdf>`__
+.. [45] `https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/index.html <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/index.html>`__
 
 

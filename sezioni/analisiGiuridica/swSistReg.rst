@@ -7,83 +7,39 @@ Principali tecnologie e librerie
 Le principali tecnologie utilizzate per la realizzazione del sistema
 regionale sono:
 
--  linguaggio **JAVA**:
+-  linguaggio **JAVA**: Un linguaggio di programmazione ad alto livello, orientato agli oggetti e a tipizzazione statica, che si appoggia sull'omonima piattaforma      software di esecuzione, specificamente progettato per essere il più possibile indipendente dalla piattaforma hardware di esecuzione (tramite compilazione in bytecode prima e interpretazione poi da parte di una JVM). Attualmente esistono per lo sviluppo due tipologie di jdk (java development kit):
 
-Un linguaggio di programmazione ad alto livello, orientato agli oggetti
-e a tipizzazione statica, che si appoggia sull'omonima piattaforma
-software di esecuzione, specificamente progettato per essere il più
-possibile indipendente dalla piattaforma hardware di esecuzione (tramite
-compilazione in bytecode prima e interpretazione poi da parte di una
-JVM).
+  -  Oracle OpenJDK 11: rilasciato con permissive `GPLv2 license agreement and related licenses <http://openjdk.java.net/legal/gplv2+ce.html>`__.
 
-Attualmente esistono per lo sviluppo due tipologie di jdk (java
-development kit):
+  -  Oracle JDK 11: JDK binario rilasciato con `Oracle Technology Network(OTN) License Agreement <https://www.oracle.com/technetwork/java/javase/terms/license/javase-license.html>`__ per Oracle Java SE. The OTN License permette il download senza pagamento di fee per uso in contesti diversi dalla produzione (es: dimostrazioni e prototipi, etc).
 
--  Oracle OpenJDK 11: rilasciato con permissive `GPLv2 license agreement and related licenses <http://openjdk.java.net/legal/gplv2+ce.html>`__.
+ Questa suddivisione parte dalla jdk 11 e dalle sottoversioni della jdk 8
+ updates 211.
 
--  Oracle JDK 11: JDK binario rilasciato con `Oracle Technology Network(OTN) License Agreement <https://www.oracle.com/technetwork/java/javase/terms/license/javase-license.html>`__
-   per Oracle Java SE. The OTN License permette il download senza
-   pagamento di fee per uso in contesti diversi dalla produzione (es:
-   dimostrazioni e prototipi, etc).
+-  framework **Apache Struts**: un framework open source java della Apache Foundation rilasciato con licenza **Apache 2.0**\ per lo sviluppo di applicazioni web su piattaforma Java EE conformi al design pattern MVC (Model View Controller)
 
-Questa suddivisione parte dalla jdk 11 e dalle sottoversioni della jdk 8
-updates 211.
+-  framework: **Spring**: un framework open source java rilasciato con licenza **Apache 2.0** utilizzato per lo sviluppo di componenti di backend con accesso al DBMS.
 
--  framework **Apache Struts**\ 
+-  framework java per l’esposizione di servizi XML su protocollo SOAP realizzati dalla Apache Foundation e rilasciati con licenza **Apache 2.0** : **Apache CXF e Apache AXIS.**
 
-un framework open source java della Apache Foundation rilasciato con
-licenza **Apache 2.0**\ per lo sviluppo di applicazioni web su
-piattaforma Java EE conformi al design pattern MVC (Model View
-Controller)
+-  framework Jboss **restEasy**\ per l’esposizione di RESTful Web Services. E’ un’implementazione rilasciata con licenza **Apache 2.0** di Jakarta RESTful Web Services, una specifica della Eclipse Foundation per Java API di tipo RESTful Web Services over the HTTP protocol.\
 
--  framework: **Spring**\ 
+-  linguaggio SQL per l’accesso al DB per effettuare diverse tipologie di operazioni:
 
-un framework open source java rilasciato con licenza **Apache 2.0**
-utilizzato per lo sviluppo di componenti di backend con accesso al DBMS.
+   -  DDL (Data Definition Language): consente di creare e modificare schemi di database;\
 
--  framework java per l’esposizione di servizi XML su protocollo SOAP
-   realizzati dalla Apache Foundation e rilasciati con licenza **Apache
-   2.0** : **Apache CXF e Apache AXIS.**
+   -  DML (Data Manipulation Language): consente di inserire, modificare e gestire i dati memorizzati;
 
--  framework Jboss **restEasy**\ per l’esposizione di RESTful Web
-   Services. E’ un’implementazione rilasciata con licenza **Apache 2.0**
-   di Jakarta RESTful Web Services, una specifica della Eclipse
-   Foundation per Java API di tipo RESTful Web Services over the HTTP
-   protocol.\
-
--  linguaggio SQL per l’accesso al DB per effettuare diverse tipologie
-   di operazioni:
-
-   -  DDL (Data Definition Language): consente di creare e modificare
-      schemi di database;\
-
-   -  DML (Data Manipulation Language): consente di inserire, modificare
-      e gestire i dati memorizzati;
-
-   -  DQL (Data Query Language): consente di interrogare i dati
-      memorizzati
+   -  DQL (Data Query Language): consente di interrogare i dati memorizzati
 
 -  linguaggio PL/pgSQL specifico per realizzare store procedure
 
--  linguaggi per la generazione delle interfacce utente delle web
-   application fruibili da web browser
+-  linguaggi per la generazione delle interfacce utente delle web application fruibili da web browser. l'HyperText Markup Language è un linguaggio di markup utilizzato
+principalmente per il disaccoppiamento della struttura logica di una pagina web (definita appunto dal markup) e la sua rappresentazione, gestita tramite gli stili CSS. L'HTML è un **linguaggio di pubblico dominio**, la cui sintassi è stabilita dal World Wide Web Consortium (W3C). La versione attuale è la 5 rilasciata nell'ottobre 2014, nata per fornire direttamente le funzionalità che in precedenza erano fruibili tramite estensioni proprietarie all'esterno dei browser (come Adobe Flash e simili) e per garantire una maggiore compatibilità tra i diversi browser, indipendentemente dalla piattaforma software utilizzata, e principalmente mirata all'espansione dei dispositivi mobili.
 
-l'HyperText Markup Language è un linguaggio di markup utilizzato
-principalmente per il disaccoppiamento della struttura logica di una
-pagina web (definita appunto dal markup) e la sua rappresentazione,
-gestita tramite gli stili CSS.\
 
-L'HTML è un **linguaggio di pubblico dominio**, la cui sintassi è
-stabilita dal World Wide Web Consortium (W3C). La versione attuale è la
-5 rilasciata nell'ottobre 2014, nata per fornire direttamente le
-funzionalità che in precedenza erano fruibili tramite estensioni
-proprietarie all'esterno dei browser (come Adobe Flash e simili) e per
-garantire una maggiore compatibilità tra i diversi browser,
-indipendentemente dalla piattaforma software utilizzata, e
-principalmente mirata all'espansione dei dispositivi mobili.
-
-Considerazioni sulla pubblicazione del software del sistema regionale
-del FSE
+Considerazioni sulla pubblicazione del software del sistema regionale del FSE
+--------------------------------------------------------------------------------
 
 Il sistema regionale del FSE è basato su software sviluppato fin dal
 2010.
@@ -206,415 +162,24 @@ Verifiche tecniche della scrittura del codice sorgente
 Si propone di seguito una possibile **checklist di verifiche in uso
 presso il CSI-Piemonte**
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Elementi da   | **Effettuata**  | **Esito**       | **Note in       |
-| verificare**    |                 |                 | merito          |
-|                 |                 |                 | all'esito**     |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica della  |                 |                 |                 |
-| presenza di     |                 |                 |                 |
-| tutti i file    |                 |                 |                 |
-| utili ad        |                 |                 |                 |
-| effettuare il   |                 |                 |                 |
-| build del       |                 |                 |                 |
-| prodotto        |                 |                 |                 |
-| software        |                 |                 |                 |
-| (laddove        |                 |                 |                 |
-| previsto).      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica        |                 |                 |                 |
-| presenza di     |                 |                 |                 |
-| riferimenti a   |                 |                 |                 |
-| server e/o      |                 |                 |                 |
-| informazioni    |                 |                 |                 |
-| dell'infrastrut |                 |                 |                 |
-| tura            |                 |                 |                 |
-| CSI             |                 |                 |                 |
-| internamente al |                 |                 |                 |
-| codice o in     |                 |                 |                 |
-| file di         |                 |                 |                 |
-| properties      |                 |                 |                 |
-| specifici, con  |                 |                 |                 |
-| particolare     |                 |                 |                 |
-| attenzione agli |                 |                 |                 |
-| aspetti di      |                 |                 |                 |
-| sicurezza       |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica che    |                 |                 |                 |
-| non siano       |                 |                 |                 |
-| presenti        |                 |                 |                 |
-| informazioni    |                 |                 |                 |
-| relative a      |                 |                 |                 |
-| credenziali     |                 |                 |                 |
-| applicative o   |                 |                 |                 |
-| infrastruttural |                 |                 |                 |
-| i               |                 |                 |                 |
-| utili al        |                 |                 |                 |
-| funzionamento   |                 |                 |                 |
-| del prodotto in |                 |                 |                 |
-| ambiente CSI    |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica che i  |                 |                 |                 |
-| servizi web     |                 |                 |                 |
-| (SOAP o REST)   |                 |                 |                 |
-| acceduti a      |                 |                 |                 |
-| runtime dal     |                 |                 |                 |
-| software non    |                 |                 |                 |
-| abbiano         |                 |                 |                 |
-| esplicitato     |                 |                 |                 |
-| l'end-point ma  |                 |                 |                 |
-| siano presenti  |                 |                 |                 |
-| dei placeholder |                 |                 |                 |
-| che ne          |                 |                 |                 |
-| indichino la    |                 |                 |                 |
-| necessità di    |                 |                 |                 |
-| sostituzione in |                 |                 |                 |
-| fase di         |                 |                 |                 |
-| runtime.        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica che    |                 |                 |                 |
-| eventuali       |                 |                 |                 |
-| riferimenti a   |                 |                 |                 |
-| chiamate RPC    |                 |                 |                 |
-| (non Web        |                 |                 |                 |
-| Service) a      |                 |                 |                 |
-| servizi         |                 |                 |                 |
-| esterni, nel    |                 |                 |                 |
-| codice o nei    |                 |                 |                 |
-| file di         |                 |                 |                 |
-| properties,     |                 |                 |                 |
-| siano generici  |                 |                 |                 |
-| (nessun         |                 |                 |                 |
-| riferimento a   |                 |                 |                 |
-| server reali)   |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica che    |                 |                 |                 |
-| nel caso di     |                 |                 |                 |
-| dipendenze da   |                 |                 |                 |
-| servizi non     |                 |                 |                 |
-| pubblicabili su |                 |                 |                 |
-| repertorio      |                 |                 |                 |
-| pubblico        |                 |                 |                 |
-| vengano         |                 |                 |                 |
-| descritte e     |                 |                 |                 |
-| documentate le  |                 |                 |                 |
-| interfacce di   |                 |                 |                 |
-| colloquio con   |                 |                 |                 |
-| servizio fruito |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica che le |                 |                 |                 |
-| firme dei       |                 |                 |                 |
-| servizi web     |                 |                 |                 |
-| esposti dal     |                 |                 |                 |
-| software (sia   |                 |                 |                 |
-| per uso interno |                 |                 |                 |
-| che per uso     |                 |                 |                 |
-| esterno) siano  |                 |                 |                 |
-| dichiarate e    |                 |                 |                 |
-| documentate.    |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica della  |                 |                 |                 |
-| qualità del     |                 |                 |                 |
-| software        |                 |                 |                 |
-| tramite         |                 |                 |                 |
-| strumenti       |                 |                 |                 |
-| automatici (es. |                 |                 |                 |
-| **SonarQube**)  |                 |                 |                 |
-| e conseguenti   |                 |                 |                 |
-| interventi di   |                 |                 |                 |
-| revisione​       |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Revisione       |                 |                 |                 |
-| totale dei      |                 |                 |                 |
-| commenti        |                 |                 |                 |
-| interni al      |                 |                 |                 |
-| codice sorgente |                 |                 |                 |
-| sia nel         |                 |                 |                 |
-| rispetto        |                 |                 |                 |
-| del\ **Code Of  |                 |                 |                 |
-| Conduct**\ sele |                 |                 |                 |
-| zionato         |                 |                 |                 |
-| durante la fase |                 |                 |                 |
-| iniziale sia    |                 |                 |                 |
-| per la          |                 |                 |                 |
-| leggibilità da  |                 |                 |                 |
-| parte dei       |                 |                 |                 |
-| soggetti        |                 |                 |                 |
-| interessati.​    |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Ricompilazione  |                 |                 |                 |
-| del software,   |                 |                 |                 |
-| test e deploy   |                 |                 |                 |
-| per poter       |                 |                 |                 |
-| effettuare la   |                 |                 |                 |
-| verifica        |                 |                 |                 |
-| funzionale di   |                 |                 |                 |
-| coerenza tra il |                 |                 |                 |
-| software già    |                 |                 |                 |
-| rilasciato a    |                 |                 |                 |
-| servizio e      |                 |                 |                 |
-| quello          |                 |                 |                 |
-| "revisionato"   |                 |                 |                 |
-| (nel caso di    |                 |                 |                 |
-| intervento di   |                 |                 |                 |
-| modifica).      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Sono state      |                 |                 |                 |
-| effettuate le   |                 |                 |                 |
-| verifiche di    |                 |                 |                 |
-| vulnerabilità   |                 |                 |                 |
-| del software    |                 |                 |                 |
-| tramite gli     |                 |                 |                 |
-| strumenti messi |                 |                 |                 |
-| a disposizione  |                 |                 |                 |
-| dall’azienda    |                 |                 |                 |
-| (es. **IBM      |                 |                 |                 |
-| Appscan**\ per  |                 |                 |                 |
-| verifiche       |                 |                 |                 |
-| statiche e      |                 |                 |                 |
-| dinamiche) e    |                 |                 |                 |
-| sono state      |                 |                 |                 |
-| valutate le     |                 |                 |                 |
-| conseguenze ed  |                 |                 |                 |
-| i rischi a      |                 |                 |                 |
-| seguito della   |                 |                 |                 |
-| pubblicazione.  |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Sono stati      |                 |                 |                 |
-| eseguiti i test |                 |                 |                 |
-| di carico e gli |                 |                 |                 |
-| stress test e   |                 |                 |                 |
-| si è provveduto |                 |                 |                 |
-| alla            |                 |                 |                 |
-| predisposizione |                 |                 |                 |
-| della           |                 |                 |                 |
-| documentazione  |                 |                 |                 |
-| per la          |                 |                 |                 |
-| pubblicazione   |                 |                 |                 |
-| dei risultati.  |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica della  |                 |                 |                 |
-| assenza di dati |                 |                 |                 |
-| sensibili       |                 |                 |                 |
-| inseriti nei    |                 |                 |                 |
-| file del        |                 |                 |                 |
-| sorgente,       |                 |                 |                 |
-| inseriti anche  |                 |                 |                 |
-| solo al fine di |                 |                 |                 |
-| effettuare test |                 |                 |                 |
-| automatici​      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Nel caso siano  |                 |                 |                 |
-| gestiti con     |                 |                 |                 |
-| software dei    |                 |                 |                 |
-| dati sensibili  |                 |                 |                 |
-| si è            |                 |                 |                 |
-| documentata la  |                 |                 |                 |
-| modalità di     |                 |                 |                 |
-| gestione del    |                 |                 |                 |
-| dato (cifratura |                 |                 |                 |
-| lato DB o       |                 |                 |                 |
-| software,       |                 |                 |                 |
-| etc…). In caso  |                 |                 |                 |
-| di presenza di  |                 |                 |                 |
-| gestione di     |                 |                 |                 |
-| dati sensibili, |                 |                 |                 |
-| è obbligatorio  |                 |                 |                 |
-| pubblicare      |                 |                 |                 |
-| documenti       |                 |                 |                 |
-| relativi alla   |                 |                 |                 |
-| gestione del    |                 |                 |                 |
-| dato stesso.    |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| *Valutazione    |                 |                 |                 |
-| :*\ traduzione  |                 |                 |                 |
-| del testo della |                 |                 |                 |
-| documentazione  |                 |                 |                 |
-| in lingua       |                 |                 |                 |
-| inglese​         |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Sono presenti o |                 |                 |                 |
-| sono stati      |                 |                 |                 |
-| realizzati gli  |                 |                 |                 |
-| script di       |                 |                 |                 |
-| installazione e |                 |                 |                 |
-| configurazione  |                 |                 |                 |
-| o sono stati    |                 |                 |                 |
-| messi a         |                 |                 |                 |
-| disposizione    |                 |                 |                 |
-| dei container   |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Sono presenti o |                 |                 |                 |
-| sono stati      |                 |                 |                 |
-| realizzati      |                 |                 |                 |
-| degli script    |                 |                 |                 |
-| per             |                 |                 |                 |
-| l'esecuzione di |                 |                 |                 |
-| test automatici |                 |                 |                 |
-| a seguito della |                 |                 |                 |
-| installazione   |                 |                 |                 |
-| del software su |                 |                 |                 |
-| nuovi ambienti. |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Pubblicazione   |                 |                 |                 |
-| su GitLab       |                 |                 |                 |
-| interno (se già |                 |                 |                 |
-| adottato) e     |                 |                 |                 |
-| collegamento    |                 |                 |                 |
-| con GitHub per  |                 |                 |                 |
-| la              |                 |                 |                 |
-| riconciliazione |                 |                 |                 |
-| periodica delle |                 |                 |                 |
-| release​.        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Eliminazione    |                 |                 |                 |
-| dei file        |                 |                 |                 |
-| sorgenti non    |                 |                 |                 |
-| utilizzati​      |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Eliminazione    |                 |                 |                 |
-| delle librerie  |                 |                 |                 |
-| di terze parti  |                 |                 |                 |
-| non utilizzate  |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica        |                 |                 |                 |
-| presenza del    |                 |                 |                 |
-| documento di    |                 |                 |                 |
-| manuale utente  |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Verifica        |                 |                 |                 |
-| presenza        |                 |                 |                 |
-| laddove utile   |                 |                 |                 |
-| (o necessario)  |                 |                 |                 |
-| della           |                 |                 |                 |
-| descrizione     |                 |                 |                 |
-| dell’hardware   |                 |                 |                 |
-| minimo          |                 |                 |                 |
-| occorrente per  |                 |                 |                 |
-| il corretto     |                 |                 |                 |
-| funzionamento   |                 |                 |                 |
-| delle           |                 |                 |                 |
-| componenti      |                 |                 |                 |
-| software.       |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
+.. |imagec1| figure:: /immagini/check1.jpg
+   :scale: 80 % 
+   :alt: CheckList per scrittura codice pubblicabile in OS
 
-Verifiche tecniche propedeutiche alla pubblicazione su repository pubblico
+   CheckList per scrittura codice pubblicabile in OS
+
+Verifiche tecniche propedeutiche alla pubblicazione su repository pubblico GitHub
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 Si propone di seguito una possibile **checklist di verifiche in uso
 presso il CSI-Piemonte**:
 
-+-----------------+-----------------+-----------------+-----------------+
-| **Elementi da   | **Effettuata**  | **Esito**       | **Note/Osservaz |
-| verificare**    |                 |                 | ioni            |
-|                 |                 |                 | in merito       |
-|                 |                 |                 | all'esito**     |
-+-----------------+-----------------+-----------------+-----------------+
-| E' presente     |                 |                 |                 |
-| l'organization  |                 |                 |                 |
-| GitHub (o altra |                 |                 |                 |
-| piattaforma     |                 |                 |                 |
-| code hosting)   |                 |                 |                 |
-| sotto cui       |                 |                 |                 |
-| effettuare la   |                 |                 |                 |
-| pubblicazione   |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Sono presenti   |                 |                 |                 |
-| sotto           |                 |                 |                 |
-| l'organization  |                 |                 |                 |
-| GitHub (o altra |                 |                 |                 |
-| piattaforma     |                 |                 |                 |
-| code hosting) i |                 |                 |                 |
-| repository      |                 |                 |                 |
-| sotto cui       |                 |                 |                 |
-| effettuare la   |                 |                 |                 |
-| pubblicazione   |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Le utenze       |                 |                 |                 |
-| GitHub (create  |                 |                 |                 |
-| secondo quanto  |                 |                 |                 |
-| previsto dalle  |                 |                 |                 |
-| specifiche      |                 |                 |                 |
-| )sono state     |                 |                 |                 |
-| abilitate alla  |                 |                 |                 |
-| pubblicazione   |                 |                 |                 |
-| sui repository  |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| È presente il   |                 |                 |                 |
-| file README.md  |                 |                 |                 |
-| sotto il        |                 |                 |                 |
-| repository del  |                 |                 |                 |
-| prodotto        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| È descritta nel |                 |                 |                 |
-| file README.md  |                 |                 |                 |
-| l'architettura  |                 |                 |                 |
-| del software    |                 |                 |                 |
-| utile a         |                 |                 |                 |
-| comprenderne    |                 |                 |                 |
-| l'articolazione |                 |                 |                 |
-| in componenti e |                 |                 |                 |
-| le dipendenze   |                 |                 |                 |
-| con system      |                 |                 |                 |
-| software di     |                 |                 |                 |
-| terze parti.    |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| È presente il   |                 |                 |                 |
-| file            |                 |                 |                 |
-| LICENSE.txt     |                 |                 |                 |
-| sotto il        |                 |                 |                 |
-| repository del  |                 |                 |                 |
-| prodotto        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| Nel file        |                 |                 |                 |
-| LICENSE.txt     |                 |                 |                 |
-| sono riportati  |                 |                 |                 |
-| tutti i testi   |                 |                 |                 |
-| delle licenze   |                 |                 |                 |
-| indicate nelle  |                 |                 |                 |
-| componenti di   |                 |                 |                 |
-| terze parti     |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| È presente il   |                 |                 |                 |
-| file            |                 |                 |                 |
-| CHANGELOG.md o  |                 |                 |                 |
-| RELEASENOTES.md |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| È presente il   |                 |                 |                 |
-| file            |                 |                 |                 |
-| COPYRIGHT.txt o |                 |                 |                 |
-| è indicato il   |                 |                 |                 |
-| Copyright nel   |                 |                 |                 |
-| README.md       |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| È presente il   |                 |                 |                 |
-| file BOM.csv    |                 |                 |                 |
-| e/o il          |                 |                 |                 |
-| MANIFEST.txt in |                 |                 |                 |
-| ogni repository |                 |                 |                 |
-| del prodotto    |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| È presente il   |                 |                 |                 |
-| file            |                 |                 |                 |
-| publiccode.yml  |                 |                 |                 |
-| (e ne è stata   |                 |                 |                 |
-| verificata la   |                 |                 |                 |
-| validità) nel   |                 |                 |                 |
-| repository      |                 |                 |                 |
-| principale del  |                 |                 |                 |
-| prodotto        |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
-| E' stato        |                 |                 |                 |
-| inserito        |                 |                 |                 |
-| l’Header con    |                 |                 |                 |
-| indicazione     |                 |                 |                 |
-| della licenza   |                 |                 |                 |
-| scelta e del    |                 |                 |                 |
-| copyright       |                 |                 |                 |
-| corretto in     |                 |                 |                 |
-| tutti i file    |                 |                 |                 |
-| sorgente​       |                 |                 |                 |
-+-----------------+-----------------+-----------------+-----------------+
+
+.. |imagec2| figure:: /immagini/check2.jpg
+   :scale: 80 % 
+   :alt: CheckList per pubblicazione sw su repository GitHub
+
+   CheckList per pubblicazione sw su repository GitHub
 
 .. [48] link statico: si riferisce ad una libreria software che nel proprio prodotto viene collegata staticamente in fase di compilazione
 
