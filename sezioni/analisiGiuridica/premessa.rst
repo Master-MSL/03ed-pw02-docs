@@ -75,7 +75,7 @@ concesse alcune facoltà/diritti a determinate condizioni. Esistono:
    di seguito schematizzate efficacemente in forma grafica.
 
 .. |image56| figure:: /immagini/100002010000054D000002AD49A6931C5F7BB1A7.png
-    :scale: 50 % 
+    :scale: 30 % 
     :alt: Schema di categorie software di Chao-Kuei
 
     Schema di categorie software di Chao-Kuei
@@ -180,7 +180,7 @@ codice sorgente dei programmi licenziati per realizzare un’opera
 derivata da essi, come sinteticamente descritto nella tabella seguente.
 
 .. |imagelic| figure:: /immagini/lic.jpg
-    :scale: 50 % 
+    :scale: 80 % 
     :alt: Esempi di licenze OS
 
     Esempi di licenze OS
