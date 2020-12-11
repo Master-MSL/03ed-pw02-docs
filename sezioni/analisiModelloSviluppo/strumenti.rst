@@ -66,11 +66,7 @@ di accesso
    -  il workflow pubblico che descrive come interagire con il progetto
       (comprensivo di esempi, modelli, etc)
 
-Il sito può contenere una sezione con documenti scritti su GitHub in
-formato .rst  [31]_ e visualizzati in modalità renderizzata html
-sul sito, ad esempio attraverso l’uso di
-`Sphinx <http://sphinx-doc.org/>` [32]_ con un
-`theme <https://github.com/rtfd/sphinx_rtd_theme>`  fornito da `Read the Docs <https://readthedocs.org/>`  [33]_.
+Il sito può contenere una sezione con documenti scritti su GitHub in formato .rst  [31]_ e visualizzati in modalità renderizzata html sul sito, ad esempio attraverso l’uso di `Sphinx <http://sphinx-doc.org/>` [32]_ con un `theme <https://github.com/rtfd/sphinx_rtd_theme>`  fornito da `Read the Docs <https://readthedocs.org/>`  [33]_.
 
 La scrittura su GitHub consente di usufruire del *sistema di versioning*
 e degli strumenti di gestione di *pull requests* e di\ *issues* presenti
@@ -569,3 +565,15 @@ strumento di chat *Gitter*.
    :alt: Strumenti di collaboration
 
    Strumenti di collaboration
+
+.. [31] reStructuredText è un linguaggio di `markup <https://it.wikipedia.org/wiki/Markup>`__ caratterizzato da un'elevata leggibilità a livello di `codice sorgente <https://it.wikipedia.org/wiki/Codice_sorgente>`__. Il `parser <https://it.wikipedia.org/wiki/Parser>`__ alla base di reStructuredText è una componente del `framework <https://it.wikipedia.org/wiki/Framework>`__  `Docutils <https://it.wikipedia.org/w/index.php?title=Docutils&action=edit&redlink=1>`__, scritto nel `linguaggio di programmazione <https://it.wikipedia.org/wiki/Linguaggio_di_programmazione>`__ `Python <https://it.wikipedia.org/wiki/Python>`__ e progettato per la gestione del testo.
+
+.. [32] "Sphinx is a tool that makes it easy to create intelligent and beautiful documentation, written by Georg Brandl and licensed under the BSD license. Sphinx is a powerful documentation generator that has many great features for writing technical documentation including: Generate web pages, printable PDFs, documents for e-readers (ePub), and more all from the same sources" (source: Sphinx site)
+
+.. [33] Read the Docs è un servizio gratuito che consente di gestire la documentazione di un progetto software sul sito della Community omonima. Fornisce funzionalità di versioning, build automatico dei file ospitati su GitHub e hosting dei file renderizzati con apposito theme sul sito `readthedocs.io <https://taccuino-community-os.readthedocs.io/>`__ tramite Sphinx.
+
+.. [34] Per “pin” si intende l’operazione, prevista su GitHub e sui principali siti per la gestione dei repository pubblici, per effettuare dei link a singoli repository da mostrare sulla homepage dell’organization in modo da evidenziare il repository per gli utenti interessati.
+
+.. [35] `“Linee Guida AgID Riuso e Software Libero”, Agenzia per l’Italia  Digitale (AgID), 2019 <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-softwareper-pa-docs/it/>`___
+
+.. [36] `“SPDX – Software Package Data Exchange”, Linux Foundation <https://spdx.org/>`___
