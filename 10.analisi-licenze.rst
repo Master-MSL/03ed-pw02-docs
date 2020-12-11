@@ -25,5 +25,7 @@ possono essere rilasciate le app in open source.
   :maxdepth: 3
   :caption: Indice dei contenuti
 
-  sezioni/analisiModelloSviluppo/devops.rst
-  sezioni/analisiModelloSviluppo/strumenti.rst
+  sezioni/analisiGiuridica/premessa.rst
+  sezioni/analisiGiuridica/stackApplicativo.rst
+  sezioni/analisiGiuridica/swSistReg.rst
+  sezioni/analisiGiuridica/swApp.rst
