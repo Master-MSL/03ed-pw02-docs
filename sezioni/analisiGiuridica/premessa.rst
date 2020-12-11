@@ -37,9 +37,6 @@ A questi strumenti di tutela si possono affiancare:
    *know-how* (art. 39 TRIPS [39]_, Direttiva UE UE 2016/943,
    art. 98 CPI) e concorrenza sleale (art. 99 CPI, artt. 2595-2601
    c.c.); in aggiunta sono strettamente correlati i concetti di:
-
--  
-
    -  obbligo di fedeltà (art. 2105 c.c.);
 
    -  patto di non concorrenza (art. 2125 c.c.);
@@ -53,12 +50,12 @@ Copyleft, licenze e loro compatibilità
 La licenza d’uso è un negozio giuridico (contratto) tramite cui vengono
 concesse alcune facoltà/diritti a determinate condizioni. Esistono:
 
--  Licenze proprietarie, che concedono al licenziatario generalmente il
+-  **Licenze proprietarie**, che concedono al licenziatario generalmente il
    solo diritto d’uso non esclusivo di un programma con accesso al SOLO
    codice binario. Il proprietario si riserva il diritto di modifica e
    distribuzione;
 
--  Licenze libere, che si basano anch’esse sul diritto d’autore
+-  **Licenze libere**, che si basano anch’esse sul diritto d’autore
    declinandolo però in termini di libertà (anziché di restrizioni a
    favore della condivisione del codice sorgente). L’autore, licenziando
    il proprio software con licenze libere, concede a terzi i diritti di
@@ -75,13 +72,13 @@ concesse alcune facoltà/diritti a determinate condizioni. Esistono:
 
    -  network copyleft
 
-di seguito schematizzate efficacemente in forma grafica.
+   di seguito schematizzate efficacemente in forma grafica.
 
-.. |image56| figure:: /immagini/100002010000054D000002AD49A6931C5F7BB1A7.png
-   :scale: 80 % 
-   :alt: Schema di categorie software di Chao-Kuei
+    .. |image56| figure:: /immagini/100002010000054D000002AD49A6931C5F7BB1A7.png
+    :scale: 50 % 
+    :alt: Schema di categorie software di Chao-Kuei
 
-   Schema di categorie software di Chao-Kuei
+    Schema di categorie software di Chao-Kuei
 
 Si sono formate nel corso del tempo due correnti pensiero che hanno
 portato alla costituzione di organizzazioni specifiche le cui
@@ -182,17 +179,11 @@ rispettando le condizioni poste da entrambe, è possibile combinare il
 codice sorgente dei programmi licenziati per realizzare un’opera
 derivata da essi, come sinteticamente descritto nella tabella seguente.
 
-+------------------+-------------+
-| **Licenza**      | **Esempio** |
-+------------------+-------------+
-| permissiva       |             |
-+------------------+-------------+
-| copyleft debole  |             |
-+------------------+-------------+
-| copyleft forte   |             |
-+------------------+-------------+
-| network copyleft |             |
-+------------------+-------------+
+.. |imagelic| figure:: /immagini/lic.jpg
+:scale: 50 % 
+:alt: Esempi di licenze OS
+
+Esempi di licenze OS
 
 Bisogna inoltre porre attenzione al fatto che la compatibilità non
 sempre è bi-laterale e di fatto non è detto a priori che per software
@@ -253,41 +244,21 @@ licenza unica, la matrice di compatibilità è la seguente:*
    componenti a sé stanti solo con altri componenti rilasciati con
    licenza copyleft compatibile.*\ ”
 
-.. [37] Secondo l’art. 2, c. 8 della L. 633/1941 (aggiornata dalla L.37/2019), n. 37 LDA, sono tutelati «\ \ *i programmi 
-per elaboratore, in qualsiasi forma espressi purché originali quale risultato di creazione intellettuale dell'autore. 
-Restano esclusi dalla tutela accordata dalla presente legge le idee e i principi che stanno alla base di qualsiasi 
-elemento di un programma, compresi quelli alla base delle sue interfacce. Il termine programma comprende anche il 
-materiale preparatorio per la progettazione del programma stesso.*\ \ »
+.. [37] Secondo l’art. 2, c. 8 della L. 633/1941 (aggiornata dalla L.37/2019), n. 37 LDA, sono tutelati «\ \ *i programmi per elaboratore, in qualsiasi forma espressi purché originali quale risultato di creazione intellettuale dell'autore. Restano esclusi dalla tutela accordata dalla presente legge le idee e i principi che stanno alla base di qualsiasi elemento di un programma, compresi quelli alla base delle sue interfacce. Il termine programma comprende anche il materiale preparatorio per la progettazione del programma stesso.*\ \ »
 
-.. [38] *Il perimetro della brevettabilità del software è in evoluzione anche se formalmente non è brevettabile, ai sensi 
-dell’art. 52 della Convenzione del Brevetto Europeo (Trattato internazionale che ha istituito l'Organizzazione Europea 
-dei Brevetti al fine di offrire un brevetto unico valido in tutti gli Stati) e dell’art. 45 del Codice della Proprietà 
-industriale (D. Lgs. 10/2/2005, n. 30). Si sta però affermando l’interpretazione secondo cui sono brevettabili soluzioni 
-che integrino un dispositivi/apparecchiature e software ritenuto innovativo, nuovo e idoneo a produrre un “effetto tecnico” 
-che è “ulteriore” rispetto alla mera interazione con la macchina.*
+.. [38] *Il perimetro della brevettabilità del software è in evoluzione anche se formalmente non è brevettabile, ai sensi dell’art. 52 della Convenzione del Brevetto Europeo (Trattato internazionale che ha istituito l'Organizzazione Europea dei Brevetti al fine di offrire un brevetto unico valido in tutti gli Stati) e dell’art. 45 del Codice della Proprietà industriale (D. Lgs. 10/2/2005, n. 30). Si sta però affermando l’interpretazione secondo cui sono brevettabili soluzioni che integrino un dispositivi/apparecchiature e software ritenuto innovativo, nuovo e idoneo a produrre un “effetto tecnico” che è “ulteriore” rispetto alla mera interazione con la macchina.*
 
-.. [39] Agreement on Trade Related Aspects of Intellectual Property Rights, trattato internazionale promosso 
-dall'Organizzazione mondiale del commercio, meglio conosciuta WTO, al fine di fissare lo standard per la tutela della 
-proprietà intellettuale, ufficializzato a Marrakech nel 1994, al termine del negoziato Uruguay 
-Round. (fonte: https://it.wikipedia.org/wiki/Accordo_TRIPs)
+.. [39] Agreement on Trade Related Aspects of Intellectual Property Rights, trattato internazionale promosso dall'Organizzazione mondiale del commercio, meglio conosciuta WTO, al fine di fissare lo standard per la tutela della proprietà intellettuale, ufficializzato a Marrakech nel 1994, al termine del negoziato Uruguay Round. (fonte: https://it.wikipedia.org/wiki/Accordo_TRIPs)
 
 .. [40] https://it.wikipedia.org/wiki/Licenza_libera
 
 .. [41] `https://it.wikipedia.org/wiki/GNU_General_Public_License <https://it.wikipedia.org/wiki/GNU_General_Public_License>`__
 
-.. [42] Ad esempio la MPL 2.0 definisce “\ \ *Permissions of this weak copyleft license are conditioned on making 
-available source code of licensed files and modifications of those files under the same license (or in certain cases, 
-one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of 
-patent rights. However, a larger work using the licensed work may be distributed under different terms and without 
-source code for files added in the larger work*\ \ ”
+.. [42] Ad esempio la MPL 2.0 definisce “*Permissions of this weak copyleft license are conditioned on making available source code of licensed files and modifications of those files under the same license (or in certain cases, one of the GNU licenses). Copyright and license notices must be preserved. Contributors provide an express grant of patent rights. However, a larger work using the licensed work may be distributed under different terms and without source code for files added in the larger work*”
 
-.. [43] Ad esempio la GNU GPLv3 riporta ”\ \ *Permissions of this strong copyleft license are conditioned on making 
-available complete source code of licensed works and modifications, which include larger works using a licensed work, 
-under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of 
-patent rights*\ \ ”.
+.. [43] Ad esempio la GNU GPLv3 riporta ” *Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights*”.
 
-.. [44] * Ad esempio la GNU AGPLv3, oltre a quanto indicato nella GPL3, riporta quanto segue: “When a modified version 
-is used to provide a service over a network, the complete source code of the modified version must be made available”.*
+.. [44] * Ad esempio la GNU AGPLv3, oltre a quanto indicato nella GPL3, riporta quanto segue: “When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available”.*
 
 .. [45] `https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/index.html <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/index.html>`__
 
