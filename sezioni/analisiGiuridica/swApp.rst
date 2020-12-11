@@ -59,9 +59,8 @@ app regionali per la gestione del Taccuino del FSE e prendendo come
 riferimento le indicazioni delle Linee guida Agid su acquisizione e
 riuso di software per le pubbliche amministrazioni al capitolo “3.5.3
 Scelta di una licenza”, si valuta il rilascio del software con licenza
-copyleft debole `EUPL
-1.2 <https://spdx.org/licenses/EUPL-1.2.html>`__\ **(codice
-SPDX**` [51]_`\ **: EUPL-1.2)** a meno di utilizzo in corso di
+copyleft debole `EUPL 1.2 <https://spdx.org/licenses/EUPL-1.2.html>`__\ **(codice
+SPDX** [51]_\ **: EUPL-1.2)** a meno di utilizzo in corso di
 sviluppo di librerie irrinunciabili rilasciate con licenze AGPL, GPL 2 o
 GPL 3, che, in ragione delle caratteristiche di viralità sopra esposte,
 richiederebbero una ri-valutazione relativa al rilascio del sistema nel
@@ -130,7 +129,7 @@ secondo le modalità:
    proprio prodotto viene caricata dinamicamente in fase di esecuzione)
 
 **Il titolare del software nonché licenziante è la Regione
-Piemonte**` [52]_` che verrà indicata nel file copyright.txt e in
+Piemonte** [52]_ che verrà indicata nel file copyright.txt e in
 tutti documenti in cui deve essere esplicitato tale copyright. Tale
 titolarità, dovrà poi essere gestita nel rispetto dei diritti coinvolti
 in fase di amministrazione della community e dei relativi auspicabili

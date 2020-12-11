@@ -147,14 +147,14 @@ Il BOM è, in questa verifica, lo strumento di base per:
 Le verifiche legali vertono sull’analisi di due aspetti:
 
 -  compatibilità con il rilascio in open source delle licenze delle
-   librerie SW utilizzate internamente come link statici` [48]_`
+   librerie SW utilizzate internamente come link statici [48]_
    del codice
 
 -  compatibilità con il rilascio in open source rispetto all'uso di link
-   dinamici` [49]_` (es. Google web API)
+   dinamici [49]_ (es. Google web API)
 
 -  compatibilità con il rilascio in open source rispetto
-   all’incorporamento di software di terzi` [50]_`
+   all’incorporamento di software di terzi [50]_
 
 Verifiche tecniche della scrittura del codice sorgente
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~

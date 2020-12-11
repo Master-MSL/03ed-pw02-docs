@@ -1,7 +1,7 @@
 Stack Applicativo
 ==================
 
-Si riporta di seguito lo Stack` [46]_` Applicativo relativo
+Si riporta di seguito lo Stack [46]_ Applicativo relativo
 all’attuale infrastruttura software del sistema regionale di FSE e del
 Taccuino
 
@@ -19,7 +19,7 @@ sistema di virtualizzazione, come segue:
    :scale: 80 % 
    :alt: Stack TO-BE
 
-   Stack TO-BE
+   Stack AS-IS
 
 Dall’analisi sopra evidenziata, emerge quindi la presenza di software
 sotto “copyleft debole” accanto a soluzioni a “copyleft forte”. Tuttavia
@@ -31,7 +31,7 @@ seguito esposto.
 
 In considerazione della clausola 2 del capitolo “Terms and conditions
 for copying, distribution and modification” della licenza GPLv2
-associata a CentOS` [47]_` un software applicativo verticale
+associata a CentOS [47]_ un software applicativo verticale
 costituito da componenti web (web application, web service, etc.) che
 viene eseguito in un ambiente di runtime costituito da un application
 server (LGPL), che a sua volta viene eseguito su un sistema operativo
