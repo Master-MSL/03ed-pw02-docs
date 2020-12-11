@@ -15,11 +15,11 @@ In caso di migrazione allo Stack Applicativo relativo al sistema cloud
 Nivola sarebbero modificati esclusivamente gli strati del s.o. e il
 sistema di virtualizzazione, come segue:
 
-.. |imageIn2| figure:: /immagini/tabellaInfr2.JPG
+.. |imageIn2| figure:: /immagini/tabellaInfr2.jpg
    :scale: 80 % 
    :alt: Stack TO-BE
 
-   Stack AS-IS
+   Stack TO-BE
 
 Dall’analisi sopra evidenziata, emerge quindi la presenza di software
 sotto “copyleft debole” accanto a soluzioni a “copyleft forte”. Tuttavia
@@ -33,7 +33,7 @@ In considerazione della clausola 2 del capitolo “Terms and conditions
 for copying, distribution and modification” della licenza GPLv2
 associata a CentOS che riporta:
 
-    "*2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:*
+   "*2. You may modify your copy or copies of the Program or any portion of it, thus forming a work based on the Program, and copy and distribute such modifications or work under the terms of Section 1 above, provided that you also meet all of these conditions:*
 
    *a) You must cause the modified files to carry prominent notices
    stating that you changed the files and the date of any change.*

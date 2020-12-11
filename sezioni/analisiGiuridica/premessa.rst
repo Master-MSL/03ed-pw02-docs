@@ -37,12 +37,12 @@ A questi strumenti di tutela si possono affiancare:
    *know-how* (art. 39 TRIPS [39]_, Direttiva UE UE 2016/943,
    art. 98 CPI) e concorrenza sleale (art. 99 CPI, artt. 2595-2601
    c.c.); in aggiunta sono strettamente correlati i concetti di:
+
    -  obbligo di fedeltà (art. 2105 c.c.);
 
    -  patto di non concorrenza (art. 2125 c.c.);
 
-   -  rivelazione di segreto professionale (art. 622 c.p.)e rivelazione
-      di segreto scientifico e commerciale (art. 623 c.p.).
+   -  rivelazione di segreto professionale (art. 622 c.p.)e rivelazione di segreto scientifico e commerciale (art. 623 c.p.).
 
 Copyleft, licenze e loro compatibilità
 ----------------------------------------
@@ -74,7 +74,7 @@ concesse alcune facoltà/diritti a determinate condizioni. Esistono:
 
    di seguito schematizzate efficacemente in forma grafica.
 
-    .. |image56| figure:: /immagini/100002010000054D000002AD49A6931C5F7BB1A7.png
+.. |image56| figure:: /immagini/100002010000054D000002AD49A6931C5F7BB1A7.png
     :scale: 50 % 
     :alt: Schema di categorie software di Chao-Kuei
 
@@ -180,10 +180,10 @@ codice sorgente dei programmi licenziati per realizzare un’opera
 derivata da essi, come sinteticamente descritto nella tabella seguente.
 
 .. |imagelic| figure:: /immagini/lic.jpg
-:scale: 50 % 
-:alt: Esempi di licenze OS
+    :scale: 50 % 
+    :alt: Esempi di licenze OS
 
-Esempi di licenze OS
+    Esempi di licenze OS
 
 Bisogna inoltre porre attenzione al fatto che la compatibilità non
 sempre è bi-laterale e di fatto non è detto a priori che per software
@@ -258,7 +258,7 @@ licenza unica, la matrice di compatibilità è la seguente:*
 
 .. [43] Ad esempio la GNU GPLv3 riporta ” *Permissions of this strong copyleft license are conditioned on making available complete source code of licensed works and modifications, which include larger works using a licensed work, under the same license. Copyright and license notices must be preserved. Contributors provide an express grant of patent rights*”.
 
-.. [44] * Ad esempio la GNU AGPLv3, oltre a quanto indicato nella GPL3, riporta quanto segue: “When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available”.*
+.. [44] Ad esempio la GNU AGPLv3, oltre a quanto indicato nella GPL3, riporta quanto segue: “When a modified version is used to provide a service over a network, the complete source code of the modified version must be made available”.
 
 .. [45] `https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/index.html <https://docs.italia.it/italia/developers-italia/lg-acquisizione-e-riuso-software-per-pa-docs/it/bozza/index.html>`__
 

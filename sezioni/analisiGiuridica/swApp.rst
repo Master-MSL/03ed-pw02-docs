@@ -14,37 +14,30 @@ Google e basato sul kernel Linux, progettato principalmente per sistemi
 embedded come smartphone e tablet, televisori (Android TV), automobili
 (Android Auto), orologi da polso (Wear OS), occhiali (Google Glass),
 etc. 
-
-E’ distribuito con **licenza Apache 2.0.**\
-
+E’ distribuito con **licenza Apache 2.0.**
 Le app sono le applicazioni software installabili su Android scaricabili
 sia dal catalogo ufficiale Google Play, sia da altri cataloghi, come
 l'Amazon Appstore di Amazon.com, o **F-Droid**\ che contiene solo
 applicazioni FOSS (Free and Open Source Software). Le app possono essere
 installate direttamente a partire da un file APK.\ 
-
 Le applicazioni Android sono Java-based.
 
-**iOS**\ è un sistema operativo sviluppato da Apple per iPhone, iPod
+**iOS** è un sistema operativo sviluppato da Apple per iPhone, iPod
 touch e iPad. Da Settembre 2019, per i tablet iPad è stato sostituito da
-iPadOS.\ 
-
+iPadOS.
 Come per macOS (sistema operativo per PC Apple), iOS è una derivazione
 di UNIX (famiglia BSD) ed è utilizzabile solo su dispositivi prodotti da
 Apple con SoC (System On a chip) della serie di processori Apple A.
-
 Dal 2008 è stato distribuito un SDK (software development kit) che
 permette agli sviluppatori di creare applicazioni (cosiddette app) per
 iPhone e iPod touch e di testarle in un simulatore. Tuttavia il
 caricamento di una applicazione nei dispositivi è possibile solamente
 dopo aver pagato una tassa di iscrizione all'iOS Developer Program di
 Apple. Le app vengono pubblicate e scaricate dagli utenti dall’App
-Store.\
-
+Store.
 L'ambiente di sviluppo per iOS SDK è Xcode, disponibile solamente per il
 sistema operativo macOS. Le app possono essere sviluppate in Objective-C
-o Swift.\ 
-
+o Swift. 
 Gli sviluppatori sono liberi di definire qualsiasi prezzo per le loro
 app pubblicate su App Store, ma riceveranno il 70% del ricavo (il 30%
 viene trattenuto dalla Apple). Essi possono anche optare per pubblicare
@@ -59,8 +52,7 @@ app regionali per la gestione del Taccuino del FSE e prendendo come
 riferimento le indicazioni delle Linee guida Agid su acquisizione e
 riuso di software per le pubbliche amministrazioni al capitolo “3.5.3
 Scelta di una licenza”, si valuta il rilascio del software con licenza
-copyleft debole `EUPL 1.2 <https://spdx.org/licenses/EUPL-1.2.html>`__\ **(codice
-SPDX** [51]_\ **: EUPL-1.2)** a meno di utilizzo in corso di
+copyleft debole ** `EUPL 1.2 <https://spdx.org/licenses/EUPL-1.2.html>`__ (codice SPDX: EUPL-1.2 [51]_ )** a meno di utilizzo in corso di
 sviluppo di librerie irrinunciabili rilasciate con licenze AGPL, GPL 2 o
 GPL 3, che, in ragione delle caratteristiche di viralità sopra esposte,
 richiederebbero una ri-valutazione relativa al rilascio del sistema nel
@@ -156,7 +148,7 @@ sia quelli patrimoniali/economici (art. 64 bis e segg.) secondo la
 LDA.**
 
 .. |image74| figure:: /immagini/10000201000003CD00000202EAA0270ADB2D4E8E.png
-   :scale: 80 % 
+   :scale: 50 % 
    :alt: Fonte: Avv. Vitrani “Diritto d'autore: diritti esclusivi e limitazioni”, Master “Management Software Libero” 2019/2020
 
    Fonte: Avv. Vitrani “Diritto d'autore: diritti esclusivi e limitazioni”, Master “Management Software Libero” 2019/2020
