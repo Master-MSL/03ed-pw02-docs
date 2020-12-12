@@ -196,69 +196,11 @@ C. rilevazione dati da strumenti di uso quotidiani (tramite opportune
 
 D. ulteriori dati di dettaglio sui farmaci.
 
-+-----------------------+-----------------------+-----------------------+
-| **SEZIONE**           | **ELEMENTO**          | **CONTENUTO           |
-|                       |                       | INFORMATIVO**         |
-+-----------------------+-----------------------+-----------------------+
-| Osservazioni          | Note generali         | Annotazioni libere    |
-| personali             |                       |                       |
-|                       +-----------------------+-----------------------+
-|                       | Eventi  [11]_         | Eventi significativi  |                      
-|                       | ultimi 6 mesi         |                       |
-|                       +-----------------------+-----------------------+
-|                       | Parametri osservabili | Peso                  |
-|                       |                       |                       |
-|                       |                       | Circonferenza vita    |
-|                       |                       |                       |
-|                       |                       | Pressione             |
-|                       |                       |                       |
-|                       |                       | Frequenza cardiaca (a |
-|                       |                       | riposo)               |
-|                       |                       |                       |
-|                       |                       | Frequenza             |
-|                       |                       | respiratoria          |
-|                       |                       |                       |
-|                       |                       | Colesterolo           |
-|                       |                       |                       |
-|                       |                       | Trigliceridi          |
-|                       |                       |                       |
-|                       |                       | Ossimetria            |
-|                       |                       |                       |
-|                       |                       | Glicemia a digiuno    |
-|                       |                       |                       |
-|                       |                       | Emoglobina glicata    |
-|                       |                       |                       |
-|                       |                       | Temperatura corporea  |
-|                       +-----------------------+-----------------------+
-|                       | Segni e sintomi       | Segni e sintomi       |
-|                       |                       |                       |
-|                       |                       | Dolore                |
-+-----------------------+-----------------------+-----------------------+
-| Contatti con          | Contatti con          | Contatti con          |
-| strutture             | strutture medico      | strutture medico      |
-|                       | sanitarie             | sanitarie (anche      |
-|                       |                       | fuori dal             |
-|                       |                       | SSN  [12]_ ) o        |
-|                       |                       | MMG/PLS  [13]_        |
-|                       |                       |                       |
-|                       +-----------------------+-----------------------+
-|                       | Medicina non          | Contatti con          |
-|                       | convenzionale         | strutture di medicina |
-|                       |                       | non convenzionale     |
-+-----------------------+-----------------------+-----------------------+
-| Farmaci e integratori | Assunzione di farmaci | Codice                |
-|                       |                       | AIC  [14]_     |
-|                       |                       |                       |
-|                       |                       | Descrizione           |
-|                       |                       |                       |
-|                       |                       | Note (°)              |
-|                       +-----------------------+-----------------------+
-|                       | Assunzione di altri   | Descrizione           |
-|                       | prodotti              |                       |
-|                       |                       | Note (°)              |
-+-----------------------+-----------------------+-----------------------+
+.. |imagD| figure:: /immagini/dataset.jpg
+   :scale: 80 % 
+   :alt: Sezione "Parametri osservabili" del dataset del Taccuino
 
-*(°)Il campo Note può contenere data/modalità di assunzione*
+   Sezione "Parametri osservabili" del dataset del Taccuino
 
 Il contenuto del project work intende focalizzarsi sul punto C
 dell’elenco sopra riportato, tenuto conto dei seguenti vincoli emersi in
