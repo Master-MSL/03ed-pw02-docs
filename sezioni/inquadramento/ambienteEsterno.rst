@@ -58,7 +58,7 @@ costituito la base per l’implementazione o l’adeguamento tecnico del
 FSE.
 
 L’elenco completo della normativa di riferimento è riportato in
-`Appendice A <https://taccuino-community-os.readthedocs.io/en/latest/12.appendice-normativa.html>`__.
+ `Appendice A <https://taccuino-community-os.readthedocs.io/en/latest/12.appendice-normativa.html>`__.
 
 Per la realizzazione dell’interoperabilità fra i sistemi regionali di
 FSE attraverso INI, è stata emessa (a più riprese in relazione alla
@@ -70,7 +70,7 @@ stabilito dalla legge.
 Le linee guida tecniche di riferimento in ambito nazionale per lo
 sviluppo e l'implementazione dei documenti sanitari hanno altresì
 previsto la definizione e l’adozione di standard documentali ottenuti
-come risultato della collaborazione tra HL7 Italia\ :sup:` [4]_` e AgID
+come risultato della collaborazione tra HL7 Italia [4]_  e AgID
 nell'elaborazione dei risultati dei Gruppi Tematici interregionali del
 FSE istituiti da Ministero della Salute e da AgID stessa.
 
@@ -95,12 +95,12 @@ emerge come anche il FSE e il Taccuino siano soggetti alla normativa
 sopra citata.
 
 Inoltre le linee guida Agid per l’acquisizione e il riuso software nelle
-PA\ :sup:` [5]_` prevedono (nel relativo Allegato A intitolato “Guida
+PA  [5]_  prevedono (nel relativo Allegato A intitolato “Guida
 alla pubblicazione di software come open source”) che sia individuato
 uno strumento di code hosting da utilizzare per il rilascio. Allo stato
 attuale, in virtù di tali indicazioni, il CSI-Piemonte, in qualità di
 software maintainer incaricato dalle Amministrazioni titolari di
-software (maintainer come da ruolo Agid\ :sup:` [6]_`), ha scelto il
+software (maintainer come da ruolo Agid  [6]_ ), ha scelto il
 sistema di code hosting GitHub (https://github.com/).
 
 Modello regionale e nazionale del FSE
@@ -203,7 +203,7 @@ D. ulteriori dati di dettaglio sui farmaci.
 | Osservazioni          | Note generali         | Annotazioni libere    |
 | personali             |                       |                       |
 +-----------------------+-----------------------+-----------------------+
-| Eventi\ :sup:` [11]_` | Eventi significativi  |                       |
+| Eventi  [11]_  | Eventi significativi  |                       |
 |                       | ultimi 6 mesi         |                       |
 +-----------------------+-----------------------+-----------------------+
 | Parametri osservabili | Peso                  |                       |
@@ -238,16 +238,16 @@ D. ulteriori dati di dettaglio sui farmaci.
 | strutture             | strutture medico      | strutture medico      |
 |                       | sanitarie             | sanitarie (anche      |
 |                       |                       | fuori dal             |
-|                       |                       | SSN\ :sup:` [12]_`) o |
-|                       |                       | MMG/PLS\ :sup:` [13]_ |
-|                       |                       | `                     |
+|                       |                       | SSN  [12]_ ) o        |
+|                       |                       | MMG/PLS  [13]_        |
+|                       |                       |                       |
 +-----------------------+-----------------------+-----------------------+
 | Medicina non          | Contatti con          |                       |
 | convenzionale         | strutture di medicina |                       |
 |                       | non convenzionale     |                       |
 +-----------------------+-----------------------+-----------------------+
 | Farmaci e integratori | Assunzione di farmaci | Codice                |
-|                       |                       | AIC\ :sup:` [14]_`    |
+|                       |                       | AIC  [14]_     |
 |                       |                       |                       |
 |                       |                       | Descrizione           |
 |                       |                       |                       |
@@ -334,7 +334,7 @@ Tali iniziative sono altresì ricomprese nel “Programma triennale ICT
 2019-2021” approvato con D.G.R. 27 dicembre 2018, n. 4-8239.
 
 In particolare l’evoluzione del Taccuino costituisce un intervento
-previsto dal Piano di progetto attuativo FSE-SoL\ :sup:` [15]_`
+previsto dal Piano di progetto attuativo FSE-SoL  [15]_ 
 articolato nelle seguenti fasi:
 
 1. l’adeguamento del taccuino piemontese, già disponibile, agli standard
@@ -386,85 +386,27 @@ necessitano diminuendo di fatto anche i fattori stressanti per il
 paziente e per il medico e quelli inquinanti nell’ambito urbano.
 
 
-.. [4]
-    HL7 Italia si e' formata nel 2003 come parte di HL7 International ed
-   è responsabile della localizzazione dello standard nella realtà
-   italiana e, più in generale, ha l'obiettivo di stimolare e
-   convogliare i contributi regionali e nazionali allo sviluppo dello
-   standard e favorire la modernizzazione del IT sanitario italiano. I
-   suoi membri rappresentano dal lato dei fornitori la quota
-   maggioritaria del mercato dell'IT sanitario. Sono inoltre membri di
-   HL7 Italia alcune Regioni italiane e diverse In-House Regionali,
-   Agenzie Governative e Istituti di Ricerca Pubblici oltre ad Aziende
-   Sanitarie e singoli professionisti.
+.. [4] HL7 Italia si e' formata nel 2003 come parte di HL7 International ed è responsabile della localizzazione dello standard nella realtà italiana e, più in generale, ha l'obiettivo di stimolare e convogliare i contributi regionali e nazionali allo sviluppo dello standard e favorire la modernizzazione del IT sanitario italiano. I suoi membri rappresentano dal lato dei fornitori la quota maggioritaria del mercato dell'IT sanitario. Sono inoltre membri di HL7 Italia alcune Regioni italiane e diverse In-House Regionali, Agenzie Governative e Istituti di Ricerca Pubblici oltre ad Aziende Sanitarie e singoli professionisti.
 
-.. [5]
-    G.U. n.119 del 9/5/2019
+.. [5] G.U. n.119 del 9/5/2019
 
-.. [6]
-   Dalle “Linee guida Agid per l’acquisizione e il riuso software nelle
-   PA” si cita: “All’interno di un progetto open source, il maintainer è
-   il soggetto che svolge un’attività di controllo e direzione degli
-   sviluppi sul progetto, e a cui la community che afferisce al software
-   (es: utilizzatori) può segnalare problematiche o discutere
-   miglioramenti. Per tutta la durata dell’attività di manutenzione
-   connessa al software, l’Amministrazione titolare svolgerà il ruolo di
-   maintainer del progetto open source, affidandone l’esecuzione
-   all’Incaricato, il quale inserirà il nome della propria azienda o
-   ente e i riferimenti di contatto nei file README e publiccode.yml del
-   repository, con l’eventuale data di termine dell’incarico.
-   L’Incaricato dovrà quindi, per conto dell’Amministrazione, gestire
-   l’attività sul progetto derivante dalle interazioni con gli utenti
-   esterni.” Pertanto, l’amministrazione Committente del progetto sarà
-   Titolare del Software e Maintainer che incarica il CSI-Piemonte come
-   software maintainer (esecutore) nell’ambito del progetto open source.
+.. [6] Dalle “Linee guida Agid per l’acquisizione e il riuso software nelle PA” si cita: “All’interno di un progetto open source, il maintainer è il soggetto che svolge un’attività di controllo e direzione degli sviluppi sul progetto, e a cui la community che afferisce al software (es: utilizzatori) può segnalare problematiche o discutere miglioramenti. Per tutta la durata dell’attività di manutenzione connessa al software, l’Amministrazione titolare svolgerà il ruolo di maintainer del progetto open source, affidandone l’esecuzione all’Incaricato, il quale inserirà il nome della propria azienda o ente e i riferimenti di contatto nei file README e publiccode.yml del repository, con l’eventuale data di termine dell’incarico. L’Incaricato dovrà quindi, per conto dell’Amministrazione, gestire l’attività sul progetto derivante dalle interazioni con gli utenti esterni.” Pertanto, l’amministrazione Committente del progetto sarà Titolare del Software e Maintainer che incarica il CSI-Piemonte come software maintainer (esecutore) nell’ambito del progetto open source.
 
-.. [7]
-   Include avvenimenti significativi recenti, quali viaggi, vaccinazioni
-   non obbligatorie, disturbi del sonno, informazioni sugli stili di
-   vita, ecc., il cui inserimento da parte dell’utente sarà guidato
-   tramite opportune istruzioni, tutorial ed esempi da predisporre nelle
-   interfacce regionali.
+.. [7] Include avvenimenti significativi recenti, quali viaggi, vaccinazioni non obbligatorie, disturbi del sonno, informazioni sugli stili di vita, ecc., il cui inserimento da parte dell’utente sarà guidato tramite opportune istruzioni, tutorial ed esempi da predisporre nelle interfacce regionali.
 
-.. [8]
-    Servizio Sanitario Nazionale
+.. [8] Servizio Sanitario Nazionale
 
-.. [9]
-    Medici di Medicina Generale/Pediatri di Libera Scelta
+.. [9] Medici di Medicina Generale/Pediatri di Libera Scelta
 
-.. [10]
-   |  L’Autorizzazione all’Immissione in Commercio (AIC) è definita
-     mediante un sistema di codifica che identifica univocamente ogni
-     confezione farmaceutica venduta in Italia. Tali codici sono
-     rilasciati dall’Agenzia Italiana del Farmaco (AIFA) e permettono
-     inoltre di identificare univocamente la confezione farmaceutica
-     distinguendola anche in base al numero di compresse/unità, alla
-     percentuale di principio attivo, alla via di somministrazione, ecc.
-   | (https://www.fascicolosanitario.gov.it/sistemi-codifica-dati/informazioni/aic)
+.. [10] L’Autorizzazione all’Immissione in Commercio (AIC) è definita mediante un sistema di codifica che identifica univocamente ogni confezione farmaceutica venduta in Italia. Tali codici sono rilasciati dall’Agenzia Italiana del Farmaco (AIFA) e permettono inoltre di identificare univocamente la confezione farmaceutica distinguendola anche in base al numero di compresse/unità, alla percentuale di principio attivo, alla via di somministrazione, ecc. | (https://www.fascicolosanitario.gov.it/sistemi-codifica-dati/informazioni/aic)
 
-.. [11]
-   Include avvenimenti significativi recenti, quali viaggi, vaccinazioni
-   non obbligatorie, disturbi del sonno, informazioni sugli stili di
-   vita, ecc., il cui inserimento da parte dell’utente sarà guidato
-   tramite opportune istruzioni, tutorial ed esempi da predisporre nelle
-   interfacce regionali.
+.. [11] Include avvenimenti significativi recenti, quali viaggi, vaccinazioni non obbligatorie, disturbi del sonno, informazioni sugli stili di vita, ecc., il cui inserimento da parte dell’utente sarà guidato tramite opportune istruzioni, tutorial ed esempi da predisporre nelle interfacce regionali.
 
-.. [12]
-    Servizio Sanitario Nazionale
+.. [12] Servizio Sanitario Nazionale
 
-.. [13]
-    Medici di Medicina Generale/Pediatri di Libera Scelta
+.. [13] Medici di Medicina Generale/Pediatri di Libera Scelta
 
-.. [14]
-   |  L’Autorizzazione all’Immissione in Commercio (AIC) è definita
-     mediante un sistema di codifica che identifica univocamente ogni
-     confezione farmaceutica venduta in Italia. Tali codici sono
-     rilasciati dall’Agenzia Italiana del Farmaco (AIFA) e permettono
-     inoltre di identificare univocamente la confezione farmaceutica
-     distinguendola anche in base al numero di compresse/unità, alla
-     percentuale di principio attivo, alla via di somministrazione, ecc.
-   | (https://www.fascicolosanitario.gov.it/sistemi-codifica-dati/informazioni/aic)
+.. [14] L’Autorizzazione all’Immissione in Commercio (AIC) è definita mediante un sistema di codifica che identifica univocamente ogni confezione farmaceutica venduta in Italia. Tali codici sono rilasciati dall’Agenzia Italiana del Farmaco (AIFA) e permettono inoltre di identificare univocamente la confezione farmaceutica distinguendola anche in base al numero di compresse/unità, alla percentuale di principio attivo, alla via di somministrazione, ecc. (https://www.fascicolosanitario.gov.it/sistemi-codifica-dati/informazioni/aic)
 
-.. [15]
-    Approvato con D.D. 544 del 28/11/2018
+.. [15] Approvato con D.D. 544 del 28/11/2018
 

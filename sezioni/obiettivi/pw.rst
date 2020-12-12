@@ -13,8 +13,7 @@ all’assistito.
 Obiettivo del project work
 -----------------------------
 
-Il project work si pone come obiettivo principale la realizzazione di
-uno studio di fattibilità (§`Proposta di evoluzione <https://taccuino-community-os.readthedocs.io/en/latest/05.proposta-evoluzione.html>`__) volto ad analizzare e valutare le
+Il project work si pone come obiettivo principale la realizzazione di uno studio di fattibilità (rif. `Proposta di evoluzione<https://taccuino-community-os.readthedocs.io/en/latest/05.proposta-evoluzione.html>`_) volto ad analizzare e valutare le
 caratteristiche di un progetto per lo sviluppo di un sistema software,
 attraverso una Community Open Source, in grado di agevolare
 l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie
