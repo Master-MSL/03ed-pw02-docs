@@ -16,7 +16,7 @@ In pratica il FSE è lo strumento introdotto per consentire al cittadino di trac
 
 Il Taccuino Personale dell’assistito [3]_ è una sezione riservata del FSE all'interno della quale è permesso all'assistito inserire autonomamente dati e documenti personali relativi ai propri percorsi di cura, anche effettuati presso strutture al di fuori del Servizio Sanitario Nazionale. Si tratta  di informazioni non certificate, la cui titolarità è totalmente in capo al singolo che sempre più spesso sono acquisite da device di vario tipo  (apparati medicali certificati, dispositivi indossabili per il monitoraggio degli stili di vita -  i cd. wearable - o semplicemente il proprio smartphone).
 
-Il project work si pone come obiettivo principale la realizzazione di uno studio di fattibilità volto ad analizzare e valutare le caratteristiche di un progetto per lo sviluppo di un sistema software, attraverso una Community Open Source, in grado di agevolare l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie di device.
+Il presente project work redatto nell'ambito del Master "Management del software libero" Ed.III (a.a. 2019-2020) si pone come obiettivo principale la realizzazione di uno studio di fattibilità volto ad analizzare e valutare le caratteristiche di un progetto per lo sviluppo di un sistema software, attraverso una Community Open Source, in grado di agevolare l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie di device.
 
 
 **Indice**
