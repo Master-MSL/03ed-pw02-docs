@@ -197,7 +197,7 @@ C. rilevazione dati da strumenti di uso quotidiani (tramite opportune
 D. ulteriori dati di dettaglio sui farmaci.
 
 
-.. |imageD| figure:: /immagini/dataset.JPG
+.. |imageD| figure:: /immagini/dataset.jpg
    :scale: 80 %
    :alt: Sezione "Parametri osservabili" del dataset del Taccuino Personale del FSE
 
