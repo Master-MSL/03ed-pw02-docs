@@ -1,4 +1,4 @@
-Proposta di evoluzione del Taccuino Personale
+5. Proposta di evoluzione del Taccuino Personale
 =============================================
 
 La proposta di evoluzione del Taccuino viene articolata considerando gli

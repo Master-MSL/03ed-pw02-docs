@@ -1,4 +1,4 @@
-Analisi del modello di sviluppo e degli strumenti per la Community OS
+9. Analisi del modello di sviluppo e degli strumenti per la Community OS
 =======================================================================
 
 A supporto dei processi delineati nella sezione "Analisi organizzativa della Community OS", si suggerisce di seguito un approccio DEVOPS per la gestione degli sviluppi previsti per l'evoluzione del Taccuino Personale e l'utilizzo di numerosi strumenti software per la gestione e la diffusione della Community stessa.

@@ -1,4 +1,4 @@
-Analisi tecnica della proposta di Evoluzione del Taccuino
+6. Analisi tecnica della proposta di Evoluzione del Taccuino
 ===========================================================
 
 Il **FSE**\ è lo strumento informatico introdotto per consentire al

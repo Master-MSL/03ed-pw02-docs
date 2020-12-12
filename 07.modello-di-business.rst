@@ -1,4 +1,4 @@
-Modelli di business di sviluppo del software
+7. Modelli di business di sviluppo del software
 ==============================================
 
 La strategia proposta prevede una soluzione basata su un “core” di

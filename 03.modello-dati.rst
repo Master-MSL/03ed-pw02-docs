@@ -1,4 +1,4 @@
-Modello logico dei dati gestiti nel Taccuino
+3. Modello logico dei dati gestiti nel Taccuino
 ================================================
 
 Il taccuino è una sezione riservata del FSE all'interno della quale è

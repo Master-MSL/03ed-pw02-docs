@@ -1,4 +1,4 @@
-Analisi organizzativa della Community OS
+8. Analisi organizzativa della Community OS
 =========================================
 
 In questa sezione viene descritto il sistema organizzativo della Community Open Source che si può costruire intorno al progetto di realizzazione dell'evoluzione del Taccuino Personale secondo la soluzione tecnologica delineata nella sezione "Analisi tecnica della proposta di evoluzione del Taccuino" e secondo il modello di business definito nella sezione "Modelli di business di sviluppo del software" nel paragrafo "Modello 1 - Community con contributi alle App regionali".
