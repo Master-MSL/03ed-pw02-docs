@@ -196,67 +196,12 @@ C. rilevazione dati da strumenti di uso quotidiani (tramite opportune
 
 D. ulteriori dati di dettaglio sui farmaci.
 
-+-----------------------+-----------------------+-----------------------+
-| **SEZIONE**           | **ELEMENTO**          | **CONTENUTO           |
-|                       |                       | INFORMATIVO**         |
-+-----------------------+-----------------------+-----------------------+
-| Osservazioni          | Note generali         | Annotazioni libere    |
-| personali             |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| Eventi  [11]_  | Eventi significativi  |                       |
-|                       | ultimi 6 mesi         |                       |
-+-----------------------+-----------------------+-----------------------+
-| Parametri osservabili | Peso                  |                       |
-|                       |                       |                       |
-|                       | Circonferenza vita    |                       |
-|                       |                       |                       |
-|                       | Pressione             |                       |
-|                       |                       |                       |
-|                       | Frequenza cardiaca (a |                       |
-|                       | riposo)               |                       |
-|                       |                       |                       |
-|                       | Frequenza             |                       |
-|                       | respiratoria          |                       |
-|                       |                       |                       |
-|                       | Colesterolo           |                       |
-|                       |                       |                       |
-|                       | Trigliceridi          |                       |
-|                       |                       |                       |
-|                       | Ossimetria            |                       |
-|                       |                       |                       |
-|                       | Glicemia a digiuno    |                       |
-|                       |                       |                       |
-|                       | Emoglobina glicata    |                       |
-|                       |                       |                       |
-|                       | Temperatura corporea  |                       |
-+-----------------------+-----------------------+-----------------------+
-| Segni e sintomi       | Segni e sintomi       |                       |
-|                       |                       |                       |
-|                       | Dolore                |                       |
-+-----------------------+-----------------------+-----------------------+
-| Contatti con          | Contatti con          | Contatti con          |
-| strutture             | strutture medico      | strutture medico      |
-|                       | sanitarie             | sanitarie (anche      |
-|                       |                       | fuori dal             |
-|                       |                       | SSN  [12]_ ) o        |
-|                       |                       | MMG/PLS  [13]_        |
-|                       |                       |                       |
-+-----------------------+-----------------------+-----------------------+
-| Medicina non          | Contatti con          |                       |
-| convenzionale         | strutture di medicina |                       |
-|                       | non convenzionale     |                       |
-+-----------------------+-----------------------+-----------------------+
-| Farmaci e integratori | Assunzione di farmaci | Codice                |
-|                       |                       | AIC  [14]_     |
-|                       |                       |                       |
-|                       |                       | Descrizione           |
-|                       |                       |                       |
-|                       |                       | Note (°)              |
-+-----------------------+-----------------------+-----------------------+
-| Assunzione di altri   | Descrizione           |                       |
-| prodotti              |                       |                       |
-|                       | Note (°)              |                       |
-+-----------------------+-----------------------+-----------------------+
+
+.. |imageD| figure:: /immagini/dataset.JPG
+   :scale: 80 %
+   :alt: Sezione "Parametri osservabili" del dataset del Taccuino Personale del FSE
+
+   Sezione "Parametri osservabili" del dataset del Taccuino Personale del FSE
 
 *(°)Il campo Note può contenere data/modalità di assunzione*
 
@@ -391,14 +336,6 @@ paziente e per il medico e quelli inquinanti nell’ambito urbano.
 .. [5] G.U. n.119 del 9/5/2019
 
 .. [6] Dalle “Linee guida Agid per l’acquisizione e il riuso software nelle PA” si cita: “All’interno di un progetto open source, il maintainer è il soggetto che svolge un’attività di controllo e direzione degli sviluppi sul progetto, e a cui la community che afferisce al software (es: utilizzatori) può segnalare problematiche o discutere miglioramenti. Per tutta la durata dell’attività di manutenzione connessa al software, l’Amministrazione titolare svolgerà il ruolo di maintainer del progetto open source, affidandone l’esecuzione all’Incaricato, il quale inserirà il nome della propria azienda o ente e i riferimenti di contatto nei file README e publiccode.yml del repository, con l’eventuale data di termine dell’incarico. L’Incaricato dovrà quindi, per conto dell’Amministrazione, gestire l’attività sul progetto derivante dalle interazioni con gli utenti esterni.” Pertanto, l’amministrazione Committente del progetto sarà Titolare del Software e Maintainer che incarica il CSI-Piemonte come software maintainer (esecutore) nell’ambito del progetto open source.
-
-.. [7] Include avvenimenti significativi recenti, quali viaggi, vaccinazioni non obbligatorie, disturbi del sonno, informazioni sugli stili di vita, ecc., il cui inserimento da parte dell’utente sarà guidato tramite opportune istruzioni, tutorial ed esempi da predisporre nelle interfacce regionali.
-
-.. [8] Servizio Sanitario Nazionale
-
-.. [9] Medici di Medicina Generale/Pediatri di Libera Scelta
-
-.. [10] L’Autorizzazione all’Immissione in Commercio (AIC) è definita mediante un sistema di codifica che identifica univocamente ogni confezione farmaceutica venduta in Italia. Tali codici sono rilasciati dall’Agenzia Italiana del Farmaco (AIFA) e permettono inoltre di identificare univocamente la confezione farmaceutica distinguendola anche in base al numero di compresse/unità, alla percentuale di principio attivo, alla via di somministrazione, ecc. | (https://www.fascicolosanitario.gov.it/sistemi-codifica-dati/informazioni/aic)
 
 .. [11] Include avvenimenti significativi recenti, quali viaggi, vaccinazioni non obbligatorie, disturbi del sonno, informazioni sugli stili di vita, ecc., il cui inserimento da parte dell’utente sarà guidato tramite opportune istruzioni, tutorial ed esempi da predisporre nelle interfacce regionali.
 
