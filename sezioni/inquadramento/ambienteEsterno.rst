@@ -57,8 +57,7 @@ e insieme ad altre disposizioni tecniche di rango inferiore hanno
 costituito la base per l’implementazione o l’adeguamento tecnico del
 FSE.
 
-L’elenco completo della normativa di riferimento è riportato in
- `Appendice A <https://taccuino-community-os.readthedocs.io/en/latest/12.appendice-normativa.html>`__.
+L’elenco completo della normativa di riferimento è riportato in `Appendice A <https://taccuino-community-os.readthedocs.io/en/latest/12.appendice-normativa.html>`__.
 
 Per la realizzazione dell’interoperabilità fra i sistemi regionali di
 FSE attraverso INI, è stata emessa (a più riprese in relazione alla
