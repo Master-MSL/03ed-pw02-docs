@@ -111,7 +111,7 @@ milestone di progetto):
 
 Rispetto alla OBS\ :sub:`FA` riportata di seguito, è interessante come
 venga riportata ogni funzione della Community descritta al capitolo
-`Struttura e caratteri organizzativi <#_cv9lpcmu23pv>`__ i cui soggetti
+`Struttura e caratteri organizzativi <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiOrganizzativa/strutturaCommunity.html>`__ i cui soggetti
 partecipanti concorrono a vario titolo nella realizzazione dei
 deliverable dell’iniziativa.
 
@@ -132,5 +132,3 @@ realizzazione dei vari deliverable di progetto.
 
    Gantt della Fase Attuativa
 
-Per una migliore consultazione si deve fare riferimento all’Allegato
-A - Piano della Fase Attuativa.

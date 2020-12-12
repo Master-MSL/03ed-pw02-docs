@@ -261,7 +261,7 @@ differenti tipologie di richieste come ad esempio:
 
 Le segnalazioni inerenti vulnerabilità o bug relative alla sicurezza del
 software, in considerazione della delicatezza del tema trattato, vengono
-trattate in modo differente come descritto al capitolo `Gestione delle segnalazioni inerenti la sicurezza software e vulnerability <#_5gu151hbbsiw>`__.
+trattate in modo differente come descritto successivamente al capitolo `Gestione delle segnalazioni inerenti la sicurezza software e vulnerability <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiModelloSviluppo/strumenti.html#gestione-delle-segnalazioni-inerenti-la-sicurezza-software-e-vulnerability>`__.
 
 Di seguito viene riportato un esempio di repository di Developers Italia
 

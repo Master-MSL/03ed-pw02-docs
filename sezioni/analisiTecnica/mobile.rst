@@ -7,7 +7,7 @@ realizzabili nell’ambito del progetto di evoluzione del taccuino al fine
 di integrare **device wearable e medicali**\ da cui acquisire **nuovi
 dati in modalità più automatizzata e agevole per l’utente.**
 
--  Modalità di integrazione dei device
+Modalità di integrazione dei device
 -------------------------------------------
 
 Per alimentare il sistema software del Taccuino con i dati acquisiti
@@ -105,7 +105,7 @@ applicazioni:
    visivamente la compatibilità di un app con l'app Salute di Apple su iPhone. 
    
 .. |image13| figure:: /immagini/1000020100000117000000EE36CCBEBAB94F98D9.png
-   :scale: 500 % 
+   :scale: 50 % 
    :alt: HealthKit di Apple
 
    HealthKit di Apple
@@ -174,7 +174,8 @@ Lo scenario A, in considerazione della complessità e maggiore
 onerosità, sia di fatto utile se si individua un’applicazione e
 necessità specifica.
 
--  Ampiezza del bacino di utenza
+
+Ampiezza del bacino di utenza
 ----------------------------------------
 
 In considerazione degli scenari sopra descritti, delle attuali quote di
@@ -202,7 +203,7 @@ Si prevede di integrare nel Taccuino personale del FSE regionale
 integrabili con smartphone.
 
 
--  Analisi comparativa delle HealthApp
+Analisi comparativa delle HealthApp
 ---------------------------------------------------
 
 Come noto, e già osservato in precedenza, l’attuale diffusione degli

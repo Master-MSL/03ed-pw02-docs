@@ -43,7 +43,7 @@ regionale del sistema della RDA del paziente e recuperare i documenti
 dalla regione che lo ha prodotto.
 
 .. |image25| figure:: /immagini/1000020100000407000002A4869DEDC724F2A515.png
-   :scale: 80 % 
+   :scale: 60 % 
    :alt: Federazione FSE
 
    Federazione FSE
@@ -56,7 +56,7 @@ sanitari attraverso modalità sicure e nel rispetto dei consensi
 stabiliti dagli assistiti.
 
 .. |image26| figure:: /immagini/10000201000004050000029686775BE5EC1D1CDA.png
-   :scale: 80 % 
+   :scale: 60 % 
    :alt: Architettura dell'Infrastruttura Nazionale di Interoperabilità (INI)
 
    Architettura dell'Infrastruttura Nazionale di Interoperabilità (INI)
@@ -234,7 +234,7 @@ interoperabilità previsto a livello regionale:
          regioni in sussidiarietà).
 
 .. |image28| figure:: /immagini/10000201000003C3000002923F782D3D320232E0.png
-   :scale: 80 % 
+   :scale: 60 % 
    :alt: Architettura logica del sistema AS-IS del FSE della Regione Piemonte
 
    Architettura logica del sistema AS-IS del FSE della Regione Piemonte
@@ -275,7 +275,7 @@ più componenti, colorate in rosso, distribuite nel sistema FSEr:
    documenti del Taccuino.
 
 In base agli scenari di integrazione individuati al capitolo `Modalità
-di integrazione dei device <#_8dnz78msojq0>`__, si riporta un diagramma
+di integrazione dei device <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiTecnica/mobile.html>`__, si riporta un diagramma
 architetturale che evidenzia come le nuove componenti APP per smartphone
 si possano inserire nel sistema regionale complessivo di Taccuino e di
 FSE. In particolare si prevede la realizzazione di un'\ **app regionale

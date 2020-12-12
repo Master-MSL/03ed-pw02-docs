@@ -88,7 +88,7 @@ individuati per ogni tipologia:
 
       Pull request e Issue vengono gestiti da strumenti che vengono resi
       disponibili nella piattaforma di code hosting GitHub. Per maggiori
-      dettagli fare riferimento al capitolo `Strumenti di interazione per gli utenti della Community <#_hu9bddmya7ms>`__
+      dettagli fare riferimento al capitolo `Strumenti di interazione per gli utenti della Community <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiModelloSviluppo/strumenti.html#strumenti-di-interazione-per-gli-utenti-della-community>`__
 
 -  **processi di business network in uscita**
 

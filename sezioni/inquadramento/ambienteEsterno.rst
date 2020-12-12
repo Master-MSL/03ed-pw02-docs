@@ -58,7 +58,7 @@ costituito la base per l’implementazione o l’adeguamento tecnico del
 FSE.
 
 L’elenco completo della normativa di riferimento è riportato in
-`Appendice A <#_qgoxi6bjobmt>`__.
+`Appendice A <https://taccuino-community-os.readthedocs.io/en/latest/12.appendice-normativa.html>`__.
 
 Per la realizzazione dell’interoperabilità fra i sistemi regionali di
 FSE attraverso INI, è stata emessa (a più riprese in relazione alla
@@ -75,7 +75,7 @@ nell'elaborazione dei risultati dei Gruppi Tematici interregionali del
 FSE istituiti da Ministero della Salute e da AgID stessa.
 
 L’elenco esteso della principale documentazione tecnica ad oggi emessa è
-riportato in `Appendice B <#_a5876280ipel>`__; eventuali aggiornamenti
+riportato in `Appendice B <https://taccuino-community-os.readthedocs.io/en/latest/13.appendice-specifiche-nazionali.html>`__; eventuali aggiornamenti
 sono conosultabili sulla pagina web
 https://www.fascicolosanitario.gov.it/area-tecnica curata da AgID.
 
@@ -175,7 +175,7 @@ esclusivamente al cittadino, articolata in:
 
 I contenuti informativi costituenti il data set standard sono
 raggruppate in sezioni ed elementi secondo la logica di seguito
-sintetizzata (elenco di dettaglio in `Appendice D <#_t43wx2m8ttuk>`__
+sintetizzata (elenco di dettaglio in `Appendice D <https://taccuino-community-os.readthedocs.io/en/latest/15.appendice-dataset.html>`__
 licenziato dal GdL a dicembre 2019).
 
 La sezione di interesse è quella naturalmente delle osservazioni
