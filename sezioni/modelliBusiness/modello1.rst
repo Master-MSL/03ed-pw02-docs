@@ -18,7 +18,7 @@ all’acquisizione e al caricamento dei dati provenienti dai device nel
 Taccuino.
 
 I compiti delle App regionali sono descritti nel capitolo `Modalità di
-integrazione dei device <#_8dnz78msojq0>`__ dove si analizzano le
+integrazione dei device <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiTecnica/mobile.html#modalita-di-integrazione-dei-device>`__ dove si analizzano le
 possibili modalità di acquisizione dei dati utili per il Taccuino
 provenienti da device medicali e wearable. Si prevede di sfruttare le
 logiche di interfacciamento software (API e SDK) ed i formati in uso da
@@ -44,12 +44,12 @@ Il progetto attuativo prevede, a seguito della formalizzazione della
    gestione di dati inerenti la Salute ed il Fitness/Wellness.
 
 Il software sviluppato viene ospitato su repository di code hosting di
-titolarità regionale `(rif. § Repository pubblico) <#_wk9a0i7p4nu0>`__.
+titolarità regionale `(rif. § Repository pubblico) <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiModelloSviluppo/strumenti.html#repository-pubblico>`__.
 I contributi possono essere inseriti attraverso le funzionalità messe a
 disposizione dalle piattaforma di code hosting per favorire la
 collaborazione degli utenti e per la gestione di pull request e delle
 issue `(rif. § Strumenti di interazione per gli utenti della
-Community) <#_hu9bddmya7ms>`__.
+Community) <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiModelloSviluppo/strumenti.html#strumenti-di-interazione-per-gli-utenti-della-community>`__.
 
 In questo modello, le soluzioni inizialmente pubblicate possono
 “evolvere” anche con il contributi di terzi, mediante gli strumenti
@@ -102,7 +102,7 @@ maintainer per garantire
    operativo.
 
 In questo modello si prevede uno steering committee, come descritto nel
-capitolo `Strategie <#_f6f2ogjfbtc>`__ della “Fase attuativa” del
+capitolo `Strategie <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/obiettivi/fa.html#strategie>`__ della “Fase attuativa” del
 progetto, con alto potere decisionale (composto da Regione e
 CSI-Piemonte) che si concentra sulla definizione della roadmap di
 progetto demandando la governance della community al CSI-Piemonte in

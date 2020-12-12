@@ -30,7 +30,7 @@ miglioramento della User Experience della sezione dedicata alle
 rilevazioni e alle misurazioni a carattere routinario (es. misurazione
 pressione arteriosa, temperatura, peso, etc), descritte nel capitolo “
 `Il Taccuino - Dataset standard e soluzioni
-tecniche <#_6w769478cv65>`__\ ”.
+tecniche <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/inquadramento/ambienteEsterno.html#il-taccuino-dataset-standard-e-soluzioni-tecniche>`__\ ”.
 
 Rispetto al dataset definito a livello nazionale, si può prevedere o
 valutare l'alimentazione del Taccuino con ulteriori informazioni
@@ -92,8 +92,7 @@ buon esito della fase attuativa, sono i seguenti:
 
 Proprio per le sue peculiarità (e per il carattere innovativo nel
 contesto della PA) un obiettivo trasversale al progetto, funzionale per
-la logica ipotizzata nel project work, sarà la **“cura” della
-Community**\ *\ a partire dalla sua istituzione e promozione, e
+la logica ipotizzata nel project work, sarà la **“cura” della Community**  a partire dalla sua istituzione e promozione, e
 proseguendo al fine di garantirne la sostenibilità e la durabilità.*
 
 È inoltre evidente che, ai fini di poter davvero cogliere i benefici dei

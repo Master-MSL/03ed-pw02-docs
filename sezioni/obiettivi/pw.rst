@@ -14,7 +14,7 @@ Obiettivo del project work
 -----------------------------
 
 Il project work si pone come obiettivo principale la realizzazione di
-uno studio di fattibilità volto ad analizzare e valutare le
+uno studio di fattibilità (§`Proposta di evoluzione <https://taccuino-community-os.readthedocs.io/en/latest/05.proposta-evoluzione.html>`__) volto ad analizzare e valutare le
 caratteristiche di un progetto per lo sviluppo di un sistema software,
 attraverso una Community Open Source, in grado di agevolare
 l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie
@@ -24,28 +24,28 @@ di device. Si riportano i seguenti sotto-obiettivi:
    sistema software (a partire dagli standard in uso e dai relativi
    formati) coerente con l’ecosistema della sanità digitale piemontese e
    con il modello di interoperabilità del FSE adottato a livello
-   nazionale (§`Analisi tecnica della proposta <#_a7xqlsfxn4e6>`__);
+   nazionale (§`Analisi tecnica della proposta <https://taccuino-community-os.readthedocs.io/en/latest/06.analisi-tecnica.html>`__);
 
 2. definire un modello di sviluppo software basato su una Community Open
    Source (§`Modelli di business di sviluppo
-   software <#_5tjgfdkp2xkv>`__) per l’integrazione del Taccuino
+   software <https://taccuino-community-os.readthedocs.io/en/latest/07.modello-di-business.html>`__) per l’integrazione del Taccuino
    personale con sistemi medicali, wearable e APP utilizzate per fitness
    e wellness;
 
    a. analizzare gli obiettivi di fondo della community, le strategie
       per raggiungerli e definire la community come sistema
       organizzativo e sistema di processi (§`Analisi organizzativa della
-      community OS <#_hz1sgo9j5qf>`__);
+      community OS <https://taccuino-community-os.readthedocs.io/en/latest/08.analisi-organizzativa.html>`__);
 
    b. definire gli strumenti utili per la gestione della Community
-      (§`Strumenti per la gestione della community <#_2vmyfzprsenz>`__);
+      (§`Strumenti per la gestione della community <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiModelloSviluppo/strumenti.html>`__);
 
 3. analizzare gli aspetti giuridici correlati alla proposta di
    evoluzione del sistema software del Taccuino Personale (§`Analisi
-   delle licenze software <#_99c7jv7oof5s>`__)
+   delle licenze software <https://taccuino-community-os.readthedocs.io/en/latest/10.analisi-licenze.html>`__)
 
 4. formulare un’ipotesi di pianificazione della fase attuativa
-   (§`Programmazione della fase attuativa <#_chzjhknutdhe>`__).
+   (§`Programmazione della fase attuativa <https://taccuino-community-os.readthedocs.io/en/latest/11.programmazione.html>`__).
 
 Strategia
 --------------

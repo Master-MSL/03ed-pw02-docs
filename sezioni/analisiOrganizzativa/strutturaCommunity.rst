@@ -6,7 +6,7 @@ governo si può ipotizzare la necessità di un **Team di governance della
 Community**, che si occupa di governare la Community in base agli
 obiettivi, alle linee di indirizzo e alle strategie definite dallo
 Steering Committee (definito nel capitolo
-`Strategie <#_f6f2ogjfbtc>`__). Ha la responsabilità di perseguire gli
+`Strategie <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/obiettivi/fa.html#strategie>`__). Ha la responsabilità di perseguire gli
 obiettivi di fondo della fase attuativa del progetto di evoluzione del
 Taccuino effettuando scelte organizzative atte a declinare le strategie
 in piani operativi e a gestire, in modo coerente con i risultati attesi,
@@ -115,7 +115,7 @@ acquisizione dei dati dai device vengono suddivise nelle altre due
 produzioni sopra descritte.
 
 Come delineato nel capitolo `Modalità di integrazione dei
-device <#_8dnz78msojq0>`__ i contributori possono essere vendor di
+device <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiTecnica/mobile.html#modalita-di-integrazione-dei-device>`__ i contributori possono essere vendor di
 device o liberi sviluppatori interessati al progetto.  In generale, i contributi devono essere sottoposti a verifica formale da parte del software maintainer, che opera per conto del Titolare del
 software (Regione Piemonte), al fine di garantire un prodotto software in grado di fornire:
 

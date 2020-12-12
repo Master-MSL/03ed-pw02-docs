@@ -6,7 +6,7 @@ application da parte di terzi sfruttando le api rest esposte dal sistema
 regionale di Taccuino che possono pubblicate in open source su
 repository pubblico (previa verifica di pubblicabilità come descritto al
 capitolo `Considerazioni sulla pubblicazione del software del sistema
-regionale del FSE <#_ukhxqe9vnl6o>`__) o solamente esposte come “\ *api
+regionale del FSE <https://taccuino-community-os.readthedocs.io/en/latest/sezioni/analisiGiuridica/swSistReg.html#considerazioni-sulla-pubblicazione-del-software-del-sistema-regionale-del-fse>`__) o solamente esposte come “\ *api
 as a service*\ ” su portale https://developers.italia.it/it/api/\ ”.
 
 Le applicazioni potrebbero essere licenziate in OS (ma non sarebbero
