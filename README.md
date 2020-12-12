@@ -23,13 +23,19 @@ Il project work si pone come obiettivo principale la realizzazione di uno studio
 
 Collegamenti utili
 -------------------
-Link a [Read-tha-Docs per compilazione](https://readthedocs.org/projects/taccuino-community-os/)
+- [Read-tha-Docs per compilazione](https://readthedocs.org/projects/taccuino-community-os/)
 
-Link a [Read-tha-Docs per consultazione](https://taccuino-community-os.readthedocs.io/)
+- [Read-tha-Docs per consultazione](https://taccuino-community-os.readthedocs.io/)
 
-Link guida all'utilizzo del markup [reStructuredText su SPHINX](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
+- guida all'utilizzo del markup [reStructuredText su SPHINX](https://www.sphinx-doc.org/en/master/usage/restructuredtext/index.html)
 
-Link guida all'utilizzo del markup [reST reference](https://docutils.sourceforge.io/rst.html)
+- guida all'utilizzo del markup [reST reference](https://docutils.sourceforge.io/rst.html)
+
+- [scrivere un documento doc.italia.it](https://docs.italia.it/italia/docs-italia/docs-italia-guide/it/bozza/scrivere-un-documento.html)
+
+- [HackMD Tutorial Book](https://hackmd.io/c/tutorials/%2Fs%2Ftutorials)
+
+- [My first HackMD note](https://hackmd.io/K0QmF2N3RpmGcxlhKBTm0Q?both)
 
 
 
