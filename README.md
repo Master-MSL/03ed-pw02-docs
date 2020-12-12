@@ -18,7 +18,7 @@ Il **Taccuino Personale** dell’assistito è una sezione riservata del FSE all'
 
 Obiettivo
 =========
-Il project work si pone come obiettivo principale la realizzazione di uno studio di fattibilità volto ad analizzare e valutare le caratteristiche di un progetto per lo sviluppo di un sistema software, attraverso una Community Open Source, in grado di agevolare l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie di device.
+Il project work redatto nell'ambito del Master "Management del software libero" Ed.III (a.a. 2019-2020) si pone come obiettivo principale la realizzazione di uno studio di fattibilità volto ad analizzare e valutare le caratteristiche di un progetto per lo sviluppo di un sistema software, attraverso una Community Open Source, in grado di agevolare l’alimentazione del Taccuino con i dati acquisiti da diverse tipologie di device.
 
 
 Collegamenti utili
