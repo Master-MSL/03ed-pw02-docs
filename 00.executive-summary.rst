@@ -1,190 +1,52 @@
 Executive summary
 =================
 
-Il **Fascicolo Sanitario Elettronico (FSE)**, contenente dati e
-documenti clinico-sanitari dei cittadini, è stato istituito con finalità
-di cura, studio e ricerca, programmazione sanitaria e costituisce uno
-degli elementi cardine della sanità digitale. Il **Taccuino personale**
-è una particolare sezione del FSE - alimentata direttamente
-dall’assistito con dati e documenti non certificati - di grande
-interesse ai fini di cura in quanto consente di intercettare
-informazioni complementari a quelle generate dal Servizio Sanitario
-Nazionale.
+Il **Fascicolo Sanitario Elettronico (FSE)**, contenente dati e documenti clinico-sanitari dei cittadini, è stato istituito con finalità di cura, studio e ricerca, programmazione sanitaria e costituisce uno degli elementi cardine della sanità digitale. Il **Taccuino personale** è una particolare sezione del FSE - alimentata direttamente dall’assistito con dati e documenti non certificati - di grande interesse ai fini di cura in quanto consente di intercettare informazioni complementari a quelle generate dal Servizio Sanitario Nazionale.
 
-L’attuale disponibilità del Taccuino tra i servizi delle piattaforme
-regionali è parziale, e le informazioni gestite sono fortemente
-disomogenee. Benché siano stati recentemente definito un percorso di
-evoluzione che garantirà contenuti standard ed interoperabili a livello
-nazionale, è opinione diffusa che il Taccuino sarà realmente utilizzato
-solo quando verranno superate le attuali limitazioni legate alle
-modalità di accesso e alimentazione, ad esempio mediante l’integrazione
-con *device wearable* e medicali. In tal modo sarà possibile
-capitalizzare una grande mole di dati utili, già potenzialmente
-disponibili, ma ancora non facilmente fruibili da parte dei
-professionisti sanitari nei percorsi di cura e per il mantenimento in
-salute.
+L’attuale disponibilità del Taccuino tra i servizi delle piattaforme regionali è parziale, e le informazioni gestite sono fortemente disomogenee. Benché siano stati recentemente definito un percorso di evoluzione che garantirà contenuti standard ed interoperabili a livello nazionale, è opinione diffusa che il Taccuino sarà realmente utilizzato solo quando verranno superate le attuali limitazioni legate alle modalità di accesso e alimentazione, ad esempio mediante l’integrazione con *device wearable* e medicali. In tal modo sarà possibile capitalizzare una grande mole di dati utili, già potenzialmente disponibili, ma ancora non facilmente fruibili da parte dei professionisti sanitari nei percorsi di cura e per il mantenimento in salute.
 
-E’ questo il focus del *project work* (PW), condotto partendo
-dall’assunto che soltanto un approccio “open” permetta di coniugare
-effettivamente, in fase di sviluppo e di esercizio, le dinamiche della
-PA con quelle ben più rapide dell’evoluzione tecnologica e del mercato.
+E’ questo il focus del *project work* (PW), condotto partendo dall’assunto che soltanto un approccio “open” permetta di coniugare effettivamente, in fase di sviluppo e di esercizio, le dinamiche della PA con quelle ben più rapide dell’evoluzione tecnologica e del mercato.
 
-Il progetto di integrazione del Taccuino ha buone probabilità di vedere
-la luce nell’ambito delle iniziative di evoluzione e diffusione del FSE
-e dei Servizi on line per la salute condotte dalla Direzione Sanità e
-welfare della Regione Piemonte in collaborazione con CSI Piemonte: nel
-PW sono stati realizzati approfondimenti su aspetti organizzativi,
-normativi e tecnici di materia, propedeutici alla vera e propria
-realizzazione del progetto (cd. fase attuativa o “FA”), integrati con
-gli elementi acquisiti durante la partecipazione al Master.
+Il progetto di integrazione del Taccuino ha buone probabilità di vedere la luce nell’ambito delle iniziative di evoluzione e diffusione del FSE e dei Servizi on line per la salute condotte dalla Direzione Sanità e welfare della Regione Piemonte in collaborazione con CSI Piemonte: nel
+PW sono stati realizzati approfondimenti su aspetti organizzativi, normativi e tecnici di materia, propedeutici alla vera e propria realizzazione del progetto (cd. fase attuativa o “FA”), integrati con gli elementi acquisiti durante la partecipazione al Master.
 
-Lo smartphone è lo snodo ideale per l’accesso e l’alimentazione del
-Taccuino, sia per la larghissima diffusione (il rapporto CENSIS 2019
-rileva che oltre il 73% degli italiani lo utilizza abitualmente) sia
-perché strumento flessibile in grado di acquisire direttamente alcuni
-dati e di connettersi con altri dispositivi che integrano specifici
-sensori, sia perché compatibile con le modalità richieste per l’accesso
-al FSE (es. credenziali SPID, CIE).
+Lo smartphone è lo snodo ideale per l’accesso e l’alimentazione del Taccuino, sia per la larghissima diffusione (il rapporto CENSIS 2019 rileva che oltre il 73% degli italiani lo utilizza abitualmente) sia perché strumento flessibile in grado di acquisire direttamente alcuni
+dati e di connettersi con altri dispositivi che integrano specifici sensori, sia perché compatibile con le modalità richieste per l’accesso al FSE (es. credenziali SPID, CIE).
 
 I dispositivi da interfacciare con gli smartphone sono:
 
--  i *device wearable*, dispositivi che si indossano e integrano
-   usualmente funzionalità legate al *fitness* e al monitoraggio degli
-   stili di vita;
+-  i *device wearable*, dispositivi che si indossano e integrano usualmente funzionalità legate al *fitness* e al monitoraggio degli stili di vita;
 
--  i dispositivi medicali, strumenti utilizzati con finalità
-   diagnostiche o terapeutiche, soggetti a marcatura CE.
+-  i *dispositivi medicali*, strumenti utilizzati con finalità diagnostiche o terapeutiche, soggetti a marcatura CE.
 
-La comunicazione fra dispositivi e smartphone avviene usualmente tramite
-Bluetooth e, nella maggior parte dei casi, sullo smartphone sono
-preinstallate App in grado di acquisire ed organizzare buona parte dei
-dati sanitari di interesse per il Taccuino. Tali App possono
-rappresentare un valido riferimento per lo sviluppo dei software di
-integrazione, oltre a costituire un potenziale serbatoio di dati in
-grado di intercettare una quota significativa di potenziali utenti.
+La comunicazione fra dispositivi e smartphone avviene usualmente tramite Bluetooth e, nella maggior parte dei casi, sullo smartphone sono preinstallate App in grado di acquisire ed organizzare buona parte dei dati sanitari di interesse per il Taccuino. Tali App possono rappresentare un valido riferimento per lo sviluppo dei software di integrazione, oltre a costituire un potenziale serbatoio di dati in grado di intercettare una quota significativa di potenziali utenti. 
 
-Per questo motivo, la soluzione tecnica proposta prevede la
-**realizzazione di due app native Regionali** rispettivamente per **iOS
-e Android** integrate via API (Application Programming Interface) o SDK
-(Software Development Kit) con le più diffuse App presenti su smartphone
-per ricevere i dati sanitari dai device medicali e wearable: *App Salute
-di Apple su iOS (attraverso SDK Apple HealthKit), Google Fit su Android
-(attraverso Google Rest API) e Samsung Health su Android (attraverso
-Samsung SDK).* Per memorizzare i dati sanitari, le app native Regionali
-si interfacciano con il sistema di Taccuino della Regione Piemonte
-attraverso un’integrazione a servizi (in tecnologia API rest). Tali
-servizi devono essere realizzati considerando le funzionalità previste
-nelle app, le informazioni sanitarie acquisite dai device e garantendo
-la protezione dei dati personali.
+Per questo motivo, la soluzione tecnica proposta prevede la **realizzazione di due app native Regionali** rispettivamente per **iOS e Android** integrate via API (Application Programming Interface) o SDK (Software Development Kit) con le più diffuse App presenti su smartphone per ricevere i dati sanitari dai device medicali e wearable: *App Salute di Apple su iOS (attraverso SDK Apple HealthKit), Google Fit su Android (attraverso Google Rest API) e Samsung Health su Android (attraverso Samsung SDK).* Per memorizzare i dati sanitari, le app native Regionali si interfacciano con il sistema di Taccuino della Regione Piemonte attraverso un’integrazione a servizi (in tecnologia API rest). Tali servizi devono essere realizzati considerando le funzionalità previste nelle app, le informazioni sanitarie acquisite dai device e garantendo la protezione dei dati personali.
+ 
+In attesa di una valutazione comparativa ex art. 68 CAD, prevista nella fase attuativa, gli approfondimenti condotti preliminarmente fanno ritenere che la scelta sarà di tipo “MAKE”. In tale prospettiva sono stati presi in considerazione e confrontati 3 possibili modelli di *business* per lo sviluppo software, individuando come più promettente, in relazione alle peculiarità progettuali, **il modello di sviluppo e gestione del software basato su Community OS.**
 
-In attesa di una valutazione comparativa ex art. 68 CAD, prevista nella
-fase attuativa, gli approfondimenti condotti preliminarmente fanno
-ritenere che la scelta sarà di tipo “MAKE”. In tale prospettiva sono
-stati presi in considerazione e confrontati 3 possibili modelli di
-*business* per lo sviluppo software, individuando come più promettente,
-in relazione alle peculiarità progettuali, **il modello di sviluppo e
-gestione del software basato su Community OS.**
+ L’obiettivo di tale modello è *costruire e promuovere una Community OS intorno ad un primo nucleo core delle app del Taccuino di titolarità della Regione Piemonte, pubblicato con licenza OS su REPOSITORY DI CODE HOSTING (GitHub)*. Il modello prevede due soggetti principali:
 
-L’obiettivo di tale modello è *costruire e promuovere una Community OS
-intorno ad un primo nucleo core delle app del Taccuino di titolarità
-della Regione Piemonte, pubblicato con licenza OS su REPOSITORY DI CODE
-HOSTING (GitHub)*. Il modello prevede due soggetti principali:
+-  **Steering committee**, il vertice strategico composto principalmente dal *maintainer* (Regione), *software maintainer* (CSI-Piemonte) e ulteriori stakeholder coinvolti dal committente del progetto (esponenti dell’ambito clinico-sanitario, accademico ed eventualmente PA centrali e di altre RegionI/Province Autonome). Ha la responsabilità di definire la *roadmap di progetto* e di fornire gli obiettivi, le linee di indirizzo e le strategie; 
+ 
+-  **Community** governata dal software maintainer che ha il compito di realizzare il primo nucleo core delle app Regionali e favorire la contribuzione da parte di terzi in termini di software, idee e conoscenze per estendere il primo nucleo core delle app attraverso l’incremento delle funzionalità offerte nelle app e l’estensione in misura sensibile delle tipologie di dati sanitari trattati e di device medicali e wearable (e relative app) integrati.
+ 
+Nel modello sono stati analizzati profili giuridici delle due tipologie di **contributi** al software: i contributi **minimali** (ad esempio: correzioni e/o miglioramenti al codice) la cui proprietà intellettuale resta in capo alla Regione Piemonte ma i contributor sono citati come autori su repository di code hosting e i contributi **sostanziali e/o significativi** (ad esempio: interi moduli, app componenti o funzionalità complesse) che da un punto di vista giuridico richiedono il trasferimento alla Regione Piemonte dei diritti patrimoniali sul software oppure il mantenimento della proprietà intellettuale del software in capo al contributor e rilascio del software con licenza compatibile con quella del software già rilasciato. Per entrambe le tipologie, il SW Maintainer effettua la *verifica formale di tutti i contributi* e definisce le regole e le modalità di contribuzione al software su GitHub.
 
--  **Steering committee**, il vertice strategico composto principalmente
-   dal *maintainer* (Regione), *software maintainer* (CSI-Piemonte) e
-   ulteriori stakeholder coinvolti dal committente del progetto
-   (esponenti dell’ambito clinico-sanitario, accademico ed eventualmente
-   PA centrali e di altre RegionI/Province Autonome). Ha la
-   responsabilità di definire la *roadmap di progetto* e di fornire gli
-   obiettivi, le linee di indirizzo e le strategie;
+Il **sistema organizzativo della Community** è una struttura per funzioni: trasversali (come il team di governance, la funzione legale, della comunicazione/marketing e della sicurezza) e verticali (come i team di produzione delle App e i contributori al software). Il team di governance si interfaccia allo Steering Committee per recepire gli obiettivi di fondo e le strategie e definire e monitorare di conseguenza i piani operativi per perseguire i risultati attesi.
 
--  **Community** governata dal software maintainer che ha il compito di
-   realizzare il primo nucleo core delle app Regionali e favorire la
-   contribuzione da parte di terzi in termini di software, idee e
-   conoscenze per estendere il primo nucleo core delle app attraverso
-   l’incremento delle funzionalità offerte nelle app e l’estensione in
-   misura sensibile delle tipologie di dati sanitari trattati e di
-   device medicali e wearable (e relative app) integrati.
+Gli **strumenti** * a supporto dei processi di sviluppo e gestione del software* sono quelli tipicamente offerti dai repository pubblici di code hosting (issue e pull request, Wiki) e a questi si possono affiancare quelli di collaboration (come ad esempio: newsletter, forum, chat, etc). Considerando le sensibilità dei dati trattati dalle app che si intendono realizzare, si è analizzata la possibilità di gestire *issue di sicurezza* via email che specificano vulnerabilità e bug rilevati inerenti la sicurezza del software rilevate dagli utenti e dai contributor della Community ad un apposito indirizzo di posta del software maintainer secondo le modalità indicate in *Responsible Disclosure Policy* presenti sul sito della community. Tale sito, che si affianca la repository di code hosting avrà inoltre l’obiettivo di descrivere il progetto (vetrina del progetto) e di promuovere e far crescere una community intorno al progetto stesso.
 
-Nel modello sono stati analizzati profili giuridici delle due tipologie
-di **contributi** al software: i contributi **minimali** (ad esempio:
-correzioni e/o miglioramenti al codice) la cui proprietà intellettuale
-resta in capo alla Regione Piemonte ma i contributor sono citati come
-autori su repository di code hosting e i contributi **sostanziali e/o
-significativi** (ad esempio: interi moduli, app componenti o
-funzionalità complesse) che da un punto di vista giuridico richiedono il
-trasferimento alla Regione Piemonte dei diritti patrimoniali sul
-software oppure il mantenimento della proprietà intellettuale del
-software in capo al contributor e rilascio del software con licenza
-compatibile con quella del software già rilasciato. Per entrambe le
-tipologie, il SW Maintainer effettua la *verifica formale di tutti i
-contributi* e definisce le regole e le modalità di contribuzione al
-software su GitHub.
+Per quanto attiene l’ambito giuridico è stata effettuata una disamina del sistema regionale di Fascicolo Sanitario in cui si innesta anche l’attuale software che implementa il Taccuino personale del paziente e in particolare sono stati analizzati gli aspetti inerenti le licenze riguardanti lo stack applicativo e macroscopicamente il software del sistema regionale del FSE. Essendo un software il cui sviluppo è iniziato nel 2010 ed attualmente non essendo pubblicato in open source, si è descritto il **processo di valutazione per la pubblicazione del software su repository pubblico**. Tale processo sarà utilizzato anche per la pubblicazione delle App Regionali del Taccuino. A supporto del processo sono state riportate le **checklist per le verifiche tecniche e legali** attualmente in uso presso il CSI Piemonte.
 
-Il **sistema organizzativo della Community** è una struttura per
-funzioni: trasversali (come il team di governance, la funzione legale,
-della comunicazione/marketing e della sicurezza) e verticali (come i
-team di produzione delle App e i contributori al software). Il team di
-governance si interfaccia allo Steering Committee per recepire gli
-obiettivi di fondo e le strategie e definire e monitorare di conseguenza
-i piani operativi per perseguire i risultati attesi.
+In linea con le indicazioni AgID si è prefigurata la pubblicazione delle **App Regionali con licenza open source EUPL 1.2**, che è conforme alla normativa europea sulla tutela del diritto d’autore e del software e garantisce un’ampia compatibilità con altre tipologie di licenze.
 
-Gli **strumenti** * a supporto dei processi di sviluppo e gestione
-del software* sono quelli tipicamente offerti dai repository pubblici di
-code hosting (issue e pull request, Wiki) e a questi si possono
-affiancare quelli di collaboration (come ad esempio: newsletter, forum,
-chat, etc). Considerando le sensibilità dei dati trattati dalle app che
-si intendono realizzare, si è analizzata la possibilità di gestire
-*issue di sicurezza* via email che specificano vulnerabilità e bug
-rilevati inerenti la sicurezza del software rilevate dagli utenti e dai
-contributor della Community ad un apposito indirizzo di posta del
-software maintainer secondo le modalità indicate in *Responsible
-Disclosure Policy* presenti sul sito della community. Tale sito, che si
-affianca la repository di code hosting avrà inoltre l’obiettivo di
-descrivere il progetto (vetrina del progetto) e di promuovere e far
-crescere una community intorno al progetto stesso.
-
-Per quanto attiene l’ambito giuridico è stata effettuata una disamina
-del sistema regionale di Fascicolo Sanitario in cui si innesta anche
-l’attuale software che implementa il Taccuino personale del paziente e
-in particolare sono stati analizzati gli aspetti inerenti le licenze
-riguardanti lo stack applicativo e macroscopicamente il software del
-sistema regionale del FSE. Essendo un software il cui sviluppo è
-iniziato nel 2010 ed attualmente non essendo pubblicato in open source,
-si è descritto il **processo di valutazione per la pubblicazione del
-software su repository pubblico**. Tale processo sarà utilizzato anche
-per la pubblicazione delle App Regionali del Taccuino. A supporto del
-processo sono state riportate le **checklist per le verifiche tecniche
-e legali** attualmente in uso presso il CSI Piemonte.
-
-In linea con le indicazioni AgID si è prefigurata la pubblicazione delle
-**App Regionali con licenza open source EUPL 1.2**, che è conforme alla
-normativa europea sulla tutela del diritto d’autore e del software e
-garantisce un’ampia compatibilità con altre tipologie di licenze.
-
-Rispetto all’analisi **SWOT** (Strengths, Weaknesses, Opportunities,
-Threats) effettuata, il modello di sviluppo software basato su Community
-Open Source vede come i principali punti di forza le grandi potenzialità
-dei *contributor*, la possibilità di seguire l’evoluzione tecnologica e
-le modalità di integrazione tecnica; gli elementi di possibile debolezza
-sono invece l’elevato *effort* per l’organizzazione ed il governo della
-Community, gli impatti significativi su aspetti legali/profili di
-responsabilità, ed infine risultati e tempi non certi. Nella fase
-attuativa del progetto sarà inoltre necessario bilanciare opportunità e
-minacce con particolare riferimento a:
+ Rispetto all’analisi **SWOT** (Strengths, Weaknesses, Opportunities, Threats) effettuata, il modello di sviluppo software basato su Community Open Source vede come i principali punti di forza le grandi potenzialità dei *contributor*, la possibilità di seguire l’evoluzione tecnologica e le modalità di integrazione tecnica; gli elementi di possibile debolezza sono invece l’elevato *effort* per l’organizzazione ed il governo della Community, gli impatti significativi su aspetti legali/profili di responsabilità, ed infine risultati e tempi non certi. Nella fase attuativa del progetto sarà inoltre necessario bilanciare opportunità e minacce con particolare riferimento a:
 
 -  mantenimento di un adeguato *commitment* da parte dei decisori;
 
--  aggregazione di possibili *stakeholder* a fronte di azioni di
-   gestione del cambiamento (considerato che le logiche OS sono ancora
-   poco diffuse);
+-  aggregazione di possibili *stakeholder* a fronte di azioni di gestione del cambiamento (considerato che le logiche OS sono ancora poco diffuse);
 
--  equilibrare - nell’attuale fase emergenziale - l’interesse per i
-   servizi sanitari on line e il possibile scetticismo conseguente a
-   recenti casi di insuccesso registrati a livello nazionale.
+-  equilibrare - nell’attuale fase emergenziale - l’interesse per i servizi sanitari on line e il possibile scetticismo conseguente a recenti casi di insuccesso registrati a livello nazionale.
 
-La programmazione di massima della fase attuativa, che dovrebbe essere
-avviata nel corso del 2021, prevede un’articolazione in 7 macro-fasi
-(work-package), nelle quali sono state individuati le *milestone* ed i
-*deliverable* principali, per una durata totale stimata per il progetto
-di 30 mesi, di cui 12 di realizzazione e 18 di gestione.
+La programmazione di massima della fase attuativa, che dovrebbe essere avviata nel corso del 2021, prevede un’articolazione in 7 macro-fasi (work-package), nelle quali sono state individuati le *milestone* ed i *deliverable* principali, per una durata totale stimata per il progetto di 30 mesi, di cui 12 di realizzazione e 18 di gestione.
