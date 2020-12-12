@@ -2,22 +2,20 @@ Portatori di interesse
 ========================
 
 
-Se si analizza il contesto generale in cui si vuole realizzare il
-progetto, si possono evidenziare più categorie di stakeholder
-direttamente o indirettamente coinvolti nei processi in atto nelle
-diverse fasi di realizzazione e fruizione, rappresentati di seguito
-sotto forma di mappa mentale (rif. |image1|) .
+Se si analizza il contesto generale in cui si vuole realizzare il progetto, si possono evidenziare più categorie di stakeholder direttamente o indirettamente coinvolti nei processi in atto nelle diverse fasi di realizzazione e fruizione, rappresentati di seguito sotto forma di mappa mentale.
 
-Entrando più nel dettaglio, i ruoli dei principali soggetti coinvolti
-sono i seguenti:
+.. |image1| figure:: /immagini/10000000000005AD0000044B34BC66ACAED64FB6.jpg
+   :scale: 50 %
+   :alt: Stakeholder del Taccuino Personale del FSE
 
--  le Amministrazioni centrali forniscono gli indirizzi fondamentali
-   (incluso in parte lo stanziamento delle risorse finanziarie) tramite
-   atti e provvedimenti primari, anche avvalendosi del supporto di
-   Agenzie e Società pubbliche per linee specifiche di attività;
+   Stakeholder del Taccuino Personale del FSE
 
--  la Regione Piemonte coordina la realizzazione complessiva del FSE a
-   livello regionale, definendo in armonia con le disposizioni nazionali
+
+Entrando più nel dettaglio, i ruoli dei principali soggetti coinvolti sono i seguenti:
+
+-  le Amministrazioni centrali forniscono gli indirizzi fondamentali (incluso in parte lo stanziamento delle risorse finanziarie) tramite atti e provvedimenti primari, anche avvalendosi del supporto di Agenzie e Società pubbliche per linee specifiche di attività;
+
+-  la Regione Piemonte coordina la realizzazione complessiva del FSE a livello regionale, definendo in armonia con le disposizioni nazionali
    la priorità degli interventi e l’assegnazione puntuale delle risorse,
    in funzione del proprio contesto territoriale e dei bisogni da esso
    espressi;
@@ -58,9 +56,4 @@ sono i seguenti:
 
 
 
-.. |image1| figure:: /immagini/10000000000005AD0000044B34BC66ACAED64FB6.jpg
-   :scale: 50 %
-   :alt: Stakeholder del Taccuino Personale del FSE
-
-   Stakeholder del Taccuino Personale del FSE
 

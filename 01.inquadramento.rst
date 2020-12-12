@@ -1,14 +1,12 @@
 1. Inquadramento
 ==================
 In questa sezione vengono analizzati:
--  i principali portatori di interesse (o stakeholder) relativi al progetto 
-   Taccuino Personale del più ampio contesto del Fascicolo Sanitario Elettronico.
 
--  l'ambiente esterno al contesto di riferimento rispetto a vari ambiti: legislativo, 
-   politico-economico, tecnologico-culturale, sociale e fisico.
+-  i principali portatori di interesse (o stakeholder) relativi al progetto Taccuino Personale del più ampio contesto del Fascicolo Sanitario Elettronico.
 
--  l'ambiente interno dei soggetti principali che si occupano di progetti di sviluppo 
-   della sanità digitale piemontese.
+-  l'ambiente esterno al contesto di riferimento rispetto a vari ambiti: legislativo, politico-economico, tecnologico-culturale, sociale e fisico.
+
+-  l'ambiente interno dei soggetti principali che si occupano di progetti di sviluppo della sanità digitale piemontese.
 
 -  l'incertezza ambientale che caratterizza il contesto generale.
 
