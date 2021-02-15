@@ -1,7 +1,7 @@
 Stack Applicativo
 ==================
 
-Si riporta di seguito lo Stack [46]_ Applicativo relativo
+Si riportano di seguito le componenti infrastrutturali dello lo Stack [46]_ Applicativo relativo
 all’attuale infrastruttura software del sistema regionale di FSE e del
 Taccuino
 
@@ -9,17 +9,8 @@ Taccuino
    :scale: 80 % 
    :alt: Stack AS-IS
 
-   Stack AS-IS
+   Stack Applicativo
 
-In caso di migrazione allo Stack Applicativo relativo al sistema cloud
-Nivola sarebbero modificati esclusivamente gli strati del s.o. e il
-sistema di virtualizzazione, come segue:
-
-.. |imageIn2| figure:: /immagini/tabellaInfr2.jpg
-   :scale: 80 % 
-   :alt: Stack TO-BE
-
-   Stack TO-BE
 
 Dall’analisi sopra evidenziata, emerge quindi la presenza di software
 sotto “copyleft debole” accanto a soluzioni a “copyleft forte”. Tuttavia
